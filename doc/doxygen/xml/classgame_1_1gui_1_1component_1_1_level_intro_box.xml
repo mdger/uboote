@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_level_intro_box" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::LevelIntroBox</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_level_intro_box_1a41285c34741543da3d1b3a8ad91d2fd0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.component.LevelIntroBox.display</definition>
+        <argsstring>(Node message)</argsstring>
+        <name>display</name>
+        <param>
+          <type>Node</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/LevelIntroBox.java" line="28" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/LevelIntroBox.java" bodystart="28" bodyend="55"/>
+        <referencedby refid="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" compoundref="_client_8java" startline="32" endline="71">game.gui.Client.start</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a6102863ecdfcff54be1aba0e6eb66ac0" compoundref="_game_renderer_8java" startline="81" endline="104">game.gui.component.GameRenderer.redraw</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A box which is used for displaying level information for the player which can only be closed by clicking on the ok button. <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/LevelIntroBox.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/LevelIntroBox.java" bodystart="20" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_level_intro_box_1a41285c34741543da3d1b3a8ad91d2fd0" prot="public" virt="non-virtual"><scope>game::gui::component::LevelIntroBox</scope><name>display</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

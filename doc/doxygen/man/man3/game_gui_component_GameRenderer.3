@@ -1,0 +1,132 @@
+.TH "game.gui.component.GameRenderer" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.gui.component.GameRenderer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits BorderPane\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGameRenderer\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetLevelProgressRenderer\fP (int level)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentLevelRenderer\fP (int currentLevel)"
+.br
+.ti -1c
+.RI "IntegerProperty \fBgetLevelProgressRenderer\fP ()"
+.br
+.ti -1c
+.RI "DoubleProperty \fBgetScoreRenderer\fP ()"
+.br
+.ti -1c
+.RI "IntegerProperty \fBgetCurrentLevelRenderer\fP ()"
+.br
+.ti -1c
+.RI "void \fBredraw\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetLevelDescription\fP (Node levelDescription)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBGameRenderer\fP\fP is responsible for rendering the current level and current player score\&. It receives events only by the \fCGameController\fP\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file GameRenderer\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.gui\&.component\&.GameRenderer\&.GameRenderer ()"
+
+.PP
+Definition at line 34 of file GameRenderer\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "IntegerProperty game\&.gui\&.component\&.GameRenderer\&.getCurrentLevelRenderer ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 74 of file GameRenderer\&.java\&.
+.SS "IntegerProperty game\&.gui\&.component\&.GameRenderer\&.getLevelProgressRenderer ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 58 of file GameRenderer\&.java\&.
+.SS "DoubleProperty game\&.gui\&.component\&.GameRenderer\&.getScoreRenderer ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 66 of file GameRenderer\&.java\&.
+.SS "void game\&.gui\&.component\&.GameRenderer\&.redraw ()"
+(re)draws the \fBGameRenderer\fP onto the client 
+.PP
+Definition at line 81 of file GameRenderer\&.java\&.
+.SS "void game\&.gui\&.component\&.GameRenderer\&.setCurrentLevelRenderer (int currentLevel)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcurrentLevel\fP 
+.RE
+.PP
+
+.PP
+Definition at line 50 of file GameRenderer\&.java\&.
+.SS "void game\&.gui\&.component\&.GameRenderer\&.setLevelDescription (Node levelDescription)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlevelDescription\fP 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file GameRenderer\&.java\&.
+.SS "void game\&.gui\&.component\&.GameRenderer\&.setLevelProgressRenderer (int level)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlevel\fP 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file GameRenderer\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

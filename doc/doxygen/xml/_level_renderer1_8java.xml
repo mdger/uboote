@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_level_renderer1_8java" kind="file" language="Java">
+    <compoundname>LevelRenderer1.java</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_renderer1" prot="public">game::gui::level::LevelRenderer1</innerclass>
+    <innernamespace refid="namespacegame_1_1gui_1_1level">game::gui::level</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.gui.level;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1gui" kindref="compound">gui</ref>.<ref refid="namespacegame_1_1gui_1_1component" kindref="compound">component</ref>.<ref refid="classgame_1_1gui_1_1component_1_1_player_input_line" kindref="compound">PlayerInputLine</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1gui" kindref="compound">gui</ref>.<ref refid="namespacegame_1_1gui_1_1util" kindref="compound">util</ref>.<ref refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper" kindref="compound">Draw2DHelper</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1module" kindref="compound">module</ref>.<ref refid="namespacegame_1_1module_1_1geometry" kindref="compound">geometry</ref>.<ref refid="namespacegame_1_1module_1_1geometry_1_1shape" kindref="compound">shape</ref>.<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1module" kindref="compound">module</ref>.<ref refid="namespacegame_1_1module_1_1geometry" kindref="compound">geometry</ref>.<ref refid="namespacegame_1_1module_1_1geometry_1_1shape" kindref="compound">shape</ref>.<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1module" kindref="compound">module</ref>.<ref refid="namespacegame_1_1module_1_1sprite" kindref="compound">sprite</ref>.<ref refid="classgame_1_1module_1_1sprite_1_1_asset" kindref="compound">Asset</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.canvas.GraphicsContext;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.image.Image;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.input.MouseEvent;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.paint.Color;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classgame_1_1gui_1_1level_1_1_level_renderer1" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1gui_1_1level_1_1_level_renderer1" kindref="compound">LevelRenderer1</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kindref="compound">AbstractLevelRenderer</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1component_1_1_player_input_line" kindref="compound">PlayerInputLine</ref><sp/>lineInput;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a0aa8a2113b5b05a3bf8355917257d962" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a0aa8a2113b5b05a3bf8355917257d962" kindref="member">LevelRenderer1</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="26" refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a2f845b01a24aa022a8d0c40c53c86b83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a2f845b01a24aa022a8d0c40c53c86b83" kindref="member">draw</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(lineInput<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lineInput.<ref refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a8123979dc2b802be723958610a6a9df5" kindref="member">draw</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31" refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a89c2fa157fb228864b32eaa6c8fcd703" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a89c2fa157fb228864b32eaa6c8fcd703" kindref="member">setPlayerInputLine</ref>(<ref refid="classgame_1_1gui_1_1component_1_1_player_input_line" kindref="compound">PlayerInputLine</ref><sp/>lineInput)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.lineInput<sp/>=<sp/>lineInput;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addEventHandler(MouseEvent.MOUSE_CLICKED,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.lineInput);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addEventHandler(MouseEvent.MOUSE_MOVED,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.lineInput);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addEventHandler(MouseEvent.MOUSE_EXITED,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.lineInput);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelRenderer1.java"/>
+  </compounddef>
+</doxygen>

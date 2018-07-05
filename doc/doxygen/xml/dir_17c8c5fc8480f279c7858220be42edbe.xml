@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_17c8c5fc8480f279c7858220be42edbe" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug</compoundname>
+    <innerfile refid="_debug_animation_8java">DebugAnimation.java</innerfile>
+    <innerfile refid="_debug_box_8java">DebugBox.java</innerfile>
+    <innerfile refid="_debug_canvas_8java">DebugCanvas.java</innerfile>
+    <innerfile refid="_debug_group_8java">DebugGroup.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<map id="game.level.AbstractLevel.getFunction" name="game.level.AbstractLevel.getFunction">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a27c8f0738add1ac269a54ec98d1ba39f" title="game.gui.component.Player\lInputLine.getSubmitInput" alt="" coords="261,5,445,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_linear_function.html#a2cd0c0f0ffa35532c8458767191c90f0" title="game.gui.component.Player\lInputLinearFunction.getSubmitInput" alt="" coords="240,71,467,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_player_input_point.html#a0c71e24d57eea41f3ba2546953e8e18d" title="game.gui.component.Player\lInputPoint.getSubmitInput" alt="" coords="261,136,445,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1component_1_1_player_input_point_depth.html#a4a3cf9654dffdec0e5ce76884d7bc98c" title="game.gui.component.Player\lInputPointDepth.submitFunction" alt="" coords="250,201,457,243"/>
+<area shape="rect" id="node6" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a7cc758b80cc5978609f94ecb989b3729" title="game.gui.component.Player\lInputPointDistance.getSubmitInput" alt="" coords="515,289,737,331"/>
+<area shape="rect" id="node7" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a5e628c7cc24b9f7d63358d909c3db58a" title="game.gui.component.Player\lInputPointDistance.submitFunction" alt="" coords="241,319,465,360"/>
+<area shape="rect" id="node8" href="$classgame_1_1level_1_1_level1.html#ae36935c9c0ebda29aa07bd04289f9d7a" title="game.level.Level1.Level1" alt="" coords="272,385,435,411"/>
+<area shape="rect" id="node9" href="$classgame_1_1level_1_1_level2.html#a86c61c389aec03ac7c6efc6756d906d6" title="game.level.Level2.Level2" alt="" coords="272,435,435,462"/>
+<area shape="rect" id="node10" href="$classgame_1_1level_1_1_level3.html#ad945309a99fab57536e12aa16b34ac71" title="game.level.Level3.Level3" alt="" coords="272,486,435,513"/>
+<area shape="rect" id="node11" href="$classgame_1_1level_1_1_level4.html#a3a8bd3a4d5af4ce199ac909ae1418ce9" title="game.level.Level4.Level4" alt="" coords="272,537,435,563"/>
+</map>

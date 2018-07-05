@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_76cc06f6eb0791843926a93b56951277" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller</compoundname>
+    <innerfile refid="_game_controller_8java">GameController.java</innerfile>
+    <innerfile refid="_level_controller_8java">LevelController.java</innerfile>
+    <innerfile refid="_level_state_8java">LevelState.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/"/>
+  </compounddef>
+</doxygen>

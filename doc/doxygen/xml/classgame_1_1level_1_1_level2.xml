@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1level_1_1_level2" kind="class" language="Java" prot="public">
+    <compoundname>game::level::Level2</compoundname>
+    <basecompoundref refid="classgame_1_1level_1_1_abstract_level" prot="public" virt="non-virtual">game.level.AbstractLevel</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.level.Level2.Level2</definition>
+        <argsstring>()</argsstring>
+        <name>Level2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="18" bodyend="32"/>
+        <references refid="classgame_1_1level_1_1_abstract_level_1a9132f7607476bd0461b22853662b0aaa" compoundref="_abstract_level_8java" startline="23" endline="25">game.level.AbstractLevel.getFunction</references>
+        <references refid="classgame_1_1level_1_1_function_generator_config_1aeddcd526528c5d2209119e574e21edc8" compoundref="_function_generator_config_8java" startline="26" endline="28">game.level.FunctionGeneratorConfig.setMaxValue</references>
+        <references refid="classgame_1_1level_1_1_function_generator_config_1aa0701008c456db8640af29d8e1885de2" compoundref="_function_generator_config_8java" startline="42" endline="44">game.level.FunctionGeneratorConfig.setBy</references>
+        <references refid="classgame_1_1level_1_1_linear_function_generator_1a35c118e05c7da8b7d65c9d59a219b09a" compoundref="_linear_function_generator_8java" startline="25" endline="35">game.level.LinearFunctionGenerator.generateLinearFunction</references>
+        <references refid="classgame_1_1level_1_1_abstract_level_1a076f38ea94d4e7d88bc66c7a5adf63ae" compoundref="_abstract_level_8java" startline="27" endline="29">game.level.AbstractLevel.setFunction</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_level2_1ac62d8952946b2124e1602cfd37015e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.Level2.getWinCondition</definition>
+        <argsstring>()</argsstring>
+        <name>getWinCondition</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1af504eb291175b4b9e22bbfec2b68518f">getWinCondition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="35" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_level2_1a5045bf97536d28d93fe4438777599d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+        <definition>LevelState game.level.Level2.getCurrentState</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentState</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1a214aee78ff0d34cfea14b28d4ce254fe">getCurrentState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="41" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="41" bodyend="43"/>
+        <references refid="enumgame_1_1controller_1_1_level_state_1add50797f92ff029912dc0c5e0e78232b" compoundref="_level_state_8java" startline="10">game.controller.LevelState.LEVEL_2</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_level2_1a3a8308a097642a6cd8dfa650dfd4ab3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+        <definition>LevelState game.level.Level2.getNextLevelState</definition>
+        <argsstring>()</argsstring>
+        <name>getNextLevelState</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1a698a487f79bbdb882750783e5b3cfbe9">getNextLevelState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="46" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="46" bodyend="48"/>
+        <references refid="enumgame_1_1controller_1_1_level_state_1aac8510616edda430d9f7562318a9219b" compoundref="_level_state_8java" startline="11">game.controller.LevelState.LEVEL_3</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_level2_1a839c6ef4edca6851b282d22a01f38b84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Node</type>
+        <definition>Node game.level.Level2.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1a2a36f773c3857327dc1760b8531cb8bb">getDescription</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="51" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="51" bodyend="81"/>
+        <references refid="classgame_1_1module_1_1sprite_1_1_asset_1a7f5f70b5044c1ef8ee9a6e65a2e269c7" compoundref="_asset_8java" startline="11">game.module.sprite.Asset.ADMIRAL</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_level2_1ae51c6d8e8d980f63c1e5d290ec42b90c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Node</type>
+        <definition>Node game.level.Level2.getBriefing</definition>
+        <argsstring>()</argsstring>
+        <name>getBriefing</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1aab768840da8ea75aaffbc9ce924a4005">getBriefing</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="84" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="84" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="81">
+        <label>game.level.Level</label>
+        <link refid="interfacegame_1_1level_1_1_level"/>
+      </node>
+      <node id="80">
+        <label>game.level.AbstractLevel</label>
+        <link refid="classgame_1_1level_1_1_abstract_level"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>game.level.Level2</label>
+        <link refid="classgame_1_1level_1_1_level2"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="84">
+        <label>game.level.Level</label>
+        <link refid="interfacegame_1_1level_1_1_level"/>
+      </node>
+      <node id="83">
+        <label>game.level.AbstractLevel</label>
+        <link refid="classgame_1_1level_1_1_abstract_level"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>game.level.Level2</label>
+        <link refid="classgame_1_1level_1_1_level2"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" line="16" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Level2.java" bodystart="16" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classgame_1_1level_1_1_level2_1ae51c6d8e8d980f63c1e5d290ec42b90c" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getBriefing</name></member>
+      <member refid="classgame_1_1level_1_1_level2_1a5045bf97536d28d93fe4438777599d47" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getCurrentState</name></member>
+      <member refid="classgame_1_1level_1_1_level2_1a839c6ef4edca6851b282d22a01f38b84" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getDescription</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a9132f7607476bd0461b22853662b0aaa" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getFunction</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a2ae5b383f25db2284e18de3689c836b5" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getLevelByLevelState</name></member>
+      <member refid="classgame_1_1level_1_1_level2_1a3a8308a097642a6cd8dfa650dfd4ab3c" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getNextLevelState</name></member>
+      <member refid="classgame_1_1level_1_1_level2_1ac62d8952946b2124e1602cfd37015e78" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>getWinCondition</name></member>
+      <member refid="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>Level2</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a076f38ea94d4e7d88bc66c7a5adf63ae" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>setFunction</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a63fcb188d803ef8b9fc5d0a1b08d55e2" prot="public" virt="non-virtual"><scope>game::level::Level2</scope><name>validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

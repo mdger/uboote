@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_d6104b4d0411e4103e045e28181cc0b9" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui</compoundname>
+    <innerdir refid="dir_156d6349572a84332256d66d1c67258b">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component</innerdir>
+    <innerdir refid="dir_17c8c5fc8480f279c7858220be42edbe">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug</innerdir>
+    <innerdir refid="dir_0c378ec106ae58490ccd3fe7668e86ba">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level</innerdir>
+    <innerdir refid="dir_311ea8ad8d1f398c1a5e2ca652a6dbcc">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util</innerdir>
+    <innerfile refid="_client_8java">Client.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/"/>
+  </compounddef>
+</doxygen>

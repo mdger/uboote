@@ -1,0 +1,5 @@
+<map id="game.gui.component.PlayerInputLine.draw" name="game.gui.component.PlayerInputLine.draw">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#a56d3f15443fc96122571c151db3624ac" title="game.gui.util.Draw2DHelper.draw\lCross" alt="" coords="237,39,451,80"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#ae9c4f84c3b2dc3d5a8a71963db1c013c" title="game.module.geometry.shape.\lPoint.getX" alt="" coords="499,5,700,47"/>
+<area shape="rect" id="node4" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a8b609080989f8beebee41c2c8662ffbc" title="game.module.geometry.shape.\lPoint.getY" alt="" coords="499,71,700,112"/>
+</map>

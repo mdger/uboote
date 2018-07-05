@@ -1,0 +1,10 @@
+<map id="game.controller.GameController.onLevelCompleted" name="game.controller.GameController.onLevelCompleted">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_game_renderer.html#afc4e4c1ade4f3818804a51ae1b142497" title="game.gui.component.GameRenderer.set\lLevelDescription" alt="" coords="276,5,532,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1controller_1_1_level_controller.html#a10936b040e05770bedee624c5722fcb2" title="game.controller.LevelController.get\lLevel" alt="" coords="293,71,515,112"/>
+<area shape="rect" id="node4" href="$interfacegame_1_1level_1_1_level.html#a2a36f773c3857327dc1760b8531cb8bb" title="game.level.Level.getDescription" alt="" coords="303,137,505,163"/>
+<area shape="rect" id="node5" href="$classgame_1_1level_1_1_abstract_level.html#a2ae5b383f25db2284e18de3689c836b5" title="game.level.AbstractLevel.get\lLevelByLevelState" alt="" coords="311,188,497,229"/>
+<area shape="rect" id="node6" href="$interfacegame_1_1level_1_1_level.html#a214aee78ff0d34cfea14b28d4ce254fe" title="game.level.Level.getCurrent\lState" alt="" coords="314,253,494,295"/>
+<area shape="rect" id="node7" href="$classgame_1_1controller_1_1_game_controller.html#ac5fe18cec9b31d89ebf18e572a32f0b1" title="game.controller.GameController.set\lCurrentLevel" alt="" coords="291,319,517,360"/>
+<area shape="rect" id="node8" href="$classgame_1_1gui_1_1component_1_1_game_renderer.html#a6102863ecdfcff54be1aba0e6eb66ac0" title="game.gui.component.GameRenderer.redraw" alt="" coords="580,326,856,353"/>
+<area shape="rect" id="node9" href="$classgame_1_1gui_1_1component_1_1_level_intro_box.html#a41285c34741543da3d1b3a8ad91d2fd0" title="game.gui.component.Level\lIntroBox.display" alt="" coords="904,319,1080,360"/>
+</map>

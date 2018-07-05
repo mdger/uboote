@@ -1,0 +1,163 @@
+.TH "game.module.math.Rational" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.module.math.Rational
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Comparable< Rational >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRational\fP (int num, int den)  throws ArithmeticException "
+.br
+.ti -1c
+.RI "double \fBtoDouble\fP ()"
+.br
+.ti -1c
+.RI "int \fBcompareTo\fP (\fBRational\fP b)"
+.br
+.ti -1c
+.RI "\fBRational\fP \fBmultiply\fP (int factor)"
+.br
+.ti -1c
+.RI "\fBRational\fP \fBreciprocal\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBequals\fP (Object b)"
+.br
+.ti -1c
+.RI "int \fBgetNum\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetDen\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBcalculateGreatestCommonDivisor\fP (int m, int n)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBRational\fP\fP class is a helper class to represent rational numbers\&. It also provides mathematical utility
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 9 of file Rational\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.module\&.math\&.Rational\&.Rational (int num, int den) throws ArithmeticException"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInum\fP 
+.br
+\fIden\fP 
+.RE
+.PP
+
+.PP
+Definition at line 22 of file Rational\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static int game\&.module\&.math\&.Rational\&.calculateGreatestCommonDivisor (int m, int n)\fC [static]\fP"
+Calculates the greatest common divisor between two integers 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIm\fP 
+.br
+\fIn\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 39 of file Rational\&.java\&.
+.SS "int game\&.module\&.math\&.Rational\&.compareTo (\fBRational\fP b)"
+
+.PP
+Definition at line 63 of file Rational\&.java\&.
+.SS "boolean game\&.module\&.math\&.Rational\&.equals (Object b)"
+Checks if RationalA equals RationalB
+.PP
+\fBParameters:\fP
+.RS 4
+\fIb\fP Another \fBRational\fP object 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file Rational\&.java\&.
+.SS "int game\&.module\&.math\&.Rational\&.getDen ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+getter of den 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file Rational\&.java\&.
+.SS "int game\&.module\&.math\&.Rational\&.getNum ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+getter of num 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file Rational\&.java\&.
+.SS "\fBRational\fP game\&.module\&.math\&.Rational\&.multiply (int factor)"
+
+.PP
+Definition at line 76 of file Rational\&.java\&.
+.SS "\fBRational\fP game\&.module\&.math\&.Rational\&.reciprocal ()"
+
+.PP
+Definition at line 80 of file Rational\&.java\&.
+.SS "double game\&.module\&.math\&.Rational\&.toDouble ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+return double precision representation of the rational number 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file Rational\&.java\&.
+.SS "String game\&.module\&.math\&.Rational\&.toString ()"
+
+.PP
+Definition at line 115 of file Rational\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

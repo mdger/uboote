@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1level_1_1_submit" kind="class" language="Java" prot="public">
+    <compoundname>game::level::Submit</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1level_1_1_submit_1a81069cfd992866fa69c0dfe982ecfc86" prot="private" static="no" mutable="no">
+        <type><ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref></type>
+        <definition>SubmitType game.level.Submit.submitType</definition>
+        <argsstring></argsstring>
+        <name>submitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1level_1_1_submit_1a46c3bda4af0e4a6c0e49bfe1ce518d9d" prot="private" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object game.level.Submit.submitObject</definition>
+        <argsstring></argsstring>
+        <name>submitObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="12" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_1a311ac40cf91ea669e1c33cf8ed8d0570" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.level.Submit.Submit</definition>
+        <argsstring>(SubmitType submitType)</argsstring>
+        <name>Submit</name>
+        <param>
+          <type><ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref></type>
+          <declname>submitType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="14" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_1a147bab11d28b887fac84ba9398369dd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.level.Submit.Submit</definition>
+        <argsstring>(LinearFunction function)</argsstring>
+        <name>Submit</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="18" bodyend="21"/>
+        <references refid="enumgame_1_1level_1_1_submit_type_1a843748ebfb87e1be7e4153c02193ce88" compoundref="_submit_type_8java" startline="11">game.level.SubmitType.FUNCTION</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_1ad8291c6f97c04f5ef57f96915c4547f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.level.Submit.Submit</definition>
+        <argsstring>(Point p)</argsstring>
+        <name>Submit</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="23" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="23" bodyend="26"/>
+        <references refid="enumgame_1_1level_1_1_submit_type_1af0ba3ef5c2cf3bea9db28d6a744eb33d" compoundref="_submit_type_8java" startline="10">game.level.SubmitType.POINT</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_1a1a8de7ecee879092a4f7a3f0d5d6b671" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref></type>
+        <definition>SubmitType game.level.Submit.getSubmitType</definition>
+        <argsstring>()</argsstring>
+        <name>getSubmitType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="28" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_1a4dacd6518a789ff13ed31473522fcb0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object game.level.Submit.getSubmit</definition>
+        <argsstring>()</argsstring>
+        <name>getSubmit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="32" bodyend="34"/>
+        <referencedby refid="classgame_1_1level_1_1_abstract_level_1aa0f87cbc188232f36d147137edcd0dec" compoundref="_abstract_level_8java" startline="29" endline="40">game.level.AbstractLevel.validate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classgame_1_1level_1_1_submit_1a4dacd6518a789ff13ed31473522fcb0b" prot="public" virt="non-virtual"><scope>game::level::Submit</scope><name>getSubmit</name></member>
+      <member refid="classgame_1_1level_1_1_submit_1a1a8de7ecee879092a4f7a3f0d5d6b671" prot="public" virt="non-virtual"><scope>game::level::Submit</scope><name>getSubmitType</name></member>
+      <member refid="classgame_1_1level_1_1_submit_1a311ac40cf91ea669e1c33cf8ed8d0570" prot="private" virt="non-virtual"><scope>game::level::Submit</scope><name>Submit</name></member>
+      <member refid="classgame_1_1level_1_1_submit_1a147bab11d28b887fac84ba9398369dd5" prot="public" virt="non-virtual"><scope>game::level::Submit</scope><name>Submit</name></member>
+      <member refid="classgame_1_1level_1_1_submit_1ad8291c6f97c04f5ef57f96915c4547f3" prot="public" virt="non-virtual"><scope>game::level::Submit</scope><name>Submit</name></member>
+      <member refid="classgame_1_1level_1_1_submit_1a46c3bda4af0e4a6c0e49bfe1ce518d9d" prot="private" virt="non-virtual"><scope>game::level::Submit</scope><name>submitObject</name></member>
+      <member refid="classgame_1_1level_1_1_submit_1a81069cfd992866fa69c0dfe982ecfc86" prot="private" virt="non-virtual"><scope>game::level::Submit</scope><name>submitType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

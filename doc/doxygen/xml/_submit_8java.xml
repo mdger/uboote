@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_submit_8java" kind="file" language="Java">
+    <compoundname>Submit.java</compoundname>
+    <innerclass refid="classgame_1_1level_1_1_submit" prot="public">game::level::Submit</innerclass>
+    <innernamespace refid="namespacegame_1_1level">game::level</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.level;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1module" kindref="compound">module</ref>.<ref refid="namespacegame_1_1module_1_1geometry" kindref="compound">geometry</ref>.<ref refid="namespacegame_1_1module_1_1geometry_1_1shape" kindref="compound">shape</ref>.<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1module" kindref="compound">module</ref>.<ref refid="namespacegame_1_1module_1_1geometry" kindref="compound">geometry</ref>.<ref refid="namespacegame_1_1module_1_1geometry_1_1shape" kindref="compound">shape</ref>.<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classgame_1_1level_1_1_submit" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1level_1_1_submit" kindref="compound">Submit</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref><sp/>submitType;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Object<sp/>submitObject;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1level_1_1_submit" kindref="compound">Submit</ref>(<ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref><sp/>submitType)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.submitType<sp/>=<sp/>submitType;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classgame_1_1level_1_1_submit_1a147bab11d28b887fac84ba9398369dd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1level_1_1_submit_1a147bab11d28b887fac84ba9398369dd5" kindref="member">Submit</ref>(<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">(<ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref>.<ref refid="enumgame_1_1level_1_1_submit_type_1a843748ebfb87e1be7e4153c02193ce88" kindref="member">FUNCTION</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.submitObject<sp/>=<sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="classgame_1_1level_1_1_submit_1ad8291c6f97c04f5ef57f96915c4547f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1level_1_1_submit_1ad8291c6f97c04f5ef57f96915c4547f3" kindref="member">Submit</ref>(<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref><sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">(<ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref>.<ref refid="enumgame_1_1level_1_1_submit_type_1af0ba3ef5c2cf3bea9db28d6a744eb33d" kindref="member">POINT</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.submitObject<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classgame_1_1level_1_1_submit_1a1a8de7ecee879092a4f7a3f0d5d6b671" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enumgame_1_1level_1_1_submit_type" kindref="compound">SubmitType</ref><sp/><ref refid="classgame_1_1level_1_1_submit_1a1a8de7ecee879092a4f7a3f0d5d6b671" kindref="member">getSubmitType</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>submitType;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classgame_1_1level_1_1_submit_1a4dacd6518a789ff13ed31473522fcb0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Object<sp/><ref refid="classgame_1_1level_1_1_submit_1a4dacd6518a789ff13ed31473522fcb0b" kindref="member">getSubmit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>submitObject;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/Submit.java"/>
+  </compounddef>
+</doxygen>

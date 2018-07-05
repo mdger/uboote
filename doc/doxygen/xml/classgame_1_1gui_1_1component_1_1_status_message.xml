@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_status_message" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::StatusMessage</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_status_message_1a8b83b27b4d2f505ac901e2f08fa6d5eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.component.StatusMessage.display</definition>
+        <argsstring>(Node node, StatusMessageType messageType)</argsstring>
+        <name>display</name>
+        <param>
+          <type>Node</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type" kindref="compound">StatusMessageType</ref></type>
+          <declname>messageType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessage.java" line="26" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessage.java" bodystart="26" bodyend="28"/>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_status_message_1a08a55e7598c4b300c2241f869a350b22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.component.StatusMessage.display</definition>
+        <argsstring>(Node node, StatusMessageType messageType, String message)</argsstring>
+        <name>display</name>
+        <param>
+          <type>Node</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type" kindref="compound">StatusMessageType</ref></type>
+          <declname>messageType</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessage.java" line="30" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessage.java" bodystart="30" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessage.java" line="24" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessage.java" bodystart="24" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_status_message_1a8b83b27b4d2f505ac901e2f08fa6d5eb" prot="public" virt="non-virtual"><scope>game::gui::component::StatusMessage</scope><name>display</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_status_message_1a08a55e7598c4b300c2241f869a350b22" prot="public" virt="non-virtual"><scope>game::gui::component::StatusMessage</scope><name>display</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

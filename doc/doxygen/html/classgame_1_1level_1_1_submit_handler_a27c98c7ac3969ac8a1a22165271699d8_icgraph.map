@@ -1,0 +1,9 @@
+<map id="game.level.SubmitHandler.createSubmit" name="game.level.SubmitHandler.createSubmit">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a893eed50598108f481ef8387b6f754d5" title="game.gui.component.Player\lInputLine.submitFunction" alt="" coords="287,5,471,47"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_player_input_linear_function.html#af2dfbd6dc1b1f03d32fc5a2c01df8d82" title="game.gui.component.Player\lInputLinearFunction.submitFunction" alt="" coords="265,71,493,112"/>
+<area shape="rect" id="node6" href="$classgame_1_1gui_1_1component_1_1_player_input_point_depth.html#a296d2d74ef3864c7d93b9d67e1b8abae" title="game.gui.component.Player\lInputPointDepth.submitFunction" alt="" coords="276,136,483,177"/>
+<area shape="rect" id="node7" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a577981d17dfc4bef8978904903504a7e" title="game.gui.component.Player\lInputPointDistance.submitFunction" alt="" coords="267,201,491,243"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a27c8f0738add1ac269a54ec98d1ba39f" title="game.gui.component.Player\lInputLine.getSubmitInput" alt="" coords="563,5,747,47"/>
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1component_1_1_player_input_linear_function.html#a2cd0c0f0ffa35532c8458767191c90f0" title="game.gui.component.Player\lInputLinearFunction.getSubmitInput" alt="" coords="541,71,768,112"/>
+<area shape="rect" id="node8" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a7cc758b80cc5978609f94ecb989b3729" title="game.gui.component.Player\lInputPointDistance.getSubmitInput" alt="" coords="543,201,766,243"/>
+</map>

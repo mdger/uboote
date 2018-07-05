@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_311ea8ad8d1f398c1a5e2ca652a6dbcc" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util</compoundname>
+    <innerfile refid="_draw2_d_helper_8java">Draw2DHelper.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/"/>
+  </compounddef>
+</doxygen>

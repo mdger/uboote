@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1level_1_1_level_animation_renderer" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>game::gui::level::LevelAnimationRenderer</compoundname>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1" prot="public" virt="non-virtual">game.gui.level.LevelAnimationRenderer1</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2" prot="public" virt="non-virtual">game.gui.level.LevelAnimationRenderer2</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3" prot="public" virt="non-virtual">game.gui.level.LevelAnimationRenderer3</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4" prot="public" virt="non-virtual">game.gui.level.LevelAnimationRenderer4</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1ab9af54438b20559e43f56d8e9ec287a8" prot="private" static="no" mutable="no">
+        <type>Canvas</type>
+        <definition>Canvas game.gui.level.LevelAnimationRenderer.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="16" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a93a634285cce84485af3adf50bbcc5fd" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>LinearFunction game.gui.level.LevelAnimationRenderer.currentFunction</definition>
+        <argsstring></argsstring>
+        <name>currentFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="22" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a8bf012f89d536fe91068d6b67edd2dd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.gui.level.LevelAnimationRenderer.LevelAnimationRenderer</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>LevelAnimationRenderer</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a81ae59a8a1da8d88275761dab28dd704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void game.gui.level.LevelAnimationRenderer.startAnimation</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>startAnimation</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="24" column="1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a91fe1a3e0db7af9c7a8e2843171e38ce" compoundref="_background_renderer_8java" startline="50" endline="52">game.gui.level.BackgroundRenderer.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a66f247926eab310bc5cfb7bdc14d7e0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.LevelAnimationRenderer.setCurrentFunction</definition>
+        <argsstring>(LinearFunction currentFunction)</argsstring>
+        <name>setCurrentFunction</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+          <declname>currentFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="28" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a7840870adfde1d451aa5773c6786fd00" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void game.gui.level.LevelAnimationRenderer.stopAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>stopAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="26" column="1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_background_renderer_1ab727da313524d054d718cf9c35ad1df9" compoundref="_background_renderer_8java" startline="55" endline="57">game.gui.level.BackgroundRenderer.stopAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1aea5f5114523824850e5fad7ec234db7c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>LinearFunction game.gui.level.LevelAnimationRenderer.getCurrentFunction</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="32" bodyend="34"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a4ea77fbf3508402fbfb9138a45d63730" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Pane</type>
+        <definition>Pane game.gui.level.LevelAnimationRenderer.getAnimationWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>getAnimationWrapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="40" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="40" bodyend="45"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1a0380dfc08fa6768e031c57908991cf89" compoundref="_level_animation_renderer1_8java" startline="76" endline="79">game.gui.level.LevelAnimationRenderer1.stopAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a89d072337b701a9070df319f52811ed3" compoundref="_level_animation_renderer2_8java" startline="124" endline="127">game.gui.level.LevelAnimationRenderer2.stopAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1a0eff441c3abd0656238c3724edb2ea0f" compoundref="_level_animation_renderer3_8java" startline="150" endline="153">game.gui.level.LevelAnimationRenderer3.stopAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a19035bb8ae75f069c0b801971a6fa752" compoundref="_level_animation_renderer4_8java" startline="126" endline="129">game.gui.level.LevelAnimationRenderer4.stopAnimation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a1d29e1f8219e8083afc14ee30dc969e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Canvas</type>
+        <definition>Canvas game.gui.level.LevelAnimationRenderer.getCanvas</definition>
+        <argsstring>()</argsstring>
+        <name>getCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="36" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>game.gui.level.LevelAnimationRenderer1</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>game.gui.level.LevelAnimationRenderer2</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>game.gui.level.LevelAnimationRenderer3</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>game.gui.level.LevelAnimationRenderer4</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>game.gui.level.LevelAnimationRenderer</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" line="14" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelAnimationRenderer.java" bodystart="14" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1ab9af54438b20559e43f56d8e9ec287a8" prot="private" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>canvas</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a93a634285cce84485af3adf50bbcc5fd" prot="private" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>currentFunction</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a4ea77fbf3508402fbfb9138a45d63730" prot="protected" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>getAnimationWrapper</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a1d29e1f8219e8083afc14ee30dc969e2" prot="private" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>getCanvas</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1aea5f5114523824850e5fad7ec234db7c" prot="protected" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>getCurrentFunction</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a8bf012f89d536fe91068d6b67edd2dd8" prot="public" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>LevelAnimationRenderer</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a66f247926eab310bc5cfb7bdc14d7e0a" prot="public" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>setCurrentFunction</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a81ae59a8a1da8d88275761dab28dd704" prot="public" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>startAnimation</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a7840870adfde1d451aa5773c6786fd00" prot="protected" virt="non-virtual"><scope>game::gui::level::LevelAnimationRenderer</scope><name>stopAnimation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

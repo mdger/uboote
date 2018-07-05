@@ -1,0 +1,7 @@
+<map id="game.gui.util.Draw2DHelper.normalizeX" name="game.gui.util.Draw2DHelper.normalizeX">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#a3ed05d2712dd119b254c75436bb11e39" title="game.gui.util.Draw2DHelper.normalize\lPoint" alt="" coords="303,39,545,80"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a9f0052b3190a1fbcd6e44ac26106d1f2" title="game.gui.component.Player\lInputLine.getNormalizedStartPoint" alt="" coords="593,5,812,47"/>
+<area shape="rect" id="node6" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a60feb57622daed66c94a63b427ed5f17" title="game.gui.component.Player\lInputLine.getNormalizedEndPoint" alt="" coords="595,71,810,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a9316f5651185d33c7abeb77cf64b899d" title="game.gui.component.Player\lInputLine.submitFunction" alt="" coords="860,39,1044,80"/>
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a27c8f0738add1ac269a54ec98d1ba39f" title="game.gui.component.Player\lInputLine.getSubmitInput" alt="" coords="1092,39,1276,80"/>
+</map>

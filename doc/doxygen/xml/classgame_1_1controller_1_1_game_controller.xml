@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1controller_1_1_game_controller" kind="class" language="Java" prot="public">
+    <compoundname>game::controller::GameController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">javafx::beans::value::ChangeListener&lt; Object &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_game_controller_1aac74b1c5d9dddeba9371eadd0cb8b8bb" prot="private" static="no" mutable="no">
+        <type>IntegerProperty</type>
+        <definition>IntegerProperty game.controller.GameController.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="23" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_game_controller_1aee90829fa49be0dced38748051f74afe" prot="private" static="no" mutable="no">
+        <type>DoubleProperty</type>
+        <definition>DoubleProperty game.controller.GameController.score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="24" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_game_controller_1a72347d12094c1a8e14f825f17cbbc057" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classgame_1_1gui_1_1component_1_1_game_renderer" kindref="compound">GameRenderer</ref></type>
+        <definition>final GameRenderer game.controller.GameController.gameRenderer</definition>
+        <argsstring></argsstring>
+        <name>gameRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="25" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_game_controller_1a6eb42dd52d55379432e80e3a617c494c" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref></type>
+        <definition>final LevelController game.controller.GameController.levelController</definition>
+        <argsstring></argsstring>
+        <name>levelController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="26" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1ab17318f0b8df982e28db45dfa95b80dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.controller.GameController.GameController</definition>
+        <argsstring>()</argsstring>
+        <name>GameController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="28" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="28" bodyend="42"/>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a886d8f110e9715820908661a7d41da06" compoundref="_level_controller_8java" startline="227" endline="229">game.controller.LevelController.getWrapper</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1afc4e4c1ade4f3818804a51ae1b142497" compoundref="_game_renderer_8java" startline="110" endline="112">game.gui.component.GameRenderer.setLevelDescription</references>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a10936b040e05770bedee624c5722fcb2" compoundref="_level_controller_8java" startline="252" endline="254">game.controller.LevelController.getLevel</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a2a36f773c3857327dc1760b8531cb8bb">game.level.Level.getDescription</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a9041ed15143912f9deac189880b4ebd1" compoundref="_game_renderer_8java" startline="66" endline="68">game.gui.component.GameRenderer.getScoreRenderer</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a989a617f13bfd9f9b9f1aae1daea4ff7" compoundref="_game_renderer_8java" startline="74" endline="76">game.gui.component.GameRenderer.getCurrentLevelRenderer</references>
+        <references refid="classgame_1_1controller_1_1_game_controller_1ac5fe18cec9b31d89ebf18e572a32f0b1" compoundref="_game_controller_8java" startline="94" endline="97">game.controller.GameController.setCurrentLevel</references>
+        <references refid="classgame_1_1level_1_1_abstract_level_1a2ae5b383f25db2284e18de3689c836b5" compoundref="_abstract_level_8java" startline="65" endline="90">game.level.AbstractLevel.getLevelByLevelState</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a214aee78ff0d34cfea14b28d4ce254fe">game.level.Level.getCurrentState</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1aed0e9f57b2d5a8cd736e1eb54db09189" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.GameController.onLevelCompleted</definition>
+        <argsstring>()</argsstring>
+        <name>onLevelCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this is triggered, when the win condition of the current level is reached. Sends events to the GameRenderer to accommodate for the next level´s changes on the GUI </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="49" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="49" bodyend="54"/>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1afc4e4c1ade4f3818804a51ae1b142497" compoundref="_game_renderer_8java" startline="110" endline="112">game.gui.component.GameRenderer.setLevelDescription</references>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a10936b040e05770bedee624c5722fcb2" compoundref="_level_controller_8java" startline="252" endline="254">game.controller.LevelController.getLevel</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a2a36f773c3857327dc1760b8531cb8bb">game.level.Level.getDescription</references>
+        <references refid="classgame_1_1level_1_1_abstract_level_1a2ae5b383f25db2284e18de3689c836b5" compoundref="_abstract_level_8java" startline="65" endline="90">game.level.AbstractLevel.getLevelByLevelState</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a214aee78ff0d34cfea14b28d4ce254fe">game.level.Level.getCurrentState</references>
+        <references refid="classgame_1_1controller_1_1_game_controller_1ac5fe18cec9b31d89ebf18e572a32f0b1" compoundref="_game_controller_8java" startline="94" endline="97">game.controller.GameController.setCurrentLevel</references>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1ae559c858dea2a2e54ea97abe2d26c586" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.GameController.showHighscoreChart</definition>
+        <argsstring>()</argsstring>
+        <name>showHighscoreChart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="56" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1a363fe8ec38f24a003b10b5cf68578cb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.GameController.savePlayerScore</definition>
+        <argsstring>()</argsstring>
+        <name>savePlayerScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="60" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1a1d026c729475d7e47c2fd878cf8458b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer" kindref="compound">GameRenderer</ref></type>
+        <definition>GameRenderer game.controller.GameController.getGameRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>getGameRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the GameRenderer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="68" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="68" bodyend="70"/>
+        <referencedby refid="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" compoundref="_client_8java" startline="32" endline="71">game.gui.Client.start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1a4fcba1a04aca7457c3a4d1a788b66581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref></type>
+        <definition>LevelController game.controller.GameController.getLevelController</definition>
+        <argsstring>()</argsstring>
+        <name>getLevelController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the <ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="76" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="76" bodyend="78"/>
+        <referencedby refid="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" compoundref="_client_8java" startline="32" endline="71">game.gui.Client.start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1ac055776ea35fa9b7ebdb3cb1890c30ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.GameController.changed</definition>
+        <argsstring>(ObservableValue&lt;? extends Object &gt; observable, Object oldValue, Object newValue)</argsstring>
+        <name>changed</name>
+        <param>
+          <type>ObservableValue&lt;? extends Object &gt;</type>
+          <declname>observable</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>oldValue</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="81" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="81" bodyend="92"/>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a49144a95b8d5fda1ee35d9a85299187c" compoundref="_game_renderer_8java" startline="58" endline="60">game.gui.component.GameRenderer.getLevelProgressRenderer</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a6102863ecdfcff54be1aba0e6eb66ac0" compoundref="_game_renderer_8java" startline="81" endline="104">game.gui.component.GameRenderer.redraw</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1ac5fe18cec9b31d89ebf18e572a32f0b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.GameController.setCurrentLevel</definition>
+        <argsstring>(int currentLevel)</argsstring>
+        <name>setCurrentLevel</name>
+        <param>
+          <type>int</type>
+          <declname>currentLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="94" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="94" bodyend="97"/>
+        <references refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a6102863ecdfcff54be1aba0e6eb66ac0" compoundref="_game_renderer_8java" startline="81" endline="104">game.gui.component.GameRenderer.redraw</references>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1ab17318f0b8df982e28db45dfa95b80dc" compoundref="_game_controller_8java" startline="28" endline="42">game.controller.GameController.GameController</referencedby>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1aed0e9f57b2d5a8cd736e1eb54db09189" compoundref="_game_controller_8java" startline="49" endline="54">game.controller.GameController.onLevelCompleted</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1a15d2407362d666b6a5dd808533dede15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.controller.GameController.calculateScore</definition>
+        <argsstring>(int oldValue, int newValue)</argsstring>
+        <name>calculateScore</name>
+        <param>
+          <type>int</type>
+          <declname>oldValue</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="99" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="99" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_game_controller_1a1eb36f25835c779f9e82bff04ea60e00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.GameController.addToScore</definition>
+        <argsstring>(double score)</argsstring>
+        <name>addToScore</name>
+        <param>
+          <type>double</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="112" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="112" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="classgame_1_1controller_1_1_game_controller" kindref="compound">GameController</ref></computeroutput> encapsulates the <computeroutput><ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref></computeroutput>. It is responsible for keeping the actual state of a level and keeping track of the player score and delegates events to the <computeroutput>GameRenderer</computeroutput> if needed. e.g. When the level is completed, the game needs to transition to the next level and tells the <computeroutput>GameRenderer</computeroutput> to present the current level in the status bar <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>game.controller.GameController</label>
+        <link refid="classgame_1_1controller_1_1_game_controller"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>javafx::beans::value::ChangeListener&lt; Object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>game.controller.GameController</label>
+        <link refid="classgame_1_1controller_1_1_game_controller"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>javafx::beans::value::ChangeListener&lt; Object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="21" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" bodystart="21" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a1eb36f25835c779f9e82bff04ea60e00" prot="private" virt="non-virtual"><scope>game::controller::GameController</scope><name>addToScore</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a15d2407362d666b6a5dd808533dede15" prot="private" virt="non-virtual"><scope>game::controller::GameController</scope><name>calculateScore</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1ac055776ea35fa9b7ebdb3cb1890c30ea" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>changed</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1ab17318f0b8df982e28db45dfa95b80dc" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>GameController</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a72347d12094c1a8e14f825f17cbbc057" prot="private" virt="non-virtual"><scope>game::controller::GameController</scope><name>gameRenderer</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a1d026c729475d7e47c2fd878cf8458b4" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>getGameRenderer</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a4fcba1a04aca7457c3a4d1a788b66581" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>getLevelController</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1aac74b1c5d9dddeba9371eadd0cb8b8bb" prot="private" virt="non-virtual"><scope>game::controller::GameController</scope><name>level</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a6eb42dd52d55379432e80e3a617c494c" prot="private" virt="non-virtual"><scope>game::controller::GameController</scope><name>levelController</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1aed0e9f57b2d5a8cd736e1eb54db09189" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>onLevelCompleted</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1a363fe8ec38f24a003b10b5cf68578cb4" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>savePlayerScore</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1aee90829fa49be0dced38748051f74afe" prot="private" virt="non-virtual"><scope>game::controller::GameController</scope><name>score</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1ac5fe18cec9b31d89ebf18e572a32f0b1" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>setCurrentLevel</name></member>
+      <member refid="classgame_1_1controller_1_1_game_controller_1ae559c858dea2a2e54ea97abe2d26c586" prot="public" virt="non-virtual"><scope>game::controller::GameController</scope><name>showHighscoreChart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

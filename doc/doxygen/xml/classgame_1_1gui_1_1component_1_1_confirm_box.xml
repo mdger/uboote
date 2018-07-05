@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_confirm_box" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::ConfirmBox</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_confirm_box_1a287e768bdf425de0f206136f26309e2a" prot="package" static="yes" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean game.gui.component.ConfirmBox.answer</definition>
+        <argsstring></argsstring>
+        <name>answer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/ConfirmBox.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/ConfirmBox.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_confirm_box_1a185248ead8961af6eb87c904adbb659f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean game.gui.component.ConfirmBox.display</definition>
+        <argsstring>(String title, String message)</argsstring>
+        <name>display</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/ConfirmBox.java" line="30" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/ConfirmBox.java" bodystart="30" bodyend="73"/>
+        <referencedby refid="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" compoundref="_client_8java" startline="32" endline="71">game.gui.Client.start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="classgame_1_1gui_1_1component_1_1_confirm_box" kindref="compound">ConfirmBox</ref> is used, when you need to ask for the user´s decision. If yes is clicked, the method <ref refid="classgame_1_1gui_1_1component_1_1_confirm_box_1a185248ead8961af6eb87c904adbb659f" kindref="member">display()</ref> returns true, which then the developer can use to execute code based on that decision <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/ConfirmBox.java" line="19" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/ConfirmBox.java" bodystart="19" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_confirm_box_1a287e768bdf425de0f206136f26309e2a" prot="package" virt="non-virtual"><scope>game::gui::component::ConfirmBox</scope><name>answer</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_confirm_box_1a185248ead8961af6eb87c904adbb659f" prot="public" virt="non-virtual"><scope>game::gui::component::ConfirmBox</scope><name>display</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

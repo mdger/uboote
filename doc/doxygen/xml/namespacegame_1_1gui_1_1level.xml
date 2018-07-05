@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1gui_1_1level" kind="namespace" language="Java">
+    <compoundname>game::gui::level</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" prot="public">game::gui::level::AbstractLevelRenderer</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_background_renderer" prot="public">game::gui::level::BackgroundRenderer</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer" prot="public">game::gui::level::LevelAnimationRenderer</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1" prot="public">game::gui::level::LevelAnimationRenderer1</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2" prot="public">game::gui::level::LevelAnimationRenderer2</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3" prot="public">game::gui::level::LevelAnimationRenderer3</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4" prot="public">game::gui::level::LevelAnimationRenderer4</innerclass>
+    <innerclass refid="interfacegame_1_1gui_1_1level_1_1_level_renderer" prot="public">game::gui::level::LevelRenderer</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_renderer1" prot="public">game::gui::level::LevelRenderer1</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_renderer2" prot="public">game::gui::level::LevelRenderer2</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_renderer3" prot="public">game::gui::level::LevelRenderer3</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1level_1_1_level_renderer4" prot="public">game::gui::level::LevelRenderer4</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

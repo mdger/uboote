@@ -1,0 +1,12 @@
+<map id="game.gui.level.LevelAnimationRenderer2.startAnimation" name="game.gui.level.LevelAnimationRenderer2.startAnimation">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer.html#aea5f5114523824850e5fad7ec234db7c" title="game.gui.level.LevelAnimation\lRenderer.getCurrentFunction" alt="" coords="279,5,473,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function.html#a09636ae32007541e4ba48d430e2ad7ba" title="game.module.geometry.shape.\lLinearFunction.getPointStart" alt="" coords="275,71,477,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#ae9c4f84c3b2dc3d5a8a71963db1c013c" title="game.module.geometry.shape.\lPoint.getX" alt="" coords="584,188,785,229"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function.html#a2e3dd2bd315684d4cb163f3a4879363f" title="game.module.geometry.shape.\lLinearFunction.getPointEnd" alt="" coords="275,371,477,412"/>
+<area shape="rect" id="node6" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#a3753333bf3b1affa1a3e931af4a18498" title="game.gui.util.Draw2DHelper.denormalize\lPoint" alt="" coords="248,253,504,295"/>
+<area shape="rect" id="node8" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a8b609080989f8beebee41c2c8662ffbc" title="game.module.geometry.shape.\lPoint.getY" alt="" coords="584,309,785,351"/>
+<area shape="rect" id="node9" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#a1e889476dab091f8884bd3f38ef171ab" title="game.gui.util.Draw2DHelper.convert\lPointToCanvas" alt="" coords="263,188,489,229"/>
+<area shape="rect" id="node10" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#ad4cfcfb0723562ea03ac511bc0661e94" title="game.module.geometry.shape.\lPoint.setY" alt="" coords="275,436,477,477"/>
+<area shape="rect" id="node11" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer.html#a4ea77fbf3508402fbfb9138a45d63730" title="game.gui.level.LevelAnimation\lRenderer.getAnimationWrapper" alt="" coords="275,501,477,543"/>
+<area shape="rect" id="node7" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#ae852c04e522415cf2bbf0074bbe516fc" title="game.gui.util.Draw2DHelper.denormalizeY" alt="" coords="552,258,817,285"/>
+</map>

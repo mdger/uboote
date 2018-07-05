@@ -1,0 +1,8 @@
+<map id="game.gui.component.PlayerInputPointDepth.submitFunction" name="game.gui.component.PlayerInputPointDepth.submitFunction">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_point.html#a122191bc9a61962f05e1e31a6787c17a" title="game.gui.component.Player\lInputPoint.getFieldInput" alt="" coords="279,5,463,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1controller_1_1_level_controller.html#a10936b040e05770bedee624c5722fcb2" title="game.controller.LevelController.get\lLevel" alt="" coords="260,71,481,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1level_1_1_abstract_level.html#a9132f7607476bd0461b22853662b0aaa" title="game.level.AbstractLevel.get\lFunction" alt="" coords="277,136,464,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function.html#a09636ae32007541e4ba48d430e2ad7ba" title="game.module.geometry.shape.\lLinearFunction.getPointStart" alt="" coords="270,201,471,243"/>
+<area shape="rect" id="node6" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#ad4cfcfb0723562ea03ac511bc0661e94" title="game.module.geometry.shape.\lPoint.setY" alt="" coords="270,267,471,308"/>
+<area shape="rect" id="node7" href="$classgame_1_1level_1_1_submit_handler.html#a27c98c7ac3969ac8a1a22165271699d8" title="game.level.SubmitHandler.create\lSubmit" alt="" coords="265,332,477,373"/>
+</map>

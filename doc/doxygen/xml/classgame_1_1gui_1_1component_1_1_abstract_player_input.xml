@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_abstract_player_input" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>game::gui::component::AbstractPlayerInput</compoundname>
+    <basecompoundref refid="interfacegame_1_1gui_1_1component_1_1_player_input" prot="public" virt="non-virtual">game.gui.component.PlayerInput</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">javafx::event::EventHandler&lt; MouseEvent &gt;</basecompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1component_1_1_player_input_line" prot="public" virt="non-virtual">game.gui.component.PlayerInputLine</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function" prot="public" virt="non-virtual">game.gui.component.PlayerInputLinearFunction</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1component_1_1_player_input_point" prot="public" virt="non-virtual">game.gui.component.PlayerInputPoint</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The base class for all player inputs <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>game.gui.component.PlayerInputPointDistance</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>game.gui.component.PlayerInputPoint</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_point"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>game.gui.component.AbstractPlayerInput</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_abstract_player_input"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>javafx::event::EventHandler&lt; MouseEvent &gt;</label>
+      </node>
+      <node id="22">
+        <label>game.gui.component.PlayerInputLinearFunction</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>game.gui.component.PlayerInputLine</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_line"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>game.gui.component.PlayerInputPointDepth</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_point_depth"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>game.gui.component.PlayerInput</label>
+        <link refid="interfacegame_1_1gui_1_1component_1_1_player_input"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>game.gui.component.AbstractPlayerInput</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_abstract_player_input"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>javafx::event::EventHandler&lt; MouseEvent &gt;</label>
+      </node>
+      <node id="27">
+        <label>game.gui.component.PlayerInput</label>
+        <link refid="interfacegame_1_1gui_1_1component_1_1_player_input"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AbstractPlayerInput.java" line="12" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AbstractPlayerInput.java" bodystart="12" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interfacegame_1_1gui_1_1component_1_1_player_input_1aba0dcbe4de95df519753f43bd7e546db" prot="public" virt="non-virtual"><scope>game::gui::component::AbstractPlayerInput</scope><name>draw</name></member>
+      <member refid="interfacegame_1_1gui_1_1component_1_1_player_input_1a939ff50b98859d7399a950557be8cc1b" prot="public" virt="non-virtual"><scope>game::gui::component::AbstractPlayerInput</scope><name>getSubmitInput</name></member>
+      <member refid="interfacegame_1_1gui_1_1component_1_1_player_input_1a5175a8b8ff23e4902b88e9da2b7ae762" prot="public" virt="non-virtual"><scope>game::gui::component::AbstractPlayerInput</scope><name>submitFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

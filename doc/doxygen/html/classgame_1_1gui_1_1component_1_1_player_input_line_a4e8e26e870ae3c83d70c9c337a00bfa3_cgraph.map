@@ -1,0 +1,6 @@
+<map id="game.gui.component.PlayerInputLine.normalizePoint" name="game.gui.component.PlayerInputLine.normalizePoint">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_abstract_player_input.html#a8177e62ecfbcd0906c0206ccc1ccf613" title="game.gui.component.Abstract\lPlayerInput.normalizeX" alt="" coords="240,5,436,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#ae9c4f84c3b2dc3d5a8a71963db1c013c" title="game.module.geometry.shape.\lPoint.getX" alt="" coords="237,71,439,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_abstract_player_input.html#a1427f77d0eac8254917ede68ae21e695" title="game.gui.component.Abstract\lPlayerInput.normalizeY" alt="" coords="240,136,436,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a8b609080989f8beebee41c2c8662ffbc" title="game.module.geometry.shape.\lPoint.getY" alt="" coords="237,201,439,243"/>
+</map>

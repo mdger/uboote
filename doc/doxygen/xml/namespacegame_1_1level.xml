@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1level" kind="namespace" language="Java">
+    <compoundname>game::level</compoundname>
+    <innerclass refid="classgame_1_1level_1_1_abstract_level" prot="public">game::level::AbstractLevel</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_function_generator_config" prot="public">game::level::FunctionGeneratorConfig</innerclass>
+    <innerclass refid="interfacegame_1_1level_1_1_level" prot="public">game::level::Level</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_level1" prot="public">game::level::Level1</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_level2" prot="public">game::level::Level2</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_level3" prot="public">game::level::Level3</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_level4" prot="public">game::level::Level4</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_linear_function_generator" prot="public">game::level::LinearFunctionGenerator</innerclass>
+    <innerclass refid="classgame_1_1level_1_1_submit_object" prot="public">game::level::SubmitObject</innerclass>
+    <innerclass refid="enumgame_1_1level_1_1_submit_type" prot="public">game::level::SubmitType</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

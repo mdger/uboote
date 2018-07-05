@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1level_1_1_abstract_level" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>game::level::AbstractLevel</compoundname>
+    <basecompoundref refid="interfacegame_1_1level_1_1_level" prot="public" virt="non-virtual">game.level.Level</basecompoundref>
+    <derivedcompoundref refid="classgame_1_1level_1_1_level1" prot="public" virt="non-virtual">game.level.Level1</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1level_1_1_level2" prot="public" virt="non-virtual">game.level.Level2</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1level_1_1_level3" prot="public" virt="non-virtual">game.level.Level3</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1level_1_1_level4" prot="public" virt="non-virtual">game.level.Level4</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1level_1_1_abstract_level_1a860087ded4d5728c1bd80ef99ecdbf1f" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>LinearFunction game.level.AbstractLevel.function</definition>
+        <argsstring></argsstring>
+        <name>function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="21" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a9132f7607476bd0461b22853662b0aaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>LinearFunction game.level.AbstractLevel.getFunction</definition>
+        <argsstring>()</argsstring>
+        <name>getFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="23" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="23" bodyend="25"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_depth_1a4a3cf9654dffdec0e5ce76884d7bc98c" compoundref="_player_input_point_depth_8java" startline="14" endline="21">game.gui.component.PlayerInputPointDepth.submitFunction</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a5e628c7cc24b9f7d63358d909c3db58a" compoundref="_player_input_point_distance_8java" startline="62" endline="69">game.gui.component.PlayerInputPointDistance.submitFunction</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level1_1ae36935c9c0ebda29aa07bd04289f9d7a" compoundref="_level1_8java" startline="24" endline="36">game.level.Level1.Level1</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" compoundref="_level2_8java" startline="18" endline="32">game.level.Level2.Level2</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level3_1ad945309a99fab57536e12aa16b34ac71" compoundref="_level3_8java" startline="19" endline="34">game.level.Level3.Level3</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level4_1a3a8bd3a4d5af4ce199ac909ae1418ce9" compoundref="_level4_8java" startline="19" endline="30">game.level.Level4.Level4</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a076f38ea94d4e7d88bc66c7a5adf63ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.AbstractLevel.setFunction</definition>
+        <argsstring>(LinearFunction function)</argsstring>
+        <name>setFunction</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="27" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="27" bodyend="29"/>
+        <referencedby refid="classgame_1_1level_1_1_level1_1ae36935c9c0ebda29aa07bd04289f9d7a" compoundref="_level1_8java" startline="24" endline="36">game.level.Level1.Level1</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" compoundref="_level2_8java" startline="18" endline="32">game.level.Level2.Level2</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level3_1ad945309a99fab57536e12aa16b34ac71" compoundref="_level3_8java" startline="19" endline="34">game.level.Level3.Level3</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level4_1a3a8bd3a4d5af4ce199ac909ae1418ce9" compoundref="_level4_8java" startline="19" endline="30">game.level.Level4.Level4</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a63fcb188d803ef8b9fc5d0a1b08d55e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.level.AbstractLevel.validate</definition>
+        <argsstring>(SubmitObject submit)</argsstring>
+        <name>validate</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1a6330280502a58ca0fe9a34605dc902aa">validate</reimplements>
+        <param>
+          <type><ref refid="classgame_1_1level_1_1_submit_object" kindref="compound">SubmitObject</ref></type>
+          <declname>submit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="32" bodyend="45"/>
+        <references refid="classgame_1_1level_1_1_submit_object_1a03c3f4a485bbc6ffa800666df6569205" compoundref="_submit_object_8java" startline="17" endline="19">game.level.SubmitObject&lt; T &gt;.getSubmit</references>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a642681ceeb1cff52f2b12d9b9c4c0dbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Node</type>
+        <definition>Node game.level.AbstractLevel.getBriefing</definition>
+        <argsstring>()</argsstring>
+        <name>getBriefing</name>
+        <reimplements refid="interfacegame_1_1level_1_1_level_1aab768840da8ea75aaffbc9ce924a4005">getBriefing</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="93" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="93" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a6c17c314a81dfb6224e62a6ca90f9ced" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.level.AbstractLevel.validateLine</definition>
+        <argsstring>(LinearFunction controlFunction)</argsstring>
+        <name>validateLine</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+          <declname>controlFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="47" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a3829d61df2244a674a2368970694659a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.level.AbstractLevel.validatePoint</definition>
+        <argsstring>(Point point)</argsstring>
+        <name>validatePoint</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="58" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="58" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_abstract_level_1a2ae5b383f25db2284e18de3689c836b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.level.AbstractLevel.getLevelByLevelState</definition>
+        <argsstring>(LevelState levelState)</argsstring>
+        <name>getLevelByLevelState</name>
+        <param>
+          <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+          <declname>levelState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="65" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="65" bodyend="90"/>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1ab17318f0b8df982e28db45dfa95b80dc" compoundref="_game_controller_8java" startline="28" endline="42">game.controller.GameController.GameController</referencedby>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1aed0e9f57b2d5a8cd736e1eb54db09189" compoundref="_game_controller_8java" startline="49" endline="54">game.controller.GameController.onLevelCompleted</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="classgame_1_1level_1_1_abstract_level" kindref="compound">AbstractLevel</ref></computeroutput> object provides the responsible data for generating a new level, e.g. win condition of a level, tutorial message for the player and validates input data from the player. <linebreak/>
+ One class extending from <computeroutput><ref refid="classgame_1_1level_1_1_abstract_level" kindref="compound">AbstractLevel</ref></computeroutput> represents one level. To implement a new level, the methods from <computeroutput><ref refid="interfacegame_1_1level_1_1_level" kindref="compound">Level</ref></computeroutput> need to be implemented</para><para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>game.level.Level</label>
+        <link refid="interfacegame_1_1level_1_1_level"/>
+      </node>
+      <node id="0">
+        <label>game.level.AbstractLevel</label>
+        <link refid="classgame_1_1level_1_1_abstract_level"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>game.level.Level1</label>
+        <link refid="classgame_1_1level_1_1_level1"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.level.Level2</label>
+        <link refid="classgame_1_1level_1_1_level2"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>game.level.Level3</label>
+        <link refid="classgame_1_1level_1_1_level3"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.level.Level4</label>
+        <link refid="classgame_1_1level_1_1_level4"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>game.level.Level</label>
+        <link refid="interfacegame_1_1level_1_1_level"/>
+      </node>
+      <node id="6">
+        <label>game.level.AbstractLevel</label>
+        <link refid="classgame_1_1level_1_1_abstract_level"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/AbstractLevel.java" bodystart="20" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a860087ded4d5728c1bd80ef99ecdbf1f" prot="private" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>function</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a642681ceeb1cff52f2b12d9b9c4c0dbf" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getBriefing</name></member>
+      <member refid="interfacegame_1_1level_1_1_level_1a214aee78ff0d34cfea14b28d4ce254fe" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getCurrentState</name></member>
+      <member refid="interfacegame_1_1level_1_1_level_1a2a36f773c3857327dc1760b8531cb8bb" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getDescription</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a9132f7607476bd0461b22853662b0aaa" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getFunction</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a2ae5b383f25db2284e18de3689c836b5" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getLevelByLevelState</name></member>
+      <member refid="interfacegame_1_1level_1_1_level_1a698a487f79bbdb882750783e5b3cfbe9" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getNextLevelState</name></member>
+      <member refid="interfacegame_1_1level_1_1_level_1af504eb291175b4b9e22bbfec2b68518f" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>getWinCondition</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a076f38ea94d4e7d88bc66c7a5adf63ae" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>setFunction</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a63fcb188d803ef8b9fc5d0a1b08d55e2" prot="public" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>validate</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a6c17c314a81dfb6224e62a6ca90f9ced" prot="private" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>validateLine</name></member>
+      <member refid="classgame_1_1level_1_1_abstract_level_1a3829d61df2244a674a2368970694659a" prot="private" virt="non-virtual"><scope>game::level::AbstractLevel</scope><name>validatePoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

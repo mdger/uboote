@@ -1,0 +1,153 @@
+.TH "game.controller.LevelController" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.controller.LevelController
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Observable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLevelController\fP (\fBGameController\fP gameController)"
+.br
+.ti -1c
+.RI "void \fBbuildLevel\fP (\fBLevelState\fP state)"
+.br
+.ti -1c
+.RI "Node \fBgetPlayerInput\fP ()"
+.br
+.ti -1c
+.RI "Pane \fBgetWrapper\fP ()"
+.br
+.ti -1c
+.RI "\fBAbstractLevelRenderer\fP \fBgetLevelRenderer\fP ()"
+.br
+.ti -1c
+.RI "Canvas \fBgetBackground\fP ()"
+.br
+.ti -1c
+.RI "\fBAbstractLevel\fP \fBgetLevel\fP ()"
+.br
+.ti -1c
+.RI "void \fBonInputSubmit\fP (\fBSubmitObject\fP submit)"
+.br
+.ti -1c
+.RI "\fBBackgroundRenderer\fP \fBgetBackgroundLayer\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBLevelController\fP\fP keeps state of the current level and delegates render logic to the \fCAbstractLevelRenderer\fP\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 39 of file LevelController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.controller\&.LevelController\&.LevelController (\fBGameController\fP gameController)"
+
+.PP
+Definition at line 49 of file LevelController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void game\&.controller\&.LevelController\&.buildLevel (\fBLevelState\fP state)"
+Builds a fully functional game level which is comprised of a renderer, a player input and level object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstate\fP the level to use for building the level 
+.RE
+.PP
+
+.PP
+Definition at line 65 of file LevelController\&.java\&.
+.SS "Canvas game\&.controller\&.LevelController\&.getBackground ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the \fCBackgroundRenderer\fP 
+.RE
+.PP
+
+.PP
+Definition at line 244 of file LevelController\&.java\&.
+.SS "\fBBackgroundRenderer\fP game\&.controller\&.LevelController\&.getBackgroundLayer ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the background and animation canvas 
+.RE
+.PP
+
+.PP
+Definition at line 298 of file LevelController\&.java\&.
+.SS "\fBAbstractLevel\fP game\&.controller\&.LevelController\&.getLevel ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the current level object 
+.RE
+.PP
+
+.PP
+Definition at line 252 of file LevelController\&.java\&.
+.SS "\fBAbstractLevelRenderer\fP game\&.controller\&.LevelController\&.getLevelRenderer ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+returns the container of the renderer than the renderer by itself The wrapper itself is responsible for the dynamic resizing functionality 
+.RE
+.PP
+
+.PP
+Definition at line 236 of file LevelController\&.java\&.
+.SS "Node game\&.controller\&.LevelController\&.getPlayerInput ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the current player input 
+.RE
+.PP
+
+.PP
+Definition at line 218 of file LevelController\&.java\&.
+.SS "Pane game\&.controller\&.LevelController\&.getWrapper ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+returns the container of the renderer than the renderer by itself The wrapper itself is responsible for the dynamic resizing functionality 
+.RE
+.PP
+
+.PP
+Definition at line 227 of file LevelController\&.java\&.
+.SS "void game\&.controller\&.LevelController\&.onInputSubmit (\fBSubmitObject\fP submit)"
+this method is triggered, when a submit is entered to be validated\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsubmit\fP 
+.RE
+.PP
+
+.PP
+Definition at line 260 of file LevelController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

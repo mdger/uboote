@@ -1,0 +1,4 @@
+<map id="game.level.Level.allowDrawLine" name="game.level.Level.allowDrawLine">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_coordinate_system.html#a37cdb913f0bba17b9d78d44ce7dc27d2" title="game.gui.component.Coordinate\lSystem.CoordinateSystem" alt="" coords="513,5,723,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_coordinate_system.html#a67d17d116d12eee89811fd89069eae79" title="game.gui.component.Coordinate\lSystem.redraw" alt="" coords="256,35,465,76"/>
+</map>

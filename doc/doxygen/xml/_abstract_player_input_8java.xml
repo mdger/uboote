@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_abstract_player_input_8java" kind="file" language="Java">
+    <compoundname>AbstractPlayerInput.java</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_abstract_player_input" prot="public">game::gui::component::AbstractPlayerInput</innerclass>
+    <innernamespace refid="namespacegame_1_1gui_1_1component">game::gui::component</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacegame_1_1gui_1_1component" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.gui.component;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1gui" kindref="compound">gui</ref>.<ref refid="namespacegame_1_1gui_1_1level" kindref="compound">level</ref>.<ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kindref="compound">AbstractLevelRenderer</ref>.<ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a94bfd5edca0e2f7ab77ff796a756c940" kindref="member">CELL_SIZE</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1module" kindref="compound">module</ref>.<ref refid="namespacegame_1_1module_1_1geometry" kindref="compound">geometry</ref>.<ref refid="namespacegame_1_1module_1_1geometry_1_1shape" kindref="compound">shape</ref>.<ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.beans.EventHandler;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.input.MouseEvent;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classgame_1_1gui_1_1component_1_1_abstract_player_input" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1gui_1_1component_1_1_abstract_player_input" kindref="compound">AbstractPlayerInput</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/><ref refid="interfacegame_1_1gui_1_1component_1_1_player_input" kindref="compound">PlayerInput</ref>,<sp/>javafx.event.EventHandler&lt;MouseEvent&gt;{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AbstractPlayerInput.java"/>
+  </compounddef>
+</doxygen>

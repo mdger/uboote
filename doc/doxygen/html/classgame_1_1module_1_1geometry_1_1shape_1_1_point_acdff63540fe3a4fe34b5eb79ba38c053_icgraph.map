@@ -1,0 +1,6 @@
+<map id="game.module.geometry.shape.Point.Point" name="game.module.geometry.shape.Point.Point">
+<area shape="rect" id="node2" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a3a8ede125a19fe4e2d6ab1cf615acdef" title="game.module.geometry.shape.\lPoint.offsetLocation" alt="" coords="504,28,705,69"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a1f2efc83a39628667d9a3e7fe5a5990a" title="game.module.geometry.shape.\lPoint.offsetX" alt="" coords="255,28,456,69"/>
+<area shape="rect" id="node4" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a4b123932a0808b256d4cad2f1e82a38d" title="game.module.geometry.shape.\lPoint.offsetY" alt="" coords="255,93,456,134"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#aeb4ec70a081a4a97eff95fb9b92fa54a" title="game.module.geometry.shape.\lPoint.factor" alt="" coords="255,158,456,200"/>
+</map>

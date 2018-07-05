@@ -1,0 +1,275 @@
+.TH "game.gui.util.Draw2DHelper" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.gui.util.Draw2DHelper
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBdrawCoordinateSpace\fP (GraphicsContext gc, double tick)"
+.br
+.ti -1c
+.RI "static void \fBdrawCross\fP (GraphicsContext gc, \fBPoint\fP p, Color color)"
+.br
+.ti -1c
+.RI "static \fBPoint\fP \fBconvertPointToCanvas\fP (double width, double height, \fBPoint\fP p)"
+.br
+.ti -1c
+.RI "static \fBPoint\fP \fBpointToCoordinate\fP (double width, double height, \fBPoint\fP p)"
+.br
+.ti -1c
+.RI "static void \fBdrawLine\fP (GraphicsContext gc, \fBPoint\fP from, \fBPoint\fP to, Color color)"
+.br
+.ti -1c
+.RI "static void \fBdrawImage\fP (GraphicsContext gc, \fBPoint\fP p, Image image)"
+.br
+.ti -1c
+.RI "static void \fBdrawImage\fP (GraphicsContext gc, \fBPoint\fP p, Image image, double imageSize)"
+.br
+.ti -1c
+.RI "static \fBPoint\fP \fBpointToCoordinate\fP (GraphicsContext gc, double x, double y)"
+.br
+.ti -1c
+.RI "static \fBPoint\fP \fBpointToCoordinate\fP (GraphicsContext gc, \fBPoint\fP p)"
+.br
+.ti -1c
+.RI "static int \fBintToY\fP (GraphicsContext gc, int y)"
+.br
+.ti -1c
+.RI "static int \fBintToX\fP (GraphicsContext gc, int x)"
+.br
+.ti -1c
+.RI "static int \fBnormalizeX\fP (int x)"
+.br
+.ti -1c
+.RI "static int \fBnormalizeY\fP (int y)"
+.br
+.ti -1c
+.RI "static int \fBdenormalizeY\fP (int y)"
+.br
+.ti -1c
+.RI "static \fBPoint\fP \fBnormalizePoint\fP (\fBPoint\fP p)"
+.br
+.ti -1c
+.RI "static \fBPoint\fP \fBdenormalizePoint\fP (\fBPoint\fP p)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 19 of file Draw2DHelper\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static \fBPoint\fP game\&.gui\&.util\&.Draw2DHelper\&.convertPointToCanvas (double width, double height, \fBPoint\fP p)\fC [static]\fP"
+Draws a cross on point\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIp\fP location of the point 
+.br
+\fIcolor\fP color of the cross 
+.RE
+.PP
+
+.PP
+Definition at line 126 of file Draw2DHelper\&.java\&.
+.SS "static \fBPoint\fP game\&.gui\&.util\&.Draw2DHelper\&.denormalizePoint (\fBPoint\fP p)\fC [static]\fP"
+
+.PP
+Definition at line 296 of file Draw2DHelper\&.java\&.
+.SS "static int game\&.gui\&.util\&.Draw2DHelper\&.denormalizeY (int y)\fC [static]\fP"
+
+.PP
+Definition at line 288 of file Draw2DHelper\&.java\&.
+.SS "static void game\&.gui\&.util\&.Draw2DHelper\&.drawCoordinateSpace (GraphicsContext gc, double tick)\fC [static]\fP"
+Draws a coordinate space 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fItick\fP 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file Draw2DHelper\&.java\&.
+.SS "static void game\&.gui\&.util\&.Draw2DHelper\&.drawCross (GraphicsContext gc, \fBPoint\fP p, Color color)\fC [static]\fP"
+Draws a cross on point\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIp\fP location of the point 
+.br
+\fIcolor\fP color of the cross 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file Draw2DHelper\&.java\&.
+.SS "static void game\&.gui\&.util\&.Draw2DHelper\&.drawImage (GraphicsContext gc, \fBPoint\fP p, Image image)\fC [static]\fP"
+Draws an image 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIp\fP position of the image 
+.br
+\fIimage\fP the image 
+.RE
+.PP
+
+.PP
+Definition at line 183 of file Draw2DHelper\&.java\&.
+.SS "static void game\&.gui\&.util\&.Draw2DHelper\&.drawImage (GraphicsContext gc, \fBPoint\fP p, Image image, double imageSize)\fC [static]\fP"
+Draws an image 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIp\fP position of the image 
+.br
+\fIimage\fP the image 
+.br
+\fIimageSize\fP size of the image 
+.RE
+.PP
+
+.PP
+Definition at line 204 of file Draw2DHelper\&.java\&.
+.SS "static void game\&.gui\&.util\&.Draw2DHelper\&.drawLine (GraphicsContext gc, \fBPoint\fP from, \fBPoint\fP to, Color color)\fC [static]\fP"
+Draws a line 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIfrom\fP starting position 
+.br
+\fIto\fP end position 
+.br
+\fIcolor\fP 
+.RE
+.PP
+
+.PP
+Definition at line 157 of file Draw2DHelper\&.java\&.
+.SS "static int game\&.gui\&.util\&.Draw2DHelper\&.intToX (GraphicsContext gc, int x)\fC [static]\fP"
+method to get a \fCPoint\fP by two doubles to help rendering a single location on a coordinate space 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIx\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 269 of file Draw2DHelper\&.java\&.
+.SS "static int game\&.gui\&.util\&.Draw2DHelper\&.intToY (GraphicsContext gc, int y)\fC [static]\fP"
+method to get a \fCPoint\fP by two doubles to help rendering a single location on a coordinate space 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 255 of file Draw2DHelper\&.java\&.
+.SS "static \fBPoint\fP game\&.gui\&.util\&.Draw2DHelper\&.normalizePoint (\fBPoint\fP p)\fC [static]\fP"
+
+.PP
+Definition at line 292 of file Draw2DHelper\&.java\&.
+.SS "static int game\&.gui\&.util\&.Draw2DHelper\&.normalizeX (int x)\fC [static]\fP"
+
+.PP
+Definition at line 276 of file Draw2DHelper\&.java\&.
+.SS "static int game\&.gui\&.util\&.Draw2DHelper\&.normalizeY (int y)\fC [static]\fP"
+
+.PP
+Definition at line 284 of file Draw2DHelper\&.java\&.
+.SS "static \fBPoint\fP game\&.gui\&.util\&.Draw2DHelper\&.pointToCoordinate (double width, double height, \fBPoint\fP p)\fC [static]\fP"
+Calculates a coordinate on the coordinate space by the cell size, width and height of the parent element 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIwidth\fP of the parent element 
+.br
+\fIheight\fP of the parent element 
+.br
+\fIp\fP 
+.RE
+.PP
+
+.PP
+Definition at line 142 of file Draw2DHelper\&.java\&.
+.SS "static \fBPoint\fP game\&.gui\&.util\&.Draw2DHelper\&.pointToCoordinate (GraphicsContext gc, double x, double y)\fC [static]\fP"
+method to get a \fCPoint\fP by two doubles to help rendering a single location on a coordinate space 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIx\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 225 of file Draw2DHelper\&.java\&.
+.SS "static \fBPoint\fP game\&.gui\&.util\&.Draw2DHelper\&.pointToCoordinate (GraphicsContext gc, \fBPoint\fP p)\fC [static]\fP"
+method to get a \fCPoint\fP by two doubles to help rendering a single location on a coordinate space 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIp\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 241 of file Draw2DHelper\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

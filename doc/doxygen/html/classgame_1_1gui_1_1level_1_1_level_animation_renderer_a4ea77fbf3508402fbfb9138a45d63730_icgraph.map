@@ -1,0 +1,10 @@
+<map id="game.gui.level.LevelAnimationRenderer.getAnimationWrapper" name="game.gui.level.LevelAnimationRenderer.getAnimationWrapper">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer1.html#aaf8a81414c9390d20c15f0bb456fa10c" title="game.gui.level.LevelAnimation\lRenderer1.startAnimation" alt="" coords="256,5,451,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer1.html#a0380dfc08fa6768e031c57908991cf89" title="game.gui.level.LevelAnimation\lRenderer1.stopAnimation" alt="" coords="256,71,451,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer2.html#a789047fcc1300ce065dd9859cdb31fab" title="game.gui.level.LevelAnimation\lRenderer2.startAnimation" alt="" coords="256,136,451,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer2.html#a89d072337b701a9070df319f52811ed3" title="game.gui.level.LevelAnimation\lRenderer2.stopAnimation" alt="" coords="256,201,451,243"/>
+<area shape="rect" id="node6" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer3.html#ae2efc6c3934ba9944b5ecb78d251e204" title="game.gui.level.LevelAnimation\lRenderer3.startAnimation" alt="" coords="256,267,451,308"/>
+<area shape="rect" id="node7" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer3.html#a0eff441c3abd0656238c3724edb2ea0f" title="game.gui.level.LevelAnimation\lRenderer3.stopAnimation" alt="" coords="256,332,451,373"/>
+<area shape="rect" id="node8" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer4.html#a63149b5967b2b43f7c073236b34499cd" title="game.gui.level.LevelAnimation\lRenderer4.startAnimation" alt="" coords="256,397,451,439"/>
+<area shape="rect" id="node9" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer4.html#a19035bb8ae75f069c0b801971a6fa752" title="game.gui.level.LevelAnimation\lRenderer4.stopAnimation" alt="" coords="256,463,451,504"/>
+</map>

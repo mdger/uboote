@@ -1,0 +1,8 @@
+<map id="game.module.math.Rational.calculateGreatestCommonDivisor" name="game.module.math.Rational.calculateGreatestCommonDivisor">
+<area shape="rect" id="node2" href="$classgame_1_1module_1_1math_1_1_rational.html#aed54c528d3bcf5248ae5ddbbe651ab41" title="game.module.math.Rational.\lRational" alt="" coords="293,67,481,108"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1math_1_1_rational.html#a202c713c18d3865dbe3d3108ee68a87c" title="game.module.math.Rational.multiply" alt="" coords="535,19,768,46"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1math_1_1_rational.html#a7ed13a25dd21d08f0c419a33e39a7fbc" title="game.module.math.Rational.reciprocal" alt="" coords="529,74,773,101"/>
+<area shape="rect" id="node7" href="$classgame_1_1module_1_1math_1_1_rational.html#ac406b12a59ea58703740843176a1efcd" title="game.module.math.Rational.equals" alt="" coords="538,125,765,151"/>
+<area shape="rect" id="node4" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function.html#aeaf7750d65613b0014e86a34a7464a15" title="game.module.geometry.shape.\lLinearFunction.calculateY" alt="" coords="821,5,1023,47"/>
+<area shape="rect" id="node6" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function.html#aac2fdcfc45f59a3329e42a7ee87771c6" title="game.module.geometry.shape.\lLinearFunction.calculateX" alt="" coords="821,71,1023,112"/>
+</map>

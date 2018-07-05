@@ -1,0 +1,5 @@
+<map id="game.level.AbstractLevel.validate" name="game.level.AbstractLevel.validate">
+<area shape="rect" id="node2" href="$classgame_1_1controller_1_1_level_controller.html#a4281c14fa447e8eb2dc14417e64225b0" title="game.controller.LevelController.on\lInputSubmit" alt="" coords="265,39,483,80"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a27c8f0738add1ac269a54ec98d1ba39f" title="game.gui.component.Player\lInputLine.getSubmitInput" alt="" coords="531,5,715,47"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_player_input_point.html#a0c71e24d57eea41f3ba2546953e8e18d" title="game.gui.component.Player\lInputPoint.getSubmitInput" alt="" coords="531,71,715,112"/>
+</map>

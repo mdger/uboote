@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="enumgame_1_1level_1_1_submit_type" kind="enum" language="Java" prot="public">
+    <compoundname>game::level::SubmitType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumgame_1_1level_1_1_submit_type_1af0ba3ef5c2cf3bea9db28d6a744eb33d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.level.SubmitType.POINT</definition>
+        <argsstring></argsstring>
+        <name>POINT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitType.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitType.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1level_1_1_submit_type_1a843748ebfb87e1be7e4153c02193ce88" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.level.SubmitType.FUNCTION</definition>
+        <argsstring></argsstring>
+        <name>FUNCTION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitType.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitType.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitType.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitType.java" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="enumgame_1_1level_1_1_submit_type_1a843748ebfb87e1be7e4153c02193ce88" prot="public" virt="non-virtual"><scope>game::level::SubmitType</scope><name>FUNCTION</name></member>
+      <member refid="enumgame_1_1level_1_1_submit_type_1af0ba3ef5c2cf3bea9db28d6a744eb33d" prot="public" virt="non-virtual"><scope>game::level::SubmitType</scope><name>POINT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

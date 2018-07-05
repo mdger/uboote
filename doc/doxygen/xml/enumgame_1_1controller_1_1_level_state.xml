@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="enumgame_1_1controller_1_1_level_state" kind="enum" language="Java" prot="public">
+    <compoundname>game::controller::LevelState</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumgame_1_1controller_1_1_level_state_1a5ce0000eda8930631c278043c807157a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.controller.LevelState.LEVEL_1</definition>
+        <argsstring></argsstring>
+        <name>LEVEL_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classgame_1_1level_1_1_level1_1a76e95e9e381d712d93df2dd109a34bb4" compoundref="_level1_8java" startline="78" endline="80">game.level.Level1.getCurrentState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1controller_1_1_level_state_1add50797f92ff029912dc0c5e0e78232b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.controller.LevelState.LEVEL_2</definition>
+        <argsstring></argsstring>
+        <name>LEVEL_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1aabd3f6a526cb129d1d9c069387605bad" compoundref="_level_controller_8java" startline="49" endline="59">game.controller.LevelController.LevelController</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level1_1a28de5f3d98d458438d76f5b0ad093efb" compoundref="_level1_8java" startline="83" endline="85">game.level.Level1.getNextLevelState</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a5045bf97536d28d93fe4438777599d47" compoundref="_level2_8java" startline="41" endline="43">game.level.Level2.getCurrentState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1controller_1_1_level_state_1aac8510616edda430d9f7562318a9219b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.controller.LevelState.LEVEL_3</definition>
+        <argsstring></argsstring>
+        <name>LEVEL_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a3a8308a097642a6cd8dfa650dfd4ab3c" compoundref="_level2_8java" startline="46" endline="48">game.level.Level2.getNextLevelState</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level3_1ab3f3aa3b752c00611e835cabbc89393e" compoundref="_level3_8java" startline="42" endline="44">game.level.Level3.getCurrentState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1controller_1_1_level_state_1a7727e95ab5c7898a15c558587032c03e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.controller.LevelState.LEVEL_4</definition>
+        <argsstring></argsstring>
+        <name>LEVEL_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" line="12" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classgame_1_1level_1_1_level3_1a82cfa41f10592e0e6aa13186caf4fc8f" compoundref="_level3_8java" startline="47" endline="49">game.level.Level3.getNextLevelState</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level4_1a264894dd83cced6a12d26c775f8bb788" compoundref="_level4_8java" startline="76" endline="78">game.level.Level4.getCurrentState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1controller_1_1_level_state_1a0397374c9f12d3a678d07242dc53ff83" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.controller.LevelState.LEVEL_END</definition>
+        <argsstring></argsstring>
+        <name>LEVEL_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" line="13" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classgame_1_1level_1_1_level4_1a950371feddaf2957e899ef78c886ae05" compoundref="_level4_8java" startline="81" endline="83">game.level.Level4.getNextLevelState</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Constants for the levels. LEVEL_END is used, when the last level is reached. <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" line="8" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="enumgame_1_1controller_1_1_level_state_1a5ce0000eda8930631c278043c807157a" prot="public" virt="non-virtual"><scope>game::controller::LevelState</scope><name>LEVEL_1</name></member>
+      <member refid="enumgame_1_1controller_1_1_level_state_1add50797f92ff029912dc0c5e0e78232b" prot="public" virt="non-virtual"><scope>game::controller::LevelState</scope><name>LEVEL_2</name></member>
+      <member refid="enumgame_1_1controller_1_1_level_state_1aac8510616edda430d9f7562318a9219b" prot="public" virt="non-virtual"><scope>game::controller::LevelState</scope><name>LEVEL_3</name></member>
+      <member refid="enumgame_1_1controller_1_1_level_state_1a7727e95ab5c7898a15c558587032c03e" prot="public" virt="non-virtual"><scope>game::controller::LevelState</scope><name>LEVEL_4</name></member>
+      <member refid="enumgame_1_1controller_1_1_level_state_1a0397374c9f12d3a678d07242dc53ff83" prot="public" virt="non-virtual"><scope>game::controller::LevelState</scope><name>LEVEL_END</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

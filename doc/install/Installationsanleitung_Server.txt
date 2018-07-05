@@ -1,0 +1,35 @@
+Installationsanleitung Laserboats Server
+========================================
+
+Datenbank:
+----------
+
+Ein "Rohling" zum Import auf einen MySQL Server ist im Repository
+unter "doc/database/laserboats.sql" zu finden.
+Die Datenbank muss dem Server-PC zugänglich gehostet werden.
+
+Hier werden Nutzerdaten (Accounts und Spielstände) gespeichert,
+d.h. es ist sinnvoll, beim nächsten mal nicht wieder den Rohling einzuspielen,
+sonden die Datenbank vom vorigen mal weiterzuverwenden. 
+
+Unter "server/logic/Database.class.php" befinden sich Konstanten für Serverdaten,
+diese müssen ggf. an ihr Setup angepasst werden.
+
+Der Einfachheit halber wird empfohlen,
+die Datenbank auf der selben Maschine zu hosten,
+wie den eigentlichen Server.
+
+
+Server:
+-------
+
+Der Code im "server/" Verzeichnis muss, den Clients zugänglich,
+auf einem PHP-fähigen Webserver gehostet werden.
+
+Empfehlung hier: Apache Web Server, bzw je nach Betriebssystem XAMPP,
+da dort eine Datenbanklösung enthalten ist.
+
+Auf dem Client muss später die Adresse, unter der der Server erreichbar ist,
+unter dem der Code gehostet wird, eingegeben werden.
+
+

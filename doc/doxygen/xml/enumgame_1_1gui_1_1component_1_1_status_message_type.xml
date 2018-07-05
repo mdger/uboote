@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="enumgame_1_1gui_1_1component_1_1_status_message_type" kind="enum" language="Java" prot="public">
+    <compoundname>game::gui::component::StatusMessageType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumgame_1_1gui_1_1component_1_1_status_message_type_1a9787be8afbe6223224dd68f1b1905e13" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.gui.component.StatusMessageType.TYPE_CORRECT</definition>
+        <argsstring></argsstring>
+        <name>TYPE_CORRECT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" line="8" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1gui_1_1component_1_1_status_message_type_1ab441d3d506c1d80e9b5d240821fab1f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.gui.component.StatusMessageType.TYPE_WRONG</definition>
+        <argsstring></argsstring>
+        <name>TYPE_WRONG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa3cd13fe1b92926028eefc905be50397" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.gui.component.StatusMessageType.TYPE_NEUTRAL</definition>
+        <argsstring></argsstring>
+        <name>TYPE_NEUTRAL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa9efe4ef80941d9fd69f358e8f331fcb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>game.gui.component.StatusMessageType.TYPE_PROCEED_ON_WAIT</definition>
+        <argsstring></argsstring>
+        <name>TYPE_PROCEED_ON_WAIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" line="7" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1a9787be8afbe6223224dd68f1b1905e13" prot="public" virt="non-virtual"><scope>game::gui::component::StatusMessageType</scope><name>TYPE_CORRECT</name></member>
+      <member refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa3cd13fe1b92926028eefc905be50397" prot="public" virt="non-virtual"><scope>game::gui::component::StatusMessageType</scope><name>TYPE_NEUTRAL</name></member>
+      <member refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa9efe4ef80941d9fd69f358e8f331fcb" prot="public" virt="non-virtual"><scope>game::gui::component::StatusMessageType</scope><name>TYPE_PROCEED_ON_WAIT</name></member>
+      <member refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1ab441d3d506c1d80e9b5d240821fab1f9" prot="public" virt="non-virtual"><scope>game::gui::component::StatusMessageType</scope><name>TYPE_WRONG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

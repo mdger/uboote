@@ -1,0 +1,4 @@
+<map id="game.gui.component.PlayerInputLine.getNormalizedStartPoint" name="game.gui.component.PlayerInputLine.getNormalizedStartPoint">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a9316f5651185d33c7abeb77cf64b899d" title="game.gui.component.Player\lInputLine.submitFunction" alt="" coords="272,5,456,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a27c8f0738add1ac269a54ec98d1ba39f" title="game.gui.component.Player\lInputLine.getSubmitInput" alt="" coords="504,5,688,47"/>
+</map>

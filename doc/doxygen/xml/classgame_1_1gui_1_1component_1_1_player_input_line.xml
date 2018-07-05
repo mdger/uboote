@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_player_input_line" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::PlayerInputLine</compoundname>
+    <basecompoundref refid="classgame_1_1gui_1_1component_1_1_abstract_player_input" prot="public" virt="non-virtual">game.gui.component.AbstractPlayerInput</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_player_input_line_1ad0e046fb8f76614736b838e6f331997d" prot="package" static="no" mutable="no">
+        <type>GraphicsContext</type>
+        <definition>GraphicsContext game.gui.component.PlayerInputLine.gc</definition>
+        <argsstring></argsstring>
+        <name>gc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="27" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_player_input_line_1af96c766ce041989e6d8977d904d49435" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.PlayerInputLine.lineStart</definition>
+        <argsstring></argsstring>
+        <name>lineStart</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="29" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a9dd2b30d6202f56ab58c1aea88791eb4" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.PlayerInputLine.lineEnd</definition>
+        <argsstring></argsstring>
+        <name>lineEnd</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="30" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_player_input_line_1abd98b82ed387ef2fbc17c19f603e3016" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.PlayerInputLine.cursor</definition>
+        <argsstring></argsstring>
+        <name>cursor</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_player_input_line_1acdb55cb3885e9f40a6558f6a11bd27f9" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color game.gui.component.PlayerInputLine.lineColor</definition>
+        <argsstring></argsstring>
+        <name>lineColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="34" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1ad52f794c04c059de5f6eab1b5e56772b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.gui.component.PlayerInputLine.PlayerInputLine</definition>
+        <argsstring>(GraphicsContext gc, Color lineColor)</argsstring>
+        <name>PlayerInputLine</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>lineColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="36" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a8123979dc2b802be723958610a6a9df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.PlayerInputLine.draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <reimplements refid="interfacegame_1_1gui_1_1component_1_1_player_input_1aba0dcbe4de95df519753f43bd7e546db">draw</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="42" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="42" bodyend="75"/>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a56d3f15443fc96122571c151db3624ac" compoundref="_draw2_d_helper_8java" startline="105" endline="116">game.gui.util.Draw2DHelper.drawCross</references>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa346342b171eda8acdc946f672220e3a" compoundref="_abstract_level_renderer_8java" startline="62" endline="69">game.gui.level.AbstractLevelRenderer.redraw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a2f845b01a24aa022a8d0c40c53c86b83" compoundref="_level_renderer1_8java" startline="26" endline="29">game.gui.level.LevelRenderer1.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a3a5d396b20ca3f087f31397614bd41c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.PlayerInputLine.resetInput</definition>
+        <argsstring>()</argsstring>
+        <name>resetInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="77" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a9f0052b3190a1fbcd6e44ac26106d1f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.PlayerInputLine.getNormalizedStartPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getNormalizedStartPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="83" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="83" bodyend="86"/>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" compoundref="_draw2_d_helper_8java" startline="292" endline="294">game.gui.util.Draw2DHelper.normalizePoint</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9316f5651185d33c7abeb77cf64b899d" compoundref="_player_input_line_8java" startline="171" endline="175">game.gui.component.PlayerInputLine.submitFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a60feb57622daed66c94a63b427ed5f17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.PlayerInputLine.getNormalizedEndPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getNormalizedEndPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="88" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="88" bodyend="90"/>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" compoundref="_draw2_d_helper_8java" startline="292" endline="294">game.gui.util.Draw2DHelper.normalizePoint</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9316f5651185d33c7abeb77cf64b899d" compoundref="_player_input_line_8java" startline="171" endline="175">game.gui.component.PlayerInputLine.submitFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1acf1a39bb1bb737061535eff6cd3ad832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.PlayerInputLine.handle</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>handle</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="93" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="93" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Node</type>
+        <definition>Node game.gui.component.PlayerInputLine.getSubmitInput</definition>
+        <argsstring>(LevelController levelController)</argsstring>
+        <name>getSubmitInput</name>
+        <reimplements refid="interfacegame_1_1gui_1_1component_1_1_player_input_1a939ff50b98859d7399a950557be8cc1b">getSubmitInput</reimplements>
+        <param>
+          <type><ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref></type>
+          <declname>levelController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="141" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="141" bodyend="168"/>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a10936b040e05770bedee624c5722fcb2" compoundref="_level_controller_8java" startline="252" endline="254">game.controller.LevelController.getLevel</references>
+        <references refid="classgame_1_1level_1_1_abstract_level_1a9132f7607476bd0461b22853662b0aaa" compoundref="_abstract_level_8java" startline="23" endline="25">game.level.AbstractLevel.getFunction</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" compoundref="_linear_function_8java" startline="49" endline="66">game.module.geometry.shape.LinearFunction.getSlope</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" compoundref="_linear_function_8java" startline="73" endline="78">game.module.geometry.shape.LinearFunction.getIntercept</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a327972bb71d3a8d85f9287ab1ebba577" compoundref="_rational_8java" startline="104" endline="106">game.module.math.Rational.getNum</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a2d12d18d1b3078659fcda69a89a37f8b" compoundref="_rational_8java" startline="111" endline="113">game.module.math.Rational.getDen</references>
+        <references refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9316f5651185d33c7abeb77cf64b899d" compoundref="_player_input_line_8java" startline="171" endline="175">game.gui.component.PlayerInputLine.submitFunction</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_alert_box_1a81d541e04dcc0a40cca9e395b3f687a5" compoundref="_alert_box_8java" startline="29" endline="63">game.gui.component.AlertBox.display</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a9316f5651185d33c7abeb77cf64b899d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1level_1_1_submit_object" kindref="compound">SubmitObject</ref>&lt; <ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref> &gt;</type>
+        <definition>SubmitObject&lt;LinearFunction&gt; game.gui.component.PlayerInputLine.submitFunction</definition>
+        <argsstring>(LevelController levelController)</argsstring>
+        <name>submitFunction</name>
+        <reimplements refid="interfacegame_1_1gui_1_1component_1_1_player_input_1a5175a8b8ff23e4902b88e9da2b7ae762">submitFunction</reimplements>
+        <param>
+          <type><ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref></type>
+          <declname>levelController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="171" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="171" bodyend="175"/>
+        <references refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9f0052b3190a1fbcd6e44ac26106d1f2" compoundref="_player_input_line_8java" startline="83" endline="86">game.gui.component.PlayerInputLine.getNormalizedStartPoint</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a60feb57622daed66c94a63b427ed5f17" compoundref="_player_input_line_8java" startline="88" endline="90">game.gui.component.PlayerInputLine.getNormalizedEndPoint</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a0f15e62684ef581eda612b04b101f7a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.PlayerInputLine.onMouseClicked</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>onMouseClicked</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="106" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="106" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1a9345ee1a4e64c780833356196a4d9903" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.PlayerInputLine.onMouseMoved</definition>
+        <argsstring>(MouseEvent event)</argsstring>
+        <name>onMouseMoved</name>
+        <param>
+          <type>MouseEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="132" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_player_input_line_1ae0597866e8bd698f50c0ff2ac47b74b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.gui.component.PlayerInputLine.canValidate</definition>
+        <argsstring>()</argsstring>
+        <name>canValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="136" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="136" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <computeroutput><ref refid="classgame_1_1gui_1_1component_1_1_player_input_line" kindref="compound">PlayerInputLine</ref></computeroutput> enables drawing lines on the canvas. <simplesect kind="author"><para>Marco </para></simplesect>
+<simplesect kind="author"><para>Lukas </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>game.gui.component.AbstractPlayerInput</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_abstract_player_input"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>javafx::event::EventHandler&lt; MouseEvent &gt;</label>
+      </node>
+      <node id="186">
+        <label>game.gui.component.PlayerInputLine</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_line"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>game.gui.component.PlayerInput</label>
+        <link refid="interfacegame_1_1gui_1_1component_1_1_player_input"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>game.gui.component.AbstractPlayerInput</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_abstract_player_input"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>javafx::event::EventHandler&lt; MouseEvent &gt;</label>
+      </node>
+      <node id="190">
+        <label>game.gui.component.PlayerInputLine</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_player_input_line"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+        <childnode refid="194" relation="usage">
+          <edgelabel>gc</edgelabel>
+        </childnode>
+      </node>
+      <node id="194">
+        <label>GraphicsContext</label>
+      </node>
+      <node id="192">
+        <label>game.gui.component.PlayerInput</label>
+        <link refid="interfacegame_1_1gui_1_1component_1_1_player_input"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" line="25" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/PlayerInputLine.java" bodystart="25" bodyend="176"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1ae0597866e8bd698f50c0ff2ac47b74b2" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>canValidate</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1abd98b82ed387ef2fbc17c19f603e3016" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>cursor</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a8123979dc2b802be723958610a6a9df5" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>draw</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1ad0e046fb8f76614736b838e6f331997d" prot="package" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>gc</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a60feb57622daed66c94a63b427ed5f17" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>getNormalizedEndPoint</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9f0052b3190a1fbcd6e44ac26106d1f2" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>getNormalizedStartPoint</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>getSubmitInput</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1acf1a39bb1bb737061535eff6cd3ad832" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>handle</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1acdb55cb3885e9f40a6558f6a11bd27f9" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>lineColor</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9dd2b30d6202f56ab58c1aea88791eb4" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>lineEnd</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1af96c766ce041989e6d8977d904d49435" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>lineStart</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a0f15e62684ef581eda612b04b101f7a1" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>onMouseClicked</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9345ee1a4e64c780833356196a4d9903" prot="private" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>onMouseMoved</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1ad52f794c04c059de5f6eab1b5e56772b" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>PlayerInputLine</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a3a5d396b20ca3f087f31397614bd41c7" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>resetInput</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9316f5651185d33c7abeb77cf64b899d" prot="public" virt="non-virtual"><scope>game::gui::component::PlayerInputLine</scope><name>submitFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

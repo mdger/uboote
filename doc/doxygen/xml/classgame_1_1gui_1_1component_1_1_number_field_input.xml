@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_number_field_input" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::NumberFieldInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TextField</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a7c1e734e5643387f7620f5dfd36da1c9" prot="private" static="no" mutable="no">
+        <type>IntegerProperty</type>
+        <definition>IntegerProperty game.gui.component.NumberFieldInput.maxLength</definition>
+        <argsstring></argsstring>
+        <name>maxLength</name>
+        <initializer>= new SimpleIntegerProperty(this, &quot;maxLength&quot;, -1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="31" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a6c642827eecdcc27cdce7365560abb09" prot="private" static="no" mutable="no">
+        <type>StringProperty</type>
+        <definition>StringProperty game.gui.component.NumberFieldInput.restrict</definition>
+        <argsstring></argsstring>
+        <name>restrict</name>
+        <initializer>= new SimpleStringProperty(this, &quot;restrict&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a1f14f75691610a0547cd11d031b589ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.gui.component.NumberFieldInput.NumberFieldInput</definition>
+        <argsstring>()</argsstring>
+        <name>NumberFieldInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="34" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="34" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1ad4b292116b43238393c4cf134d10fcb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IntegerProperty</type>
+        <definition>IntegerProperty game.gui.component.NumberFieldInput.maxLengthProperty</definition>
+        <argsstring>()</argsstring>
+        <name>maxLengthProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The max length property.</para><para><simplesect kind="return"><para>The max length property. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="64" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1abfaf18461a6078287adc679c483da543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.gui.component.NumberFieldInput.getMaxLength</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the max length of the text field.</para><para><simplesect kind="return"><para>The max length. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="73" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a4ad106430a1fae7ac55d211cb6747ed7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.NumberFieldInput.setMaxLength</definition>
+        <argsstring>(int maxLength)</argsstring>
+        <name>setMaxLength</name>
+        <param>
+          <type>int</type>
+          <declname>maxLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the max length of the text field.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxLength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The max length. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="82" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a0796bebcff8b9fc63e62f851d143c5f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>StringProperty</type>
+        <definition>StringProperty game.gui.component.NumberFieldInput.restrictProperty</definition>
+        <argsstring>()</argsstring>
+        <name>restrictProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The restrict property.</para><para><simplesect kind="return"><para>The restrict property. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="91" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a1cee569520a53168c60a3f1a4d268ac9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String game.gui.component.NumberFieldInput.getRestrict</definition>
+        <argsstring>()</argsstring>
+        <name>getRestrict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets a regular expression character class which restricts the user input.</para><para><simplesect kind="return"><para>The regular expression. </para></simplesect>
+<simplesect kind="see"><para><ref refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a1cee569520a53168c60a3f1a4d268ac9" kindref="member">getRestrict()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="102" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_number_field_input_1a0cc7917ead9cddffb21afdcbde2fbebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.NumberFieldInput.setRestrict</definition>
+        <argsstring>(String restrict)</argsstring>
+        <name>setRestrict</name>
+        <param>
+          <type>String</type>
+          <declname>restrict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a regular expression character class which restricts the user input.</para><para>E.g. [0-9] only allows numeric values.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>restrict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The regular expression. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="113" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="113" bodyend="115"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A text field, which restricts the user&apos;s input. </para><para>The restriction can either be a maximal number of characters which the user is allowed to input or a regular expression class, which contains allowed characters. </para><para><bold>Sample, which restricts the input to maximal 10 numeric characters</bold>: <preformatted>
+<programlisting><codeline><highlight class="normal">RestrictiveTextField<sp/>textField<sp/>=<sp/>new<sp/>RestrictiveTextField();</highlight></codeline>
+<codeline><highlight class="normal">textField.setMaxLength(10);</highlight></codeline>
+<codeline><highlight class="normal">textField.setRestrict(&quot;[0-9]&quot;);</highlight></codeline>
+</programlisting> 
+</preformatted></para><para><simplesect kind="author"><para>Christian Schudt </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="175">
+        <label>TextField</label>
+      </node>
+      <node id="174">
+        <label>game.gui.component.NumberFieldInput</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_number_field_input"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="177">
+        <label>TextField</label>
+      </node>
+      <node id="176">
+        <label>game.gui.component.NumberFieldInput</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_number_field_input"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" line="29" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/NumberFieldInput.java" bodystart="29" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1abfaf18461a6078287adc679c483da543" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>getMaxLength</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a1cee569520a53168c60a3f1a4d268ac9" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>getRestrict</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a7c1e734e5643387f7620f5dfd36da1c9" prot="private" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>maxLength</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1ad4b292116b43238393c4cf134d10fcb1" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>maxLengthProperty</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a1f14f75691610a0547cd11d031b589ef" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>NumberFieldInput</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a6c642827eecdcc27cdce7365560abb09" prot="private" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>restrict</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a0796bebcff8b9fc63e62f851d143c5f8" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>restrictProperty</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a4ad106430a1fae7ac55d211cb6747ed7" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>setMaxLength</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_number_field_input_1a0cc7917ead9cddffb21afdcbde2fbebf" prot="public" virt="non-virtual"><scope>game::gui::component::NumberFieldInput</scope><name>setRestrict</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

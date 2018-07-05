@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_alert_box" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::AlertBox</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_alert_box_1a81d541e04dcc0a40cca9e395b3f687a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.component.AlertBox.display</definition>
+        <argsstring>(String title, String message)</argsstring>
+        <name>display</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AlertBox.java" line="29" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AlertBox.java" bodystart="29" bodyend="63"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An alert box which can be closed by clicking ok. It also blocks the client, as long the alert box is still open. <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AlertBox.java" line="19" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AlertBox.java" bodystart="19" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_alert_box_1a81d541e04dcc0a40cca9e395b3f687a5" prot="public" virt="non-virtual"><scope>game::gui::component::AlertBox</scope><name>display</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

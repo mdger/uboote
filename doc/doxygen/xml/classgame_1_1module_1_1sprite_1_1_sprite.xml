@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1module_1_1sprite_1_1_sprite" kind="class" language="Java" prot="public">
+    <compoundname>game::module::sprite::Sprite</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Transition</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a1c9c5aa7422801306358e013a2b0a577" prot="private" static="no" mutable="no">
+        <type>final ImageView</type>
+        <definition>final ImageView game.module.sprite.Sprite.imageView</definition>
+        <argsstring></argsstring>
+        <name>imageView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="15" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a8a2e0fdda67822c7a1d892f03ec78e79" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int game.module.sprite.Sprite.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="16" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a6f6371c35aa0bebd1b13c47fab587049" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int game.module.sprite.Sprite.columns</definition>
+        <argsstring></argsstring>
+        <name>columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="17" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a20e69a2308b5636b63197dee35bd243d" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int game.module.sprite.Sprite.offsetX</definition>
+        <argsstring></argsstring>
+        <name>offsetX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a9a642af5a0b1785d409cff993a0bb85b" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int game.module.sprite.Sprite.offsetY</definition>
+        <argsstring></argsstring>
+        <name>offsetY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="19" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a03aeb414bfe7c32e0c9557dad853fef7" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int game.module.sprite.Sprite.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1ab982f403f3a44bf7f91ab0570c9b817f" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int game.module.sprite.Sprite.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="21" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_sprite_1a1018902179dfa92c33f0aeba1c2d9e0f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.module.sprite.Sprite.lastIndex</definition>
+        <argsstring></argsstring>
+        <name>lastIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="23" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1module_1_1sprite_1_1_sprite_1a4a9c6261fa9e67e941714b2e187b0b79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.module.sprite.Sprite.Sprite</definition>
+        <argsstring>(ImageView imageView, Duration duration, int count, int columns, int offsetX, int offsetY, int width, int height)</argsstring>
+        <name>Sprite</name>
+        <param>
+          <type>ImageView</type>
+          <declname>imageView</declname>
+        </param>
+        <param>
+          <type>Duration</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columns</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offsetX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offsetY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="25" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="25" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgame_1_1module_1_1sprite_1_1_sprite_1ab49cdcd1185cffd169da2f4246d57f0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.module.sprite.Sprite.interpolate</definition>
+        <argsstring>(double k)</argsstring>
+        <name>interpolate</name>
+        <param>
+          <type>double</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="43" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="43" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="242">
+        <label>Transition</label>
+      </node>
+      <node id="241">
+        <label>game.module.sprite.Sprite</label>
+        <link refid="classgame_1_1module_1_1sprite_1_1_sprite"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="244">
+        <label>Transition</label>
+      </node>
+      <node id="243">
+        <label>game.module.sprite.Sprite</label>
+        <link refid="classgame_1_1module_1_1sprite_1_1_sprite"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" line="13" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Sprite.java" bodystart="13" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a6f6371c35aa0bebd1b13c47fab587049" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>columns</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a8a2e0fdda67822c7a1d892f03ec78e79" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>count</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1ab982f403f3a44bf7f91ab0570c9b817f" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>height</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a1c9c5aa7422801306358e013a2b0a577" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>imageView</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1ab49cdcd1185cffd169da2f4246d57f0c" prot="protected" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>interpolate</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a1018902179dfa92c33f0aeba1c2d9e0f" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>lastIndex</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a20e69a2308b5636b63197dee35bd243d" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>offsetX</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a9a642af5a0b1785d409cff993a0bb85b" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>offsetY</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a4a9c6261fa9e67e941714b2e187b0b79" prot="public" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>Sprite</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_sprite_1a03aeb414bfe7c32e0c9557dad853fef7" prot="private" virt="non-virtual"><scope>game::module::sprite::Sprite</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

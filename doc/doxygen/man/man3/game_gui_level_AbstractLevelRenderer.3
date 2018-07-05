@@ -1,0 +1,111 @@
+.TH "game.gui.level.AbstractLevelRenderer" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.gui.level.AbstractLevelRenderer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Canvas, and \fBgame\&.gui\&.level\&.LevelRenderer\fP\&.
+.PP
+Inherited by \fBgame\&.gui\&.level\&.LevelRenderer1\fP, \fBgame\&.gui\&.level\&.LevelRenderer2\fP, \fBgame\&.gui\&.level\&.LevelRenderer3\fP, and \fBgame\&.gui\&.level\&.LevelRenderer4\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAbstractLevelRenderer\fP ()"
+.br
+.ti -1c
+.RI "void \fBredraw\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetShowHelperLine\fP (boolean showHelperLine)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentFunction\fP (\fBLinearFunction\fP currentFunction)"
+.br
+.ti -1c
+.RI "boolean \fBisResizable\fP ()"
+.br
+.ti -1c
+.RI "double \fBprefWidth\fP (double height)"
+.br
+.ti -1c
+.RI "double \fBprefHeight\fP (double width)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBCELL_SIZE\fP = 40"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLinearFunction\fP \fBgetCurrentFunction\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBAbstractLevelRenderer\fP\fP is responsible for rendering the game canvas and the objects with it\&. One concrete class of the \fC\fBAbstractLevelRenderer\fP\fP is needed for each level\&. 
+.br
+ To extend the renderer, the subclass needs to call super(); in the constructor and implement \fBdraw()\fP
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file AbstractLevelRenderer\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.gui\&.level\&.AbstractLevelRenderer\&.AbstractLevelRenderer ()"
+Constructor initializes the coordinate system 
+.PP
+Definition at line 37 of file AbstractLevelRenderer\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBLinearFunction\fP game\&.gui\&.level\&.AbstractLevelRenderer\&.getCurrentFunction ()\fC [protected]\fP"
+
+.PP
+Definition at line 90 of file AbstractLevelRenderer\&.java\&.
+.SS "boolean game\&.gui\&.level\&.AbstractLevelRenderer\&.isResizable ()"
+
+.PP
+Definition at line 95 of file AbstractLevelRenderer\&.java\&.
+.SS "double game\&.gui\&.level\&.AbstractLevelRenderer\&.prefHeight (double width)"
+
+.PP
+Definition at line 105 of file AbstractLevelRenderer\&.java\&.
+.SS "double game\&.gui\&.level\&.AbstractLevelRenderer\&.prefWidth (double height)"
+
+.PP
+Definition at line 100 of file AbstractLevelRenderer\&.java\&.
+.SS "void game\&.gui\&.level\&.AbstractLevelRenderer\&.redraw ()"
+
+.PP
+Definition at line 62 of file AbstractLevelRenderer\&.java\&.
+.SS "void game\&.gui\&.level\&.AbstractLevelRenderer\&.setCurrentFunction (\fBLinearFunction\fP currentFunction)"
+
+.PP
+Definition at line 86 of file AbstractLevelRenderer\&.java\&.
+.SS "void game\&.gui\&.level\&.AbstractLevelRenderer\&.setShowHelperLine (boolean showHelperLine)"
+
+.PP
+Definition at line 71 of file AbstractLevelRenderer\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final int game\&.gui\&.level\&.AbstractLevelRenderer\&.CELL_SIZE = 40\fC [static]\fP"
+
+.PP
+Definition at line 24 of file AbstractLevelRenderer\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

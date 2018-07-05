@@ -1,0 +1,104 @@
+.TH "game.controller.GameController" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.controller.GameController
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ChangeListener< Object >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGameController\fP ()"
+.br
+.ti -1c
+.RI "void \fBonLevelCompleted\fP ()"
+.br
+.ti -1c
+.RI "void \fBshowHighscoreChart\fP ()"
+.br
+.ti -1c
+.RI "void \fBsavePlayerScore\fP ()"
+.br
+.ti -1c
+.RI "\fBGameRenderer\fP \fBgetGameRenderer\fP ()"
+.br
+.ti -1c
+.RI "\fBLevelController\fP \fBgetLevelController\fP ()"
+.br
+.ti -1c
+.RI "void \fBchanged\fP (ObservableValue<? extends Object > observable, Object oldValue, Object newValue)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentLevel\fP (int currentLevel)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBGameController\fP\fP encapsulates the \fC\fBLevelController\fP\fP\&. It is responsible for keeping the actual state of a level and keeping track of the player score and delegates events to the \fCGameRenderer\fP if needed\&. e\&.g\&. When the level is completed, the game needs to transition to the next level and tells the \fCGameRenderer\fP to present the current level in the status bar 
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file GameController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.controller\&.GameController\&.GameController ()"
+
+.PP
+Definition at line 28 of file GameController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void game\&.controller\&.GameController\&.changed (ObservableValue<? extends Object > observable, Object oldValue, Object newValue)"
+
+.PP
+Definition at line 81 of file GameController\&.java\&.
+.SS "\fBGameRenderer\fP game\&.controller\&.GameController\&.getGameRenderer ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the GameRenderer 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file GameController\&.java\&.
+.SS "\fBLevelController\fP game\&.controller\&.GameController\&.getLevelController ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the \fBLevelController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file GameController\&.java\&.
+.SS "void game\&.controller\&.GameController\&.onLevelCompleted ()"
+this is triggered, when the win condition of the current level is reached\&. Sends events to the GameRenderer to accommodate for the next level´s changes on the GUI 
+.PP
+Definition at line 49 of file GameController\&.java\&.
+.SS "void game\&.controller\&.GameController\&.savePlayerScore ()"
+
+.PP
+Definition at line 60 of file GameController\&.java\&.
+.SS "void game\&.controller\&.GameController\&.setCurrentLevel (int currentLevel)"
+
+.PP
+Definition at line 94 of file GameController\&.java\&.
+.SS "void game\&.controller\&.GameController\&.showHighscoreChart ()"
+
+.PP
+Definition at line 56 of file GameController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

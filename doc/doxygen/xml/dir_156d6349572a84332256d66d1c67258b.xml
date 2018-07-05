@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_156d6349572a84332256d66d1c67258b" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component</compoundname>
+    <innerfile refid="_abstract_player_input_8java">AbstractPlayerInput.java</innerfile>
+    <innerfile refid="_alert_box_8java">AlertBox.java</innerfile>
+    <innerfile refid="_confirm_box_8java">ConfirmBox.java</innerfile>
+    <innerfile refid="_game_renderer_8java">GameRenderer.java</innerfile>
+    <innerfile refid="_level_intro_box_8java">LevelIntroBox.java</innerfile>
+    <innerfile refid="_number_field_input_8java">NumberFieldInput.java</innerfile>
+    <innerfile refid="_player_input_8java">PlayerInput.java</innerfile>
+    <innerfile refid="_player_input_line_8java">PlayerInputLine.java</innerfile>
+    <innerfile refid="_player_input_linear_function_8java">PlayerInputLinearFunction.java</innerfile>
+    <innerfile refid="_player_input_point_8java">PlayerInputPoint.java</innerfile>
+    <innerfile refid="_player_input_point_depth_8java">PlayerInputPointDepth.java</innerfile>
+    <innerfile refid="_player_input_point_distance_8java">PlayerInputPointDistance.java</innerfile>
+    <innerfile refid="_status_message_8java">StatusMessage.java</innerfile>
+    <innerfile refid="_status_message_type_8java">StatusMessageType.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/"/>
+  </compounddef>
+</doxygen>

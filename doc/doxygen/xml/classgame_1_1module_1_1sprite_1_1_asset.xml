@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1module_1_1sprite_1_1_asset" kind="class" language="Java" prot="public">
+    <compoundname>game::module::sprite::Asset</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a66d1916b4fe191bfe27fd75365546575" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.SEA</definition>
+        <argsstring></argsstring>
+        <name>SEA</name>
+        <initializer>= &quot;asset/sea.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="8" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a48d195c17caccec1922b68facb679648" compoundref="_draw2_d_helper_8java" startline="27" endline="96">game.gui.util.Draw2DHelper.drawCoordinateSpace</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a5436979ce703e4aa2f7ed163660135a1" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.SKY</definition>
+        <argsstring></argsstring>
+        <name>SKY</name>
+        <initializer>= &quot;asset/sky.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a48d195c17caccec1922b68facb679648" compoundref="_draw2_d_helper_8java" startline="27" endline="96">game.gui.util.Draw2DHelper.drawCoordinateSpace</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1ae33684916217f03429353515c0e92fb2" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.CLOUDS</definition>
+        <argsstring></argsstring>
+        <name>CLOUDS</name>
+        <initializer>= &quot;asset/clouds.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a48d195c17caccec1922b68facb679648" compoundref="_draw2_d_helper_8java" startline="27" endline="96">game.gui.util.Draw2DHelper.drawCoordinateSpace</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a7f5f70b5044c1ef8ee9a6e65a2e269c7" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.ADMIRAL</definition>
+        <argsstring></argsstring>
+        <name>ADMIRAL</name>
+        <initializer>= &quot;asset/Admiral.gif&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classgame_1_1level_1_1_level1_1a8551377cbf676238c0efd07abe39a493" compoundref="_level1_8java" startline="44" endline="69">game.level.Level1.getDescription</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a839c6ef4edca6851b282d22a01f38b84" compoundref="_level2_8java" startline="51" endline="81">game.level.Level2.getDescription</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level3_1ac00a2230f261088617a1a41ff7281202" compoundref="_level3_8java" startline="52" endline="83">game.level.Level3.getDescription</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level4_1ae3a12bd3caa88df4f947d9301aec66c6" compoundref="_level4_8java" startline="38" endline="66">game.level.Level4.getDescription</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a73a3d037ff2a6375636577dfc8c7e21a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.SATELLITE</definition>
+        <argsstring></argsstring>
+        <name>SATELLITE</name>
+        <initializer>= &quot;asset/satellite.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="12" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a6157eca20fd5ef5b2eef10a6a5653bb5" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.PLANE</definition>
+        <argsstring></argsstring>
+        <name>PLANE</name>
+        <initializer>= &quot;asset/plane.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="13" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a785afdfddbfc526c6e2f8189a8b21f2c" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.PLANE_R</definition>
+        <argsstring></argsstring>
+        <name>PLANE_R</name>
+        <initializer>= &quot;asset/plane_right.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="14" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a5d032df161cf5f1794baf0acaa54ae3b" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.SUBMARINE</definition>
+        <argsstring></argsstring>
+        <name>SUBMARINE</name>
+        <initializer>= &quot;asset/submarine.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="15" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1aaca127f0b4c92eb11eb9e0771cd63ef1" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.SUBMARINE_R</definition>
+        <argsstring></argsstring>
+        <name>SUBMARINE_R</name>
+        <initializer>= &quot;asset/submarine_right.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="16" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1aa636de2502110657fb81ac62ae4afa5f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.CRUISER</definition>
+        <argsstring></argsstring>
+        <name>CRUISER</name>
+        <initializer>= &quot;asset/cruiser.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="17" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a9b00463d9e4a94c082166e75180fb3ca" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.CRUISER_R</definition>
+        <argsstring></argsstring>
+        <name>CRUISER_R</name>
+        <initializer>= &quot;asset/cruiser_right.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1sprite_1_1_asset_1a21bd823c8522dcd97b392a311143899a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.module.sprite.Asset.EXPLOSION</definition>
+        <argsstring></argsstring>
+        <name>EXPLOSION</name>
+        <initializer>= &quot;asset/explosion.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="19" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="7" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a7f5f70b5044c1ef8ee9a6e65a2e269c7" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>ADMIRAL</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1ae33684916217f03429353515c0e92fb2" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>CLOUDS</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1aa636de2502110657fb81ac62ae4afa5f" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>CRUISER</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a9b00463d9e4a94c082166e75180fb3ca" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>CRUISER_R</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a21bd823c8522dcd97b392a311143899a" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>EXPLOSION</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a6157eca20fd5ef5b2eef10a6a5653bb5" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>PLANE</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a785afdfddbfc526c6e2f8189a8b21f2c" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>PLANE_R</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a73a3d037ff2a6375636577dfc8c7e21a" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>SATELLITE</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a66d1916b4fe191bfe27fd75365546575" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>SEA</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a5436979ce703e4aa2f7ed163660135a1" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>SKY</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1a5d032df161cf5f1794baf0acaa54ae3b" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>SUBMARINE</name></member>
+      <member refid="classgame_1_1module_1_1sprite_1_1_asset_1aaca127f0b4c92eb11eb9e0771cd63ef1" prot="public" virt="non-virtual"><scope>game::module::sprite::Asset</scope><name>SUBMARINE_R</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_e0ddbd0cdfcafb5a6b9812d215348823" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level</compoundname>
+    <innerfile refid="_abstract_level_8java">AbstractLevel.java</innerfile>
+    <innerfile refid="_function_generator_config_8java">FunctionGeneratorConfig.java</innerfile>
+    <innerfile refid="_level_8java">Level.java</innerfile>
+    <innerfile refid="_level1_8java">Level1.java</innerfile>
+    <innerfile refid="_level2_8java">Level2.java</innerfile>
+    <innerfile refid="_level3_8java">Level3.java</innerfile>
+    <innerfile refid="_level4_8java">Level4.java</innerfile>
+    <innerfile refid="_linear_function_generator_8java">LinearFunctionGenerator.java</innerfile>
+    <innerfile refid="_submit_object_8java">SubmitObject.java</innerfile>
+    <innerfile refid="_submit_type_8java">SubmitType.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/"/>
+  </compounddef>
+</doxygen>

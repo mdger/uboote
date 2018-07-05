@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_level_renderer_8java" kind="file" language="Java">
+    <compoundname>LevelRenderer.java</compoundname>
+    <innerclass refid="interfacegame_1_1gui_1_1level_1_1_level_renderer" prot="public">game::gui::level::LevelRenderer</innerclass>
+    <innernamespace refid="namespacegame_1_1gui_1_1level">game::gui::level</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.gui.level;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegame" kindref="compound">game</ref>.<ref refid="namespacegame_1_1controller" kindref="compound">controller</ref>.<ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="interfacegame_1_1gui_1_1level_1_1_level_renderer" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacegame_1_1gui_1_1level_1_1_level_renderer" kindref="compound">LevelRenderer</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacegame_1_1gui_1_1level_1_1_level_renderer_1a5f2d98fc7dc473b848cf4cdd7d387307" kindref="member">draw</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelRenderer.java"/>
+  </compounddef>
+</doxygen>

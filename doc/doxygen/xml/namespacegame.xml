@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame" kind="namespace" language="Java">
+    <compoundname>game</compoundname>
+    <innerclass refid="classgame_1_1_main" prot="public">game::Main</innerclass>
+    <innernamespace refid="namespacegame_1_1controller">game::controller</innernamespace>
+    <innernamespace refid="namespacegame_1_1gui">game::gui</innernamespace>
+    <innernamespace refid="namespacegame_1_1level">game::level</innernamespace>
+    <innernamespace refid="namespacegame_1_1module">game::module</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

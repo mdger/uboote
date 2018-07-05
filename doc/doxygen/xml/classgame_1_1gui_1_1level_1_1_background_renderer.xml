@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1level_1_1_background_renderer" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::level::BackgroundRenderer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Canvas</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a08ba299b0643907dcc637d5961aae7e3" prot="private" static="no" mutable="no">
+        <type>Transition</type>
+        <definition>Transition game.gui.level.BackgroundRenderer.coordinateSpaceTransition</definition>
+        <argsstring></argsstring>
+        <name>coordinateSpaceTransition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="17" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_background_renderer_1acb000487a30d7e08392a3ee9e017c138" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer" kindref="compound">LevelAnimationRenderer</ref></type>
+        <definition>LevelAnimationRenderer game.gui.level.BackgroundRenderer.animation</definition>
+        <argsstring></argsstring>
+        <name>animation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1aedbc55bd84f787e0b5936b1dba6318b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.gui.level.BackgroundRenderer.BackgroundRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>BackgroundRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a7e96b55bf4c29ce1f599faaad3ec317a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.BackgroundRenderer.initializeBackground</definition>
+        <argsstring>()</argsstring>
+        <name>initializeBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="24" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="24" bodyend="40"/>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a48d195c17caccec1922b68facb679648" compoundref="_draw2_d_helper_8java" startline="27" endline="96">game.gui.util.Draw2DHelper.drawCoordinateSpace</references>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1aabd3f6a526cb129d1d9c069387605bad" compoundref="_level_controller_8java" startline="49" endline="59">game.controller.LevelController.LevelController</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a3d0fda1ff8d32f49b033a4e9662ee4a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.BackgroundRenderer.stopBackgroundAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>stopBackgroundAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="42" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a52dc459de7595ee1fbbca61749ec76ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.BackgroundRenderer.setAnimation</definition>
+        <argsstring>(LevelAnimationRenderer animation)</argsstring>
+        <name>setAnimation</name>
+        <param>
+          <type><ref refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer" kindref="compound">LevelAnimationRenderer</ref></type>
+          <declname>animation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="46" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a91fe1a3e0db7af9c7a8e2843171e38ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.BackgroundRenderer.startAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>startAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="50" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="50" bodyend="52"/>
+        <references refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a81ae59a8a1da8d88275761dab28dd704">game.gui.level.LevelAnimationRenderer.startAnimation</references>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1ab727da313524d054d718cf9c35ad1df9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.BackgroundRenderer.stopAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>stopAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="55" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="55" bodyend="57"/>
+        <references refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer_1a7840870adfde1d451aa5773c6786fd00">game.gui.level.LevelAnimationRenderer.stopAnimation</references>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a5902d8d1b31bec854627930f8049ee64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.gui.level.BackgroundRenderer.isResizable</definition>
+        <argsstring>()</argsstring>
+        <name>isResizable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="60" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1a6856b05283f5c587306dd24ab3f3920b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.gui.level.BackgroundRenderer.prefWidth</definition>
+        <argsstring>(double height)</argsstring>
+        <name>prefWidth</name>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="65" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_background_renderer_1af8a31e46f9c0a74d0cdb45c7117ff9ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.gui.level.BackgroundRenderer.prefHeight</definition>
+        <argsstring>(double width)</argsstring>
+        <name>prefHeight</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="70" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>game.gui.level.BackgroundRenderer</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_background_renderer"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Canvas</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>game.gui.level.BackgroundRenderer</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_background_renderer"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Canvas</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" line="15" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/BackgroundRenderer.java" bodystart="15" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1acb000487a30d7e08392a3ee9e017c138" prot="private" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>animation</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1aedbc55bd84f787e0b5936b1dba6318b1" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>BackgroundRenderer</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a08ba299b0643907dcc637d5961aae7e3" prot="private" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>coordinateSpaceTransition</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a7e96b55bf4c29ce1f599faaad3ec317a" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>initializeBackground</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a5902d8d1b31bec854627930f8049ee64" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>isResizable</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1af8a31e46f9c0a74d0cdb45c7117ff9ea" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>prefHeight</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a6856b05283f5c587306dd24ab3f3920b" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>prefWidth</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a52dc459de7595ee1fbbca61749ec76ed" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>setAnimation</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a91fe1a3e0db7af9c7a8e2843171e38ce" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>startAnimation</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1ab727da313524d054d718cf9c35ad1df9" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>stopAnimation</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a3d0fda1ff8d32f49b033a4e9662ee4a2" prot="public" virt="non-virtual"><scope>game::gui::level::BackgroundRenderer</scope><name>stopBackgroundAnimation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

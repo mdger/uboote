@@ -1,0 +1,4 @@
+<map id="game.controller.GameController.setCurrentLevel" name="game.controller.GameController.setCurrentLevel">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_game_renderer.html#a6102863ecdfcff54be1aba0e6eb66ac0" title="game.gui.component.GameRenderer.redraw" alt="" coords="280,13,556,39"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_level_intro_box.html#a41285c34741543da3d1b3a8ad91d2fd0" title="game.gui.component.Level\lIntroBox.display" alt="" coords="604,5,780,47"/>
+</map>

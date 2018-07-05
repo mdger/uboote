@@ -1,0 +1,5 @@
+<map id="game.controller.GameController.changed" name="game.controller.GameController.changed">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_game_renderer.html#a49144a95b8d5fda1ee35d9a85299187c" title="game.gui.component.GameRenderer.get\lLevelProgressRenderer" alt="" coords="322,5,578,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_game_renderer.html#a6102863ecdfcff54be1aba0e6eb66ac0" title="game.gui.component.GameRenderer.redraw" alt="" coords="312,71,588,98"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_level_intro_box.html#a41285c34741543da3d1b3a8ad91d2fd0" title="game.gui.component.Level\lIntroBox.display" alt="" coords="636,64,812,105"/>
+</map>

@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1controller_1_1_level_controller" kind="class" language="Java" prot="public">
+    <compoundname>game::controller::LevelController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Observable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1affac3be780ea6a8884c3e70a6e71a1cd" prot="private" static="no" mutable="no">
+        <type>IntegerProperty</type>
+        <definition>IntegerProperty game.controller.LevelController.successfulHits</definition>
+        <argsstring></argsstring>
+        <name>successfulHits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="40" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1af16b0ee89f747061be4a3e898c4b105f" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1level_1_1_abstract_level" kindref="compound">AbstractLevel</ref></type>
+        <definition>AbstractLevel game.controller.LevelController.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="41" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1a6e71f1b4b71641df46342c8175b84f63" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kindref="compound">AbstractLevelRenderer</ref></type>
+        <definition>AbstractLevelRenderer game.controller.LevelController.playerInputRenderer</definition>
+        <argsstring></argsstring>
+        <name>playerInputRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="42" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1a63d5f7f91798b2e02daf67fb9cf2bab8" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1gui_1_1level_1_1_background_renderer" kindref="compound">BackgroundRenderer</ref></type>
+        <definition>BackgroundRenderer game.controller.LevelController.backgroundRenderer</definition>
+        <argsstring></argsstring>
+        <name>backgroundRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="43" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1ab4c493927827baf8bbcbef0625b0e6ec" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1gui_1_1component_1_1_abstract_player_input" kindref="compound">AbstractPlayerInput</ref></type>
+        <definition>AbstractPlayerInput game.controller.LevelController.playerInput</definition>
+        <argsstring></argsstring>
+        <name>playerInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="44" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1aecf376a275e9af9a4ce08f2e9ed30ce0" prot="private" static="no" mutable="no">
+        <type>Pane</type>
+        <definition>Pane game.controller.LevelController.gameWrapper</definition>
+        <argsstring></argsstring>
+        <name>gameWrapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="46" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1controller_1_1_level_controller_1a019d447229b4cce1da03c6434b50a87b" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classgame_1_1controller_1_1_game_controller" kindref="compound">GameController</ref></type>
+        <definition>final GameController game.controller.LevelController.gameController</definition>
+        <argsstring></argsstring>
+        <name>gameController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="47" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1aabd3f6a526cb129d1d9c069387605bad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.controller.LevelController.LevelController</definition>
+        <argsstring>(GameController gameController)</argsstring>
+        <name>LevelController</name>
+        <param>
+          <type><ref refid="classgame_1_1controller_1_1_game_controller" kindref="compound">GameController</ref></type>
+          <declname>gameController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="49" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="49" bodyend="59"/>
+        <references refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a7e96b55bf4c29ce1f599faaad3ec317a" compoundref="_background_renderer_8java" startline="24" endline="40">game.gui.level.BackgroundRenderer.initializeBackground</references>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a517d132652d85af4df1be0f837c445a0" compoundref="_level_controller_8java" startline="65" endline="71">game.controller.LevelController.buildLevel</references>
+        <references refid="enumgame_1_1controller_1_1_level_state_1add50797f92ff029912dc0c5e0e78232b" compoundref="_level_state_8java" startline="10">game.controller.LevelState.LEVEL_2</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a517d132652d85af4df1be0f837c445a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.buildLevel</definition>
+        <argsstring>(LevelState state)</argsstring>
+        <name>buildLevel</name>
+        <param>
+          <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds a fully functional game level which is comprised of a renderer, a player input and level object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the level to use for building the level </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="65" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="65" bodyend="71"/>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1aabd3f6a526cb129d1d9c069387605bad" compoundref="_level_controller_8java" startline="49" endline="59">game.controller.LevelController.LevelController</referencedby>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1aec1b2f57f39c4ed0440c68f0186730cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Node</type>
+        <definition>Node game.controller.LevelController.getPlayerInput</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayerInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the current player input </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="218" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="218" bodyend="220"/>
+        <references refid="interfacegame_1_1gui_1_1component_1_1_player_input_1a939ff50b98859d7399a950557be8cc1b">game.gui.component.PlayerInput.getSubmitInput</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a886d8f110e9715820908661a7d41da06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Pane</type>
+        <definition>Pane game.controller.LevelController.getWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>getWrapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the container of the renderer than the renderer by itself The wrapper itself is responsible for the dynamic resizing functionality </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="227" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="227" bodyend="229"/>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1ab17318f0b8df982e28db45dfa95b80dc" compoundref="_game_controller_8java" startline="28" endline="42">game.controller.GameController.GameController</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a55b00aa949b23eaa1fea222efee32a37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kindref="compound">AbstractLevelRenderer</ref></type>
+        <definition>AbstractLevelRenderer game.controller.LevelController.getLevelRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>getLevelRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the container of the renderer than the renderer by itself The wrapper itself is responsible for the dynamic resizing functionality </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="236" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="236" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a04f8a173008e1bca63ae4debd8aea102" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Canvas</type>
+        <definition>Canvas game.controller.LevelController.getBackground</definition>
+        <argsstring>()</argsstring>
+        <name>getBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the <computeroutput>BackgroundRenderer</computeroutput> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="244" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="244" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a10936b040e05770bedee624c5722fcb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1level_1_1_abstract_level" kindref="compound">AbstractLevel</ref></type>
+        <definition>AbstractLevel game.controller.LevelController.getLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the current level object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="252" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="252" bodyend="254"/>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1ab17318f0b8df982e28db45dfa95b80dc" compoundref="_game_controller_8java" startline="28" endline="42">game.controller.GameController.GameController</referencedby>
+        <referencedby refid="classgame_1_1controller_1_1_game_controller_1aed0e9f57b2d5a8cd736e1eb54db09189" compoundref="_game_controller_8java" startline="49" endline="54">game.controller.GameController.onLevelCompleted</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" compoundref="_client_8java" startline="32" endline="71">game.gui.Client.start</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_depth_1a4a3cf9654dffdec0e5ce76884d7bc98c" compoundref="_player_input_point_depth_8java" startline="14" endline="21">game.gui.component.PlayerInputPointDepth.submitFunction</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a5e628c7cc24b9f7d63358d909c3db58a" compoundref="_player_input_point_distance_8java" startline="62" endline="69">game.gui.component.PlayerInputPointDistance.submitFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.onInputSubmit</definition>
+        <argsstring>(SubmitObject submit)</argsstring>
+        <name>onInputSubmit</name>
+        <param>
+          <type><ref refid="classgame_1_1level_1_1_submit_object" kindref="compound">SubmitObject</ref></type>
+          <declname>submit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this method is triggered, when a submit is entered to be validated. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>submit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="260" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="260" bodyend="291"/>
+        <references refid="classgame_1_1level_1_1_abstract_level_1a63fcb188d803ef8b9fc5d0a1b08d55e2" compoundref="_abstract_level_8java" startline="32" endline="45">game.level.AbstractLevel.validate</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_status_message_1a8b83b27b4d2f505ac901e2f08fa6d5eb" compoundref="_status_message_8java" startline="26" endline="28">game.gui.component.StatusMessage.display</references>
+        <references refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1a9787be8afbe6223224dd68f1b1905e13" compoundref="_status_message_type_8java" startline="8">game.gui.component.StatusMessageType.TYPE_CORRECT</references>
+        <references refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a91fe1a3e0db7af9c7a8e2843171e38ce" compoundref="_background_renderer_8java" startline="50" endline="52">game.gui.level.BackgroundRenderer.startAnimation</references>
+        <references refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa346342b171eda8acdc946f672220e3a" compoundref="_abstract_level_renderer_8java" startline="62" endline="69">game.gui.level.AbstractLevelRenderer.redraw</references>
+        <references refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1ab441d3d506c1d80e9b5d240821fab1f9" compoundref="_status_message_type_8java" startline="9">game.gui.component.StatusMessageType.TYPE_WRONG</references>
+        <references refid="interfacegame_1_1level_1_1_level_1af504eb291175b4b9e22bbfec2b68518f">game.level.Level.getWinCondition</references>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a517d132652d85af4df1be0f837c445a0" compoundref="_level_controller_8java" startline="65" endline="71">game.controller.LevelController.buildLevel</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a698a487f79bbdb882750783e5b3cfbe9">game.level.Level.getNextLevelState</references>
+        <references refid="classgame_1_1controller_1_1_game_controller_1aed0e9f57b2d5a8cd736e1eb54db09189" compoundref="_game_controller_8java" startline="49" endline="54">game.controller.GameController.onLevelCompleted</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a214aee78ff0d34cfea14b28d4ce254fe">game.level.Level.getCurrentState</references>
+        <references refid="classgame_1_1gui_1_1level_1_1_background_renderer_1ab727da313524d054d718cf9c35ad1df9" compoundref="_background_renderer_8java" startline="55" endline="57">game.gui.level.BackgroundRenderer.stopAnimation</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a6b50b43383c415ee37fb7631bd6a3a3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1gui_1_1level_1_1_background_renderer" kindref="compound">BackgroundRenderer</ref></type>
+        <definition>BackgroundRenderer game.controller.LevelController.getBackgroundLayer</definition>
+        <argsstring>()</argsstring>
+        <name>getBackgroundLayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the background and animation canvas </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="298" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="298" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a7ee62a4510c9e87442d1fa9f0a6b9917" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.setLevelByLevelState</definition>
+        <argsstring>(LevelState state)</argsstring>
+        <name>setLevelByLevelState</name>
+        <param>
+          <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instantiates a new <computeroutput>Level</computeroutput> object. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the level to use for building the level </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="77" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="77" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1ae685d8a5695ff2b3bdab3dca5145f22f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.setRendererByLevelState</definition>
+        <argsstring>(LevelState state)</argsstring>
+        <name>setRendererByLevelState</name>
+        <param>
+          <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instantiates a new <computeroutput>AbstractLevelRenderer</computeroutput> object by level and binds the <computeroutput>BackgroundRenderer</computeroutput> to the game´s wrapper. The bindings are necessary to set the canvas´ size according to the client´s current window size. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the level to use for building the renderer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="105" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="105" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a1572fbc8a68c47d92842d691468862f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.setPlayerInputByLevelState</definition>
+        <argsstring>(LevelState state)</argsstring>
+        <name>setPlayerInputByLevelState</name>
+        <param>
+          <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initializes the required input for solving the level <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the level to use for building the player input </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="151" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="151" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a3e476c947e1d8713bb8deda1fa626ccc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.setAnimationRendererByLevelState</definition>
+        <argsstring>(LevelState state)</argsstring>
+        <name>setAnimationRendererByLevelState</name>
+        <param>
+          <type><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the Animation which is played after a correct player input <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the level to use for building the level </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="180" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="180" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1controller_1_1_level_controller_1a1592e5bfd5dbd5b4f34f3936ceb84cc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.controller.LevelController.resetGameController</definition>
+        <argsstring>()</argsstring>
+        <name>resetGameController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When a level is finished, the wrapper and input need to reset to the layout </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="209" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="209" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="classgame_1_1controller_1_1_level_controller" kindref="compound">LevelController</ref></computeroutput> keeps state of the current level and delegates render logic to the <computeroutput>AbstractLevelRenderer</computeroutput>. <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="120">
+        <label>Observable</label>
+      </node>
+      <node id="119">
+        <label>game.controller.LevelController</label>
+        <link refid="classgame_1_1controller_1_1_level_controller"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="122">
+        <label>Observable</label>
+      </node>
+      <node id="121">
+        <label>game.controller.LevelController</label>
+        <link refid="classgame_1_1controller_1_1_level_controller"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" line="39" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelController.java" bodystart="39" bodyend="301"/>
+    <listofallmembers>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a63d5f7f91798b2e02daf67fb9cf2bab8" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>backgroundRenderer</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a517d132652d85af4df1be0f837c445a0" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>buildLevel</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a019d447229b4cce1da03c6434b50a87b" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>gameController</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1aecf376a275e9af9a4ce08f2e9ed30ce0" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>gameWrapper</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a04f8a173008e1bca63ae4debd8aea102" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>getBackground</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a6b50b43383c415ee37fb7631bd6a3a3d" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>getBackgroundLayer</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a10936b040e05770bedee624c5722fcb2" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>getLevel</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a55b00aa949b23eaa1fea222efee32a37" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>getLevelRenderer</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1aec1b2f57f39c4ed0440c68f0186730cf" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>getPlayerInput</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a886d8f110e9715820908661a7d41da06" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>getWrapper</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1af16b0ee89f747061be4a3e898c4b105f" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>level</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1aabd3f6a526cb129d1d9c069387605bad" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>LevelController</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" prot="public" virt="non-virtual"><scope>game::controller::LevelController</scope><name>onInputSubmit</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1ab4c493927827baf8bbcbef0625b0e6ec" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>playerInput</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a6e71f1b4b71641df46342c8175b84f63" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>playerInputRenderer</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a1592e5bfd5dbd5b4f34f3936ceb84cc5" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>resetGameController</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a3e476c947e1d8713bb8deda1fa626ccc" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>setAnimationRendererByLevelState</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a7ee62a4510c9e87442d1fa9f0a6b9917" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>setLevelByLevelState</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1a1572fbc8a68c47d92842d691468862f0" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>setPlayerInputByLevelState</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1ae685d8a5695ff2b3bdab3dca5145f22f" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>setRendererByLevelState</name></member>
+      <member refid="classgame_1_1controller_1_1_level_controller_1affac3be780ea6a8884c3e70a6e71a1cd" prot="private" virt="non-virtual"><scope>game::controller::LevelController</scope><name>successfulHits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

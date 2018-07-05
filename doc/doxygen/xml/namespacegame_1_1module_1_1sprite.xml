@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1module_1_1sprite" kind="namespace" language="Java">
+    <compoundname>game::module::sprite</compoundname>
+    <innerclass refid="classgame_1_1module_1_1sprite_1_1_asset" prot="public">game::module::sprite::Asset</innerclass>
+    <innerclass refid="classgame_1_1module_1_1sprite_1_1_sprite" prot="public">game::module::sprite::Sprite</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite/Asset.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

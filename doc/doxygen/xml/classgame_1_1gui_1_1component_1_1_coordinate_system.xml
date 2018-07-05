@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1component_1_1_coordinate_system" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::component::CoordinateSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Group</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_coordinate_system_1a98983e2e455a27ff6d4e438aa1be0c1a" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.CoordinateSystem.coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="19" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_coordinate_system_1aaf2fa352a7f8d75eb3afcc55dff7a805" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.CoordinateSystem.lineStart</definition>
+        <argsstring></argsstring>
+        <name>lineStart</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="21" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1component_1_1_coordinate_system_1ac7474a991da50af98846cd80712c60b7" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacegame_1_1level_1_1_level" kindref="compound">Level</ref></type>
+        <definition>Level game.gui.component.CoordinateSystem.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="23" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_coordinate_system_1a37cdb913f0bba17b9d78d44ce7dc27d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.gui.component.CoordinateSystem.CoordinateSystem</definition>
+        <argsstring>(int cellSize)</argsstring>
+        <name>CoordinateSystem</name>
+        <param>
+          <type>int</type>
+          <declname>cellSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor initializes the coordinate system</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cellSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of a single grid cell </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>drawingMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="32" bodyend="87"/>
+        <references refid="interfacegame_1_1level_1_1_level_1a3b0563dd06d2fc62a581d7744647a430">game.level.Level.buildIO</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a67d17d116d12eee89811fd89069eae79" compoundref="_coordinate_system_8java" startline="99" endline="158">game.gui.component.CoordinateSystem.redraw</references>
+        <references refid="interfacegame_1_1level_1_1_level_1ab66c89120396fc45afd507827b904dd7">game.level.Level.allowDrawLine</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a1c038d690944d55b3d49b3bf757f46bc" compoundref="_coordinate_system_8java" startline="89" endline="97">game.gui.component.CoordinateSystem.pointToCoordinate</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a326a641f063fe21250b64fc8192d89ff">game.level.Level.onLineDrawn</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a919d446b78d93af678d061ad941e0922">game.level.Level.addObserver</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_coordinate_system_1a1c038d690944d55b3d49b3bf757f46bc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.gui.component.CoordinateSystem.pointToCoordinate</definition>
+        <argsstring>(Canvas canvas, double x, double y)</argsstring>
+        <name>pointToCoordinate</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="89" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="89" bodyend="97"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a37cdb913f0bba17b9d78d44ce7dc27d2" compoundref="_coordinate_system_8java" startline="32" endline="87">game.gui.component.CoordinateSystem.CoordinateSystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1component_1_1_coordinate_system_1a67d17d116d12eee89811fd89069eae79" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.component.CoordinateSystem.redraw</definition>
+        <argsstring>(GraphicsContext gc)</argsstring>
+        <name>redraw</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="99" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="99" bodyend="158"/>
+        <references refid="interfacegame_1_1level_1_1_level_1ab66c89120396fc45afd507827b904dd7">game.level.Level.allowDrawLine</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a37cdb913f0bba17b9d78d44ce7dc27d2" compoundref="_coordinate_system_8java" startline="32" endline="87">game.gui.component.CoordinateSystem.CoordinateSystem</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>Group</label>
+      </node>
+      <node id="18">
+        <label>game.gui.component.CoordinateSystem</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_coordinate_system"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>Group</label>
+      </node>
+      <node id="20">
+        <label>game.gui.component.CoordinateSystem</label>
+        <link refid="classgame_1_1gui_1_1component_1_1_coordinate_system"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" line="17" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/CoordinateSystem.java" bodystart="17" bodyend="160"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a98983e2e455a27ff6d4e438aa1be0c1a" prot="private" virt="non-virtual"><scope>game::gui::component::CoordinateSystem</scope><name>coordinate</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a37cdb913f0bba17b9d78d44ce7dc27d2" prot="public" virt="non-virtual"><scope>game::gui::component::CoordinateSystem</scope><name>CoordinateSystem</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1ac7474a991da50af98846cd80712c60b7" prot="private" virt="non-virtual"><scope>game::gui::component::CoordinateSystem</scope><name>level</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1aaf2fa352a7f8d75eb3afcc55dff7a805" prot="private" virt="non-virtual"><scope>game::gui::component::CoordinateSystem</scope><name>lineStart</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a1c038d690944d55b3d49b3bf757f46bc" prot="protected" virt="non-virtual"><scope>game::gui::component::CoordinateSystem</scope><name>pointToCoordinate</name></member>
+      <member refid="classgame_1_1gui_1_1component_1_1_coordinate_system_1a67d17d116d12eee89811fd89069eae79" prot="protected" virt="non-virtual"><scope>game::gui::component::CoordinateSystem</scope><name>redraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

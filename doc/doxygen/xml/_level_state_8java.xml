@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_level_state_8java" kind="file" language="Java">
+    <compoundname>LevelState.java</compoundname>
+    <innerclass refid="enumgame_1_1controller_1_1_level_state" prot="public">game::controller::LevelState</innerclass>
+    <innernamespace refid="namespacegame_1_1controller">game::controller</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.controller;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="enumgame_1_1controller_1_1_level_state" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enumgame_1_1controller_1_1_level_state" kindref="compound">LevelState</ref><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="enumgame_1_1controller_1_1_level_state_1a5ce0000eda8930631c278043c807157a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1controller_1_1_level_state_1a5ce0000eda8930631c278043c807157a" kindref="member">LEVEL_1</ref>,</highlight></codeline>
+<codeline lineno="10" refid="enumgame_1_1controller_1_1_level_state_1add50797f92ff029912dc0c5e0e78232b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1controller_1_1_level_state_1add50797f92ff029912dc0c5e0e78232b" kindref="member">LEVEL_2</ref>,</highlight></codeline>
+<codeline lineno="11" refid="enumgame_1_1controller_1_1_level_state_1aac8510616edda430d9f7562318a9219b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1controller_1_1_level_state_1aac8510616edda430d9f7562318a9219b" kindref="member">LEVEL_3</ref>,</highlight></codeline>
+<codeline lineno="12" refid="enumgame_1_1controller_1_1_level_state_1a7727e95ab5c7898a15c558587032c03e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1controller_1_1_level_state_1a7727e95ab5c7898a15c558587032c03e" kindref="member">LEVEL_4</ref>,</highlight></codeline>
+<codeline lineno="13" refid="enumgame_1_1controller_1_1_level_state_1a0397374c9f12d3a678d07242dc53ff83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1controller_1_1_level_state_1a0397374c9f12d3a678d07242dc53ff83" kindref="member">LEVEL_END</ref>,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/LevelState.java"/>
+  </compounddef>
+</doxygen>

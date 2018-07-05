@@ -1,0 +1,4 @@
+<map id="game.gui.component.PlayerInputLinearFunction" name="game.gui.component.PlayerInputLinearFunction">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_abstract_player_input.html" title="game.gui.component.Abstract\lPlayerInput" alt="" coords="101,95,297,136"/>
+<area shape="rect" id="node3" href="$interfacegame_1_1gui_1_1component_1_1_player_input.html" title="game.gui.component.Player\lInput" alt="" coords="5,5,189,47"/>
+</map>

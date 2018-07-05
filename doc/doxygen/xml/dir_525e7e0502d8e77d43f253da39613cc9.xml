@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_525e7e0502d8e77d43f253da39613cc9" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module</compoundname>
+    <innerdir refid="dir_e0f7d18f9d4cf6b3af301f6a17a7d201">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry</innerdir>
+    <innerdir refid="dir_731473d05eb3317c53bbdbc8d8768909">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math</innerdir>
+    <innerdir refid="dir_66416a4bfdfd9819dda53c77bf7bb7a7">C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/sprite</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/"/>
+  </compounddef>
+</doxygen>

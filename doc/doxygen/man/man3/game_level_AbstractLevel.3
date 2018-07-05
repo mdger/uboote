@@ -1,0 +1,79 @@
+.TH "game.level.AbstractLevel" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.level.AbstractLevel
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBgame\&.level\&.Level\fP\&.
+.PP
+Inherited by \fBgame\&.level\&.Level1\fP, \fBgame\&.level\&.Level2\fP, \fBgame\&.level\&.Level3\fP, and \fBgame\&.level\&.Level4\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLinearFunction\fP \fBgetFunction\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetFunction\fP (\fBLinearFunction\fP function)"
+.br
+.ti -1c
+.RI "boolean \fBvalidate\fP (\fBSubmitObject\fP submit)"
+.br
+.ti -1c
+.RI "Node \fBgetBriefing\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBgetLevelByLevelState\fP (\fBLevelState\fP levelState)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+An \fC\fBAbstractLevel\fP\fP object provides the responsible data for generating a new level, e\&.g\&. win condition of a level, tutorial message for the player and validates input data from the player\&. 
+.br
+ One class extending from \fC\fBAbstractLevel\fP\fP represents one level\&. To implement a new level, the methods from \fC\fBLevel\fP\fP need to be implemented
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file AbstractLevel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Node game\&.level\&.AbstractLevel\&.getBriefing ()"
+
+.PP
+Implements \fBgame\&.level\&.Level\fP\&.
+.PP
+Definition at line 93 of file AbstractLevel\&.java\&.
+.SS "\fBLinearFunction\fP game\&.level\&.AbstractLevel\&.getFunction ()"
+
+.PP
+Definition at line 23 of file AbstractLevel\&.java\&.
+.SS "static int game\&.level\&.AbstractLevel\&.getLevelByLevelState (\fBLevelState\fP levelState)\fC [static]\fP"
+
+.PP
+Definition at line 65 of file AbstractLevel\&.java\&.
+.SS "void game\&.level\&.AbstractLevel\&.setFunction (\fBLinearFunction\fP function)"
+
+.PP
+Definition at line 27 of file AbstractLevel\&.java\&.
+.SS "boolean game\&.level\&.AbstractLevel\&.validate (\fBSubmitObject\fP submit)"
+
+.PP
+Implements \fBgame\&.level\&.Level\fP\&.
+.PP
+Definition at line 32 of file AbstractLevel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1level_1_1_submit_object" kind="class" language="Java" prot="public">
+    <compoundname>game::level::SubmitObject</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1level_1_1_submit_object_1a20a2f42c33ffc89b6d7dfb62e6eb86ab" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T game.level.SubmitObject&lt; T &gt;.submitObject</definition>
+        <argsstring></argsstring>
+        <name>submitObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_object_1a3732b8d8cd64b0d169227c01f4c0b7a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.level.SubmitObject&lt; T &gt;.SubmitObject</definition>
+        <argsstring>(T function)</argsstring>
+        <name>SubmitObject</name>
+        <param>
+          <type>T</type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" line="13" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_submit_object_1a03c3f4a485bbc6ffa800666df6569205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T game.level.SubmitObject&lt; T &gt;.getSubmit</definition>
+        <argsstring>()</argsstring>
+        <name>getSubmit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" line="17" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" bodystart="17" bodyend="19"/>
+        <referencedby refid="classgame_1_1level_1_1_abstract_level_1a63fcb188d803ef8b9fc5d0a1b08d55e2" compoundref="_abstract_level_8java" startline="32" endline="45">game.level.AbstractLevel.validate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/SubmitObject.java" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classgame_1_1level_1_1_submit_object_1a03c3f4a485bbc6ffa800666df6569205" prot="public" virt="non-virtual"><scope>game::level::SubmitObject</scope><name>getSubmit</name></member>
+      <member refid="classgame_1_1level_1_1_submit_object_1a20a2f42c33ffc89b6d7dfb62e6eb86ab" prot="private" virt="non-virtual"><scope>game::level::SubmitObject</scope><name>submitObject</name></member>
+      <member refid="classgame_1_1level_1_1_submit_object_1a3732b8d8cd64b0d169227c01f4c0b7a2" prot="public" virt="non-virtual"><scope>game::level::SubmitObject</scope><name>SubmitObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

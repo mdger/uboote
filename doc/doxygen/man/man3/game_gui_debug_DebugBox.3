@@ -1,0 +1,100 @@
+.TH "game.gui.debug.DebugBox" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.gui.debug.DebugBox
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Application\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBstart\fP (Stage primaryStage)  throws Exception "
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBdisplay\fP (Stage parentWindow)"
+.br
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBDEBUG_CANVAS\fP = 'Debug Canvas'"
+.br
+.ti -1c
+.RI "static final String \fBDEBUG_GROUP\fP = 'Debug Group'"
+.br
+.ti -1c
+.RI "static final String \fBDEBUG_ANIMATION\fP = 'Debug Animation'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A Debug Mode / Sandbox to spawn different GUI implementations to test with\&. 
+.br
+ It is integrated into the client itself but can also be started standalone\&. 
+.br
+ To do this, just run this file by itself by starting the main method\&. 
+.br
+ In Netbeans right click on this file and select 'Run File\&.\&.\&.' or press SHIFT + F6 
+.br
+.PP
+To add more options, you should add a new constant and add it to getDebugOptions() as well\&. See DEBUG_CANVAS
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 26 of file DebugBox\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static void game\&.gui\&.debug\&.DebugBox\&.display (Stage parentWindow)\fC [static]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIparentWindow\fP 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file DebugBox\&.java\&.
+.SS "static void game\&.gui\&.debug\&.DebugBox\&.main (String [] args)\fC [static]\fP"
+
+.PP
+Definition at line 68 of file DebugBox\&.java\&.
+.SS "void game\&.gui\&.debug\&.DebugBox\&.start (Stage primaryStage) throws Exception"
+
+.PP
+Definition at line 73 of file DebugBox\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final String game\&.gui\&.debug\&.DebugBox\&.DEBUG_ANIMATION = 'Debug Animation'\fC [static]\fP"
+
+.PP
+Definition at line 32 of file DebugBox\&.java\&.
+.SS "final String game\&.gui\&.debug\&.DebugBox\&.DEBUG_CANVAS = 'Debug Canvas'\fC [static]\fP"
+
+.PP
+Definition at line 28 of file DebugBox\&.java\&.
+.SS "final String game\&.gui\&.debug\&.DebugBox\&.DEBUG_GROUP = 'Debug Group'\fC [static]\fP"
+
+.PP
+Definition at line 30 of file DebugBox\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

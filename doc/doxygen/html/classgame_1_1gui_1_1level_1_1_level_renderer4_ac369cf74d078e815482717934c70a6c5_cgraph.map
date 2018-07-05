@@ -1,0 +1,4 @@
+<map id="game.gui.level.LevelRenderer4.drawAfterInput" name="game.gui.level.LevelRenderer4.drawAfterInput">
+<area shape="rect" id="node2" href="$classgame_1_1controller_1_1_level_controller.html#a10936b040e05770bedee624c5722fcb2" title="game.controller.LevelController.get\lLevel" alt="" coords="280,5,501,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1level_1_1_abstract_level.html#a9132f7607476bd0461b22853662b0aaa" title="game.level.AbstractLevel.get\lFunction" alt="" coords="297,71,484,112"/>
+</map>

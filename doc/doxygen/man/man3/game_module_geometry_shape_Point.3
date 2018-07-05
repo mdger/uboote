@@ -1,0 +1,234 @@
+.TH "game.module.geometry.shape.Point" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.module.geometry.shape.Point
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Point2D\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPoint\fP (int x, int y)"
+.br
+.ti -1c
+.RI "void \fBsetLocation\fP (int x, int y)"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBoffsetLocation\fP (int \fBoffsetX\fP, int \fBoffsetY\fP)"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBoffsetX\fP (int offsetX)"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBoffsetY\fP (int offsetY)"
+.br
+.ti -1c
+.RI "void \fBsetLocation\fP (\fBPoint\fP p)"
+.br
+.ti -1c
+.RI "int \fBgetX\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetY\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetX\fP (int x)"
+.br
+.ti -1c
+.RI "void \fBsetY\fP (int y)"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBfactor\fP (int factor)"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBfactor\fP (\fBRational\fP rational)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBPoint\fP\fP class defines a point representing a location in
+.PP
+.nf
+(x,y) 
+
+.fi
+.PP
+ coordinate space\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 14 of file Point\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.module\&.geometry\&.shape\&.Point\&.Point (int x, int y)"
+Constructs and initializes a \fCPoint2D\fP with the specified coordinates\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP the X coordinate of the newly constructed \fCPoint2D\fP 
+.br
+\fIy\fP the Y coordinate of the newly constructed \fCPoint2D\fP 
+.RE
+.PP
+
+.PP
+Definition at line 24 of file Point\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.Point\&.factor (int factor)"
+
+.PP
+Definition at line 111 of file Point\&.java\&.
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.Point\&.factor (\fBRational\fP rational)"
+
+.PP
+Definition at line 115 of file Point\&.java\&.
+.SS "int game\&.module\&.geometry\&.shape\&.Point\&.getX ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+x of point 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file Point\&.java\&.
+.SS "int game\&.module\&.geometry\&.shape\&.Point\&.getY ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+y of point 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file Point\&.java\&.
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.Point\&.offsetLocation (int offsetX, int offsetY)"
+offsets x of \fCPoint2D\fP to the specified \fCfloat\fP coordinates\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoffsetX\fP the new X coordinate of this
+.PP
+.nf
+Point2D 
+
+.fi
+.PP
+ 
+.br
+\fIoffsetY\fP the new Y coordinate of this
+.PP
+.nf
+Point2D 
+
+.fi
+.PP
+ 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 50 of file Point\&.java\&.
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.Point\&.offsetX (int offsetX)"
+Sets the location of this \fCPoint2D\fP to the specified \fCfloat\fP coordinates\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoffsetX\fP the new X coordinate of this
+.PP
+.nf
+Point2D 
+
+.fi
+.PP
+ 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 62 of file Point\&.java\&.
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.Point\&.offsetY (int offsetY)"
+Sets the location of this \fCPoint2D\fP to the specified \fCfloat\fP coordinates\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoffsetY\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 73 of file Point\&.java\&.
+.SS "void game\&.module\&.geometry\&.shape\&.Point\&.setLocation (int x, int y)"
+Sets the location of this \fCPoint2D\fP to the specified \fCfloat\fP coordinates\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP the new X coordinate of this
+.PP
+.nf
+Point2D 
+
+.fi
+.PP
+ 
+.br
+\fIy\fP the new Y coordinate of this
+.PP
+.nf
+Point2D 
+
+.fi
+.PP
+ 
+.RE
+.PP
+
+.PP
+Definition at line 36 of file Point\&.java\&.
+.SS "void game\&.module\&.geometry\&.shape\&.Point\&.setLocation (\fBPoint\fP p)"
+Sets the location of this \fCPoint2D\fP to the same coordinates as the specified \fCPoint2D\fP object\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIp\fP the specified \fCPoint2D\fP to which to set this \fCPoint2D\fP 
+.RE
+.PP
+
+.PP
+Definition at line 83 of file Point\&.java\&.
+.SS "void game\&.module\&.geometry\&.shape\&.Point\&.setX (int x)"
+
+.PP
+Definition at line 103 of file Point\&.java\&.
+.SS "void game\&.module\&.geometry\&.shape\&.Point\&.setY (int y)"
+
+.PP
+Definition at line 107 of file Point\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

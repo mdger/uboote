@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_0c378ec106ae58490ccd3fe7668e86ba" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level</compoundname>
+    <innerfile refid="_abstract_level_renderer_8java">AbstractLevelRenderer.java</innerfile>
+    <innerfile refid="_background_renderer_8java">BackgroundRenderer.java</innerfile>
+    <innerfile refid="_level_animation_renderer_8java">LevelAnimationRenderer.java</innerfile>
+    <innerfile refid="_level_animation_renderer1_8java">LevelAnimationRenderer1.java</innerfile>
+    <innerfile refid="_level_animation_renderer2_8java">LevelAnimationRenderer2.java</innerfile>
+    <innerfile refid="_level_animation_renderer3_8java">LevelAnimationRenderer3.java</innerfile>
+    <innerfile refid="_level_animation_renderer4_8java">LevelAnimationRenderer4.java</innerfile>
+    <innerfile refid="_level_renderer_8java">LevelRenderer.java</innerfile>
+    <innerfile refid="_level_renderer1_8java">LevelRenderer1.java</innerfile>
+    <innerfile refid="_level_renderer2_8java">LevelRenderer2.java</innerfile>
+    <innerfile refid="_level_renderer3_8java">LevelRenderer3.java</innerfile>
+    <innerfile refid="_level_renderer4_8java">LevelRenderer4.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/"/>
+  </compounddef>
+</doxygen>

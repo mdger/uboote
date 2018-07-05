@@ -1,0 +1,6 @@
+<map id="game.gui.component.PlayerInputPoint" name="game.gui.component.PlayerInputPoint">
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1component_1_1_player_input_point_depth.html" title="game.gui.component.Player\lInputPointDepth" alt="" coords="713,5,897,47"/>
+<area shape="rect" id="node6" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html" title="game.gui.component.Player\lInputPointDistance" alt="" coords="713,71,897,112"/>
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_abstract_player_input.html" title="game.gui.component.Abstract\lPlayerInput" alt="" coords="237,39,433,80"/>
+<area shape="rect" id="node3" href="$interfacegame_1_1gui_1_1component_1_1_player_input.html" title="game.gui.component.Player\lInput" alt="" coords="5,5,189,47"/>
+</map>

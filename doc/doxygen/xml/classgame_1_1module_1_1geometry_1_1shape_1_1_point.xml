@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kind="class" language="Java" prot="public">
+    <compoundname>game::module::geometry::shape::Point</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Point2D</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.module.geometry.shape.Point.Point</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Point</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs and initializes a <computeroutput>Point2D</computeroutput> with the specified coordinates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the X coordinate of the newly constructed <computeroutput>Point2D</computeroutput> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Y coordinate of the newly constructed <computeroutput>Point2D</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="24" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="24" bodyend="27"/>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3a8ede125a19fe4e2d6ab1cf615acdef" compoundref="_point_8java" startline="50" endline="52">game.module.geometry.shape.Point.offsetLocation</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a1f2efc83a39628667d9a3e7fe5a5990a" compoundref="_point_8java" startline="62" endline="64">game.module.geometry.shape.Point.offsetX</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a4b123932a0808b256d4cad2f1e82a38d" compoundref="_point_8java" startline="73" endline="75">game.module.geometry.shape.Point.offsetY</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1aeb4ec70a081a4a97eff95fb9b92fa54a" compoundref="_point_8java" startline="111" endline="113">game.module.geometry.shape.Point.factor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1abff3ab60297eb672e33d61c010689c7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.module.geometry.shape.Point.setLocation</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setLocation</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the location of this <computeroutput>Point2D</computeroutput> to the specified <computeroutput>float</computeroutput> coordinates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new X coordinate of this<programlisting><codeline><highlight class="normal">Point2D<sp/></highlight></codeline>
+</programlisting> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new Y coordinate of this<programlisting><codeline><highlight class="normal">Point2D<sp/></highlight></codeline>
+</programlisting> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="36" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="36" bodyend="39"/>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1aa87bce5b062108b59ef684a8866834bc" compoundref="_point_8java" startline="83" endline="85">game.module.geometry.shape.Point.setLocation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3a8ede125a19fe4e2d6ab1cf615acdef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.Point.offsetLocation</definition>
+        <argsstring>(int offsetX, int offsetY)</argsstring>
+        <name>offsetLocation</name>
+        <param>
+          <type>int</type>
+          <declname>offsetX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offsetY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>offsets x of <computeroutput>Point2D</computeroutput> to the specified <computeroutput>float</computeroutput> coordinates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offsetX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new X coordinate of this<programlisting><codeline><highlight class="normal">Point2D<sp/></highlight></codeline>
+</programlisting> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offsetY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new Y coordinate of this<programlisting><codeline><highlight class="normal">Point2D<sp/></highlight></codeline>
+</programlisting> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="50" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="50" bodyend="52"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" compoundref="_point_8java" startline="24" endline="27">game.module.geometry.shape.Point.Point</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a1f2efc83a39628667d9a3e7fe5a5990a" compoundref="_point_8java" startline="62" endline="64">game.module.geometry.shape.Point.offsetX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a4b123932a0808b256d4cad2f1e82a38d" compoundref="_point_8java" startline="73" endline="75">game.module.geometry.shape.Point.offsetY</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a1f2efc83a39628667d9a3e7fe5a5990a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.Point.offsetX</definition>
+        <argsstring>(int offsetX)</argsstring>
+        <name>offsetX</name>
+        <param>
+          <type>int</type>
+          <declname>offsetX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the location of this <computeroutput>Point2D</computeroutput> to the specified <computeroutput>float</computeroutput> coordinates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offsetX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new X coordinate of this<programlisting><codeline><highlight class="normal">Point2D<sp/></highlight></codeline>
+</programlisting> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="62" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="62" bodyend="64"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" compoundref="_point_8java" startline="24" endline="27">game.module.geometry.shape.Point.Point</references>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3a8ede125a19fe4e2d6ab1cf615acdef" compoundref="_point_8java" startline="50" endline="52">game.module.geometry.shape.Point.offsetLocation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a4b123932a0808b256d4cad2f1e82a38d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.Point.offsetY</definition>
+        <argsstring>(int offsetY)</argsstring>
+        <name>offsetY</name>
+        <param>
+          <type>int</type>
+          <declname>offsetY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the location of this <computeroutput>Point2D</computeroutput> to the specified <computeroutput>float</computeroutput> coordinates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offsetY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="73" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="73" bodyend="75"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" compoundref="_point_8java" startline="24" endline="27">game.module.geometry.shape.Point.Point</references>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3a8ede125a19fe4e2d6ab1cf615acdef" compoundref="_point_8java" startline="50" endline="52">game.module.geometry.shape.Point.offsetLocation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1aa87bce5b062108b59ef684a8866834bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.module.geometry.shape.Point.setLocation</definition>
+        <argsstring>(Point p)</argsstring>
+        <name>setLocation</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the location of this <computeroutput>Point2D</computeroutput> to the same coordinates as the specified <computeroutput>Point2D</computeroutput> object. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the specified <computeroutput>Point2D</computeroutput> to which to set this <computeroutput>Point2D</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="83" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="83" bodyend="85"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1abff3ab60297eb672e33d61c010689c7c" compoundref="_point_8java" startline="36" endline="39">game.module.geometry.shape.Point.setLocation</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.geometry.shape.Point.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>x of point </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="91" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="91" bodyend="93"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a56d3f15443fc96122571c151db3624ac" compoundref="_draw2_d_helper_8java" startline="105" endline="116">game.gui.util.Draw2DHelper.drawCross</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1e889476dab091f8884bd3f38ef171ab" compoundref="_draw2_d_helper_8java" startline="126" endline="131">game.gui.util.Draw2DHelper.convertPointToCanvas</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a0311a8c0e33b0c35ca755266bae26946" compoundref="_draw2_d_helper_8java" startline="142" endline="147">game.gui.util.Draw2DHelper.pointToCoordinate</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a7255acd310bd650570a1caf0886ab06b" compoundref="_draw2_d_helper_8java" startline="157" endline="173">game.gui.util.Draw2DHelper.drawLine</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a98cb16ade5d49ee1bf70a4fd0cea1c34" compoundref="_draw2_d_helper_8java" startline="183" endline="193">game.gui.util.Draw2DHelper.drawImage</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" compoundref="_draw2_d_helper_8java" startline="292" endline="294">game.gui.util.Draw2DHelper.normalizePoint</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3753333bf3b1affa1a3e931af4a18498" compoundref="_draw2_d_helper_8java" startline="296" endline="298">game.gui.util.Draw2DHelper.denormalizePoint</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a0c7030be5da014ac6146510186cfc729" compoundref="_linear_function_8java" startline="35" endline="43">game.module.geometry.shape.LinearFunction.LinearFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.geometry.shape.Point.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>y of point </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="99" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="99" bodyend="101"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a56d3f15443fc96122571c151db3624ac" compoundref="_draw2_d_helper_8java" startline="105" endline="116">game.gui.util.Draw2DHelper.drawCross</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1e889476dab091f8884bd3f38ef171ab" compoundref="_draw2_d_helper_8java" startline="126" endline="131">game.gui.util.Draw2DHelper.convertPointToCanvas</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a0311a8c0e33b0c35ca755266bae26946" compoundref="_draw2_d_helper_8java" startline="142" endline="147">game.gui.util.Draw2DHelper.pointToCoordinate</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a7255acd310bd650570a1caf0886ab06b" compoundref="_draw2_d_helper_8java" startline="157" endline="173">game.gui.util.Draw2DHelper.drawLine</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a98cb16ade5d49ee1bf70a4fd0cea1c34" compoundref="_draw2_d_helper_8java" startline="183" endline="193">game.gui.util.Draw2DHelper.drawImage</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" compoundref="_draw2_d_helper_8java" startline="292" endline="294">game.gui.util.Draw2DHelper.normalizePoint</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3753333bf3b1affa1a3e931af4a18498" compoundref="_draw2_d_helper_8java" startline="296" endline="298">game.gui.util.Draw2DHelper.denormalizePoint</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a0c7030be5da014ac6146510186cfc729" compoundref="_linear_function_8java" startline="35" endline="43">game.module.geometry.shape.LinearFunction.LinearFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a529e008db2f98c914d4036b98bb00d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.module.geometry.shape.Point.setX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="103" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="103" bodyend="105"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a5e628c7cc24b9f7d63358d909c3db58a" compoundref="_player_input_point_distance_8java" startline="62" endline="69">game.gui.component.PlayerInputPointDistance.submitFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ad4cfcfb0723562ea03ac511bc0661e94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.module.geometry.shape.Point.setY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="107" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="107" bodyend="109"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_depth_1a4a3cf9654dffdec0e5ce76884d7bc98c" compoundref="_player_input_point_depth_8java" startline="14" endline="21">game.gui.component.PlayerInputPointDepth.submitFunction</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1aeb4ec70a081a4a97eff95fb9b92fa54a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.Point.factor</definition>
+        <argsstring>(int factor)</argsstring>
+        <name>factor</name>
+        <param>
+          <type>int</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="111" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="111" bodyend="113"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" compoundref="_point_8java" startline="24" endline="27">game.module.geometry.shape.Point.Point</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3901016cae265e23330e2e5a09d16c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.Point.factor</definition>
+        <argsstring>(Rational rational)</argsstring>
+        <name>factor</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></type>
+          <declname>rational</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="115" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="115" bodyend="117"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" compoundref="_point_8java" startline="24" endline="27">game.module.geometry.shape.Point.Point</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a327972bb71d3a8d85f9287ab1ebba577" compoundref="_rational_8java" startline="104" endline="106">game.module.math.Rational.getNum</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a2d12d18d1b3078659fcda69a89a37f8b" compoundref="_rational_8java" startline="111" endline="113">game.module.math.Rational.getDen</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></computeroutput> class defines a point representing a location in<programlisting><codeline><highlight class="normal">(x,y)<sp/></highlight></codeline>
+</programlisting> coordinate space.</para><para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>game.module.geometry.shape.Point</label>
+        <link refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>Point2D</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="235">
+        <label>game.module.geometry.shape.Point</label>
+        <link refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>Point2D</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" line="14" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/Point.java" bodystart="14" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1aeb4ec70a081a4a97eff95fb9b92fa54a" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>factor</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3901016cae265e23330e2e5a09d16c3e" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>factor</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>getX</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>getY</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3a8ede125a19fe4e2d6ab1cf615acdef" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>offsetLocation</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a1f2efc83a39628667d9a3e7fe5a5990a" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>offsetX</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a4b123932a0808b256d4cad2f1e82a38d" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>offsetY</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1acdff63540fe3a4fe34b5eb79ba38c053" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>Point</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1abff3ab60297eb672e33d61c010689c7c" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>setLocation</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1aa87bce5b062108b59ef684a8866834bc" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>setLocation</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a529e008db2f98c914d4036b98bb00d20" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>setX</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ad4cfcfb0723562ea03ac511bc0661e94" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::Point</scope><name>setY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

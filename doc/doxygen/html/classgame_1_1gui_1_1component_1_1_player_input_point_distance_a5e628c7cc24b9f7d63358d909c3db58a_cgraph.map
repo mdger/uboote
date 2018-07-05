@@ -1,0 +1,7 @@
+<map id="game.gui.component.PlayerInputPointDistance.submitFunction" name="game.gui.component.PlayerInputPointDistance.submitFunction">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a3fd7a567f72ba8acb131c08a00661624" title="game.gui.component.Player\lInputPointDistance.getFieldInput" alt="" coords="283,5,493,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1controller_1_1_level_controller.html#a10936b040e05770bedee624c5722fcb2" title="game.controller.LevelController.get\lLevel" alt="" coords="277,71,499,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1level_1_1_abstract_level.html#a9132f7607476bd0461b22853662b0aaa" title="game.level.AbstractLevel.get\lFunction" alt="" coords="295,136,481,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function.html#a09636ae32007541e4ba48d430e2ad7ba" title="game.module.geometry.shape.\lLinearFunction.getPointStart" alt="" coords="287,201,489,243"/>
+<area shape="rect" id="node6" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a529e008db2f98c914d4036b98bb00d20" title="game.module.geometry.shape.\lPoint.setX" alt="" coords="287,267,489,308"/>
+</map>

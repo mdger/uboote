@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_95c6c6bca22e173fa159a3c14f57052a" kind="dir">
+    <compoundname>C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape</compoundname>
+    <innerfile refid="_linear_function_8java">LinearFunction.java</innerfile>
+    <innerfile refid="_point_8java">Point.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/"/>
+  </compounddef>
+</doxygen>

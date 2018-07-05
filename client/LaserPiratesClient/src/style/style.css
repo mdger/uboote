@@ -1,0 +1,104 @@
+/* 
+    Author     : yannis.rietdorff
+*/
+
+.root{
+    -fx-font-family: Arial;
+    -fx-font-size: 12px;
+    -fx-font-weigth: bold;
+    -fx-border-color: black;
+    -fx-background-color: #404040;
+    -fx-text-fill: #3CCF02;
+}
+.button{
+    -fx-padding: 10 13 10 13;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #3CCF02;
+    -fx-text-fill: #3CCF02;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);
+    -fx-background-color: black;    
+    -fx-spacing: 50;
+}
+.button:hover{
+    -fx-padding: 10 13 10 13;
+    -fx-border-color: #40ff00;
+    -fx-text-fill: #53ff1a;
+    -fx-font-weight: bold;
+}
+
+#Intro{
+    -fx-background-image: url("/style/splash.jpg");
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+
+#MsgBox{
+   -fx-background-color: #1a1a1a; 
+}
+#MsgBox .label{
+    -fx-text-fill: #3CCF02;
+}
+
+#StatusBar{
+    -fx-background-color: #1a1a1a;
+}
+#StatusBar .label{
+    -fx-text-fill: #3CCF02;
+    -fx-padding: 5;
+}
+
+#LvIntro{
+    -fx-background-color: #494949;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color: black;
+    -fx-text-fill: #3CCF02;
+}
+#LvIntro .label{
+    -fx-text-fill: #3CCF02;
+}
+
+#MainMenu{
+    -fx-background-color: #1a1a1a;
+}
+#MainMenu .label{
+    -fx-text-fill: #3CCF02;
+}
+#MainMenu .menu, .menu-item{
+    -fx-background-color: #1a1a1a;
+    -fx-border-style: solid;
+    -fx-border-size: 1px;
+    -fx-border-color: #3CCF02;
+}
+#MainMenu .menu:hover,.menu-item:hover{
+    -fx-background-color: black;
+}
+
+
+#BottomBar{
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-alignment: center;
+}
+#BottomBar .label{
+    -fx-text-fill: #3CCF02;
+}
+
+
+#Wrapper{
+    -fx-background-image: url("/style/background.jpg");
+    -fx-alignment: center;
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: stretch;
+    -fx-background-position: center center;
+}
+.VBox{
+    -fx-background-color: #494949;
+}
+.VBox .label {
+    -fx-text-fill: #3CCF02;
+}

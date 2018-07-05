@@ -1,0 +1,8 @@
+<map id="game.gui.component.CoordinateSystem.CoordinateSystem" name="game.gui.component.CoordinateSystem.CoordinateSystem">
+<area shape="rect" id="node2" href="$interfacegame_1_1level_1_1_level.html#a3b0563dd06d2fc62a581d7744647a430" title="game.level.Level.buildIO" alt="" coords="287,5,447,32"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_coordinate_system.html#a67d17d116d12eee89811fd89069eae79" title="game.gui.component.Coordinate\lSystem.redraw" alt="" coords="263,57,472,98"/>
+<area shape="rect" id="node4" href="$interfacegame_1_1level_1_1_level.html#ab66c89120396fc45afd507827b904dd7" title="game.level.Level.allowDrawLine" alt="" coords="520,93,723,120"/>
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1component_1_1_coordinate_system.html#a1c038d690944d55b3d49b3bf757f46bc" title="game.gui.component.Coordinate\lSystem.pointToCoordinate" alt="" coords="263,174,472,215"/>
+<area shape="rect" id="node6" href="$interfacegame_1_1level_1_1_level.html#a326a641f063fe21250b64fc8192d89ff" title="game.level.Level.onLineDrawn" alt="" coords="270,240,465,267"/>
+<area shape="rect" id="node7" href="$interfacegame_1_1level_1_1_level.html#a919d446b78d93af678d061ad941e0922" title="game.level.Level.addObserver" alt="" coords="271,291,463,317"/>
+</map>

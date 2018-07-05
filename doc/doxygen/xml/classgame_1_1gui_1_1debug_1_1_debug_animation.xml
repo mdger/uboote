@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1debug_1_1_debug_animation" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::debug::DebugAnimation</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_animation_1a3344836e112afbbd54d3ec0f2e76372b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.debug.DebugAnimation.display</definition>
+        <argsstring>()</argsstring>
+        <name>display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentWindow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugAnimation.java" line="33" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugAnimation.java" bodystart="33" bodyend="69"/>
+        <references refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a6f1435b9a4af6fda8863e2a318f5a6d6" compoundref="_debug_box_8java" startline="32">game.gui.debug.DebugBox.DEBUG_ANIMATION</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugAnimation.java" line="25" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugAnimation.java" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_animation_1a3344836e112afbbd54d3ec0f2e76372b" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugAnimation</scope><name>display</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

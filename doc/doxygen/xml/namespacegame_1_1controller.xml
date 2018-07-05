@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1controller" kind="namespace" language="Java">
+    <compoundname>game::controller</compoundname>
+    <innerclass refid="classgame_1_1controller_1_1_game_controller" prot="public">game::controller::GameController</innerclass>
+    <innerclass refid="classgame_1_1controller_1_1_level_controller" prot="public">game::controller::LevelController</innerclass>
+    <innerclass refid="enumgame_1_1controller_1_1_level_state" prot="public">game::controller::LevelState</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/controller/GameController.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

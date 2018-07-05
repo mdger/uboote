@@ -1,0 +1,6 @@
+<map id="game.module.geometry.shape.Point.setY" name="game.module.geometry.shape.Point.setY">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_point_depth.html#a4a3cf9654dffdec0e5ce76884d7bc98c" title="game.gui.component.Player\lInputPointDepth.submitFunction" alt="" coords="255,5,461,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer2.html#a789047fcc1300ce065dd9859cdb31fab" title="game.gui.level.LevelAnimation\lRenderer2.startAnimation" alt="" coords="261,71,455,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer3.html#ae2efc6c3934ba9944b5ecb78d251e204" title="game.gui.level.LevelAnimation\lRenderer3.startAnimation" alt="" coords="261,136,455,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1gui_1_1level_1_1_level_animation_renderer4.html#a63149b5967b2b43f7c073236b34499cd" title="game.gui.level.LevelAnimation\lRenderer4.startAnimation" alt="" coords="261,201,455,243"/>
+</map>

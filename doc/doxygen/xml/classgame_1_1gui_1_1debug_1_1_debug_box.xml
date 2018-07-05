@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1debug_1_1_debug_box" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::debug::DebugBox</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1debug_1_1_debug_box_1a7119c7fcff1eae7c8bb8c97b7547ea2e" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.gui.debug.DebugBox.DEBUG_CANVAS</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_CANVAS</name>
+        <initializer>= &quot;Debug Canvas&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="28" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1debug_1_1_debug_canvas_1a354752822bee902d15959af2ddcb3e5a" compoundref="_debug_canvas_8java" startline="29" endline="87">game.gui.debug.DebugCanvas.display</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1debug_1_1_debug_group_1af1a69a7ee9b9ada5f52059df13f94aaf" compoundref="_debug_group_8java" startline="33" endline="91">game.gui.debug.DebugGroup.display</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1debug_1_1_debug_box_1a553b31ea1dc79ff16160492652e549f8" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.gui.debug.DebugBox.DEBUG_GROUP</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_GROUP</name>
+        <initializer>= &quot;Debug Group&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="30" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1debug_1_1_debug_box_1a6f1435b9a4af6fda8863e2a318f5a6d6" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String game.gui.debug.DebugBox.DEBUG_ANIMATION</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_ANIMATION</name>
+        <initializer>= &quot;Debug Animation&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1debug_1_1_debug_animation_1a3344836e112afbbd54d3ec0f2e76372b" compoundref="_debug_animation_8java" startline="33" endline="69">game.gui.debug.DebugAnimation.display</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_box_1a7ef0ed5e9b4f501c33510a2a3673c20b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.debug.DebugBox.display</definition>
+        <argsstring>(Stage parentWindow)</argsstring>
+        <name>display</name>
+        <param>
+          <type>Stage</type>
+          <declname>parentWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentWindow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="40" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="40" bodyend="66"/>
+        <referencedby refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a82e7dcad6a9b0fbccf97f533ccc06a15" compoundref="_debug_box_8java" startline="73" endline="75">game.gui.debug.DebugBox.start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_box_1ab88adf6bdcec0ef3d770f0401ed07b0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.debug.DebugBox.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="68" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_box_1a82e7dcad6a9b0fbccf97f533ccc06a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.debug.DebugBox.start</definition>
+        <argsstring>(Stage primaryStage)</argsstring>
+        <name>start</name>
+        <param>
+          <type>Stage</type>
+          <declname>primaryStage</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="73" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="73" bodyend="75"/>
+        <references refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a7ef0ed5e9b4f501c33510a2a3673c20b" compoundref="_debug_box_8java" startline="40" endline="66">game.gui.debug.DebugBox.display</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_box_1a6a22ed2a79e5e0eb55b4587e2505822f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; String &gt;</type>
+        <definition>static List&lt;String&gt; game.gui.debug.DebugBox.getDebugOptions</definition>
+        <argsstring>()</argsstring>
+        <name>getDebugOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List&lt;String&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="83" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="83" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_box_1aff57a452464aefd70e326fb5f2d62cb3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.debug.DebugBox.spawnWindow</definition>
+        <argsstring>(String windowToSpawn)</argsstring>
+        <name>spawnWindow</name>
+        <param>
+          <type>String</type>
+          <declname>windowToSpawn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>windowToSpawn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="100" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="100" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Debug Mode / Sandbox to spawn different GUI implementations to test with. <linebreak/>
+ It is integrated into the client itself but can also be started standalone. <linebreak/>
+ To do this, just run this file by itself by starting the main method. <linebreak/>
+ In Netbeans right click on this file and select &quot;Run File...&quot; or press SHIFT + F6 <linebreak/>
+</para><para>To add more options, you should add a new constant and add it to getDebugOptions() as well. See DEBUG_CANVAS</para><para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>Application</label>
+      </node>
+      <node id="46">
+        <label>game.gui.debug.DebugBox</label>
+        <link refid="classgame_1_1gui_1_1debug_1_1_debug_box"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>Application</label>
+      </node>
+      <node id="48">
+        <label>game.gui.debug.DebugBox</label>
+        <link refid="classgame_1_1gui_1_1debug_1_1_debug_box"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" line="26" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugBox.java" bodystart="26" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a6f1435b9a4af6fda8863e2a318f5a6d6" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>DEBUG_ANIMATION</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a7119c7fcff1eae7c8bb8c97b7547ea2e" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>DEBUG_CANVAS</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a553b31ea1dc79ff16160492652e549f8" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>DEBUG_GROUP</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a7ef0ed5e9b4f501c33510a2a3673c20b" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>display</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a6a22ed2a79e5e0eb55b4587e2505822f" prot="private" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>getDebugOptions</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1ab88adf6bdcec0ef3d770f0401ed07b0a" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>main</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1aff57a452464aefd70e326fb5f2d62cb3" prot="private" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>spawnWindow</name></member>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a82e7dcad6a9b0fbccf97f533ccc06a15" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugBox</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

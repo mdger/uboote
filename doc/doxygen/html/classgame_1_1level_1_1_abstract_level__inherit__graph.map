@@ -1,0 +1,7 @@
+<map id="game.level.AbstractLevel" name="game.level.AbstractLevel">
+<area shape="rect" id="node3" href="$classgame_1_1level_1_1_level1.html" title="game.level.Level1" alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node4" href="$classgame_1_1level_1_1_level2.html" title="game.level.Level2" alt="" coords="152,155,275,181"/>
+<area shape="rect" id="node5" href="$classgame_1_1level_1_1_level3.html" title="game.level.Level3" alt="" coords="299,155,421,181"/>
+<area shape="rect" id="node6" href="$classgame_1_1level_1_1_level4.html" title="game.level.Level4" alt="" coords="445,155,568,181"/>
+<area shape="rect" id="node2" href="$interfacegame_1_1level_1_1_level.html" title="game.level.Level" alt="" coords="229,5,345,32"/>
+</map>

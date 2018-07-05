@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1_main" kind="class" language="Java" prot="public">
+    <compoundname>game::Main</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1_main_1a10401c9e4b09ea4a55e52def3ca8b3ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.Main.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/Main.java" line="14" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/Main.java" bodystart="14" bodyend="16"/>
+        <references refid="classgame_1_1gui_1_1_client_1a90a88df4bba115e603c3c7678cb629e5" compoundref="_client_8java" startline="114" endline="116">game.gui.Client.launchClient</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Nothing to see here. Just launches the client <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/Main.java" line="12" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/Main.java" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classgame_1_1_main_1a10401c9e4b09ea4a55e52def3ca8b3ef" prot="public" virt="non-virtual"><scope>game::Main</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

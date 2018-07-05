@@ -1,0 +1,6 @@
+<map id="game.gui.util.Draw2DHelper.pointToCoordinate" name="game.gui.util.Draw2DHelper.pointToCoordinate">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#a3e55e4e4753215666573a73e0a503bee" title="game.gui.util.Draw2DHelper.intToX" alt="" coords="269,5,490,32"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#ae9c4f84c3b2dc3d5a8a71963db1c013c" title="game.module.geometry.shape.\lPoint.getX" alt="" coords="279,57,480,98"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1util_1_1_draw2_d_helper.html#a61f666de93f050e6e10125e7934d087c" title="game.gui.util.Draw2DHelper.intToY" alt="" coords="268,123,491,149"/>
+<area shape="rect" id="node5" href="$classgame_1_1module_1_1geometry_1_1shape_1_1_point.html#a8b609080989f8beebee41c2c8662ffbc" title="game.module.geometry.shape.\lPoint.getY" alt="" coords="279,174,480,215"/>
+</map>

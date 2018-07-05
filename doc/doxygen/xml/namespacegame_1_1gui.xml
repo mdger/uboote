@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1gui" kind="namespace" language="Java">
+    <compoundname>game::gui</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1_client" prot="public">game::gui::Client</innerclass>
+    <innernamespace refid="namespacegame_1_1gui_1_1component">game::gui::component</innernamespace>
+    <innernamespace refid="namespacegame_1_1gui_1_1debug">game::gui::debug</innernamespace>
+    <innernamespace refid="namespacegame_1_1gui_1_1level">game::gui::level</innernamespace>
+    <innernamespace refid="namespacegame_1_1gui_1_1util">game::gui::util</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

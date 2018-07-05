@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfacegame_1_1level_1_1_level.html" title="game.level.Level" alt="" coords="5,81,121,108"/>
+<area shape="rect" id="node2" href="$classgame_1_1level_1_1_abstract_level.html" title="game.level.AbstractLevel" alt="" coords="169,81,335,108"/>
+<area shape="rect" id="node3" href="$classgame_1_1level_1_1_level1.html" title="game.level.Level1" alt="" coords="383,5,505,32"/>
+<area shape="rect" id="node4" href="$classgame_1_1level_1_1_level2.html" title="game.level.Level2" alt="" coords="383,56,505,83"/>
+<area shape="rect" id="node5" href="$classgame_1_1level_1_1_level3.html" title="game.level.Level3" alt="" coords="383,107,505,133"/>
+<area shape="rect" id="node6" href="$classgame_1_1level_1_1_level4.html" title="game.level.Level4" alt="" coords="383,157,505,184"/>
+</map>

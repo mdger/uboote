@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kind="class" language="Java" prot="public">
+    <compoundname>game::module::geometry::shape::LinearFunction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Line</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a2bcb9a2c8f3bebf4bb115a16d7476a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.module.geometry.shape.LinearFunction.LinearFunction</definition>
+        <argsstring>(int startX, int startY, int endX, int endY)</argsstring>
+        <name>LinearFunction</name>
+        <param>
+          <type>int</type>
+          <declname>startX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of Line. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the horizontal coordinate of the start point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the vertical coordinate of the start point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the horizontal coordinate of the end point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the vertical coordinate of the end point of the line segment </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a0c7030be5da014ac6146510186cfc729" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.module.geometry.shape.LinearFunction.LinearFunction</definition>
+        <argsstring>(Point x, Point y)</argsstring>
+        <name>LinearFunction</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of Line. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the horizontal coordinate of the start point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the vertical coordinate of the start point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the horizontal coordinate of the end point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the vertical coordinate of the end point of the line segment </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="35" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="35" bodyend="43"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></type>
+        <definition>Rational game.module.geometry.shape.LinearFunction.getSlope</definition>
+        <argsstring>()</argsstring>
+        <name>getSlope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the slope of the two given points <simplesect kind="return"><para>returns the slope as a <computeroutput>Rational</computeroutput> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="49" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="49" bodyend="66"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" compoundref="_linear_function_8java" startline="73" endline="78">game.module.geometry.shape.LinearFunction.getIntercept</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aafffb3aa92fa90b9ff8481525785c2bf" compoundref="_linear_function_8java" startline="86" endline="91">game.module.geometry.shape.LinearFunction.getRawIntercept</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1add5344148f6356dbde7c6b968485b6a0" compoundref="_linear_function_8java" startline="98" endline="101">game.module.geometry.shape.LinearFunction.getInterceptByPointA</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aeaf7750d65613b0014e86a34a7464a15" compoundref="_linear_function_8java" startline="125" endline="128">game.module.geometry.shape.LinearFunction.calculateY</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aac2fdcfc45f59a3329e42a7ee87771c6" compoundref="_linear_function_8java" startline="135" endline="138">game.module.geometry.shape.LinearFunction.calculateX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.geometry.shape.LinearFunction.getIntercept</definition>
+        <argsstring>()</argsstring>
+        <name>getIntercept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the intercept of the line <simplesect kind="return"><para>returns the intercept as an integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="73" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="73" bodyend="78"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" compoundref="_linear_function_8java" startline="49" endline="66">game.module.geometry.shape.LinearFunction.getSlope</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" compoundref="_rational_8java" startline="58" endline="60">game.module.math.Rational.toDouble</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aeaf7750d65613b0014e86a34a7464a15" compoundref="_linear_function_8java" startline="125" endline="128">game.module.geometry.shape.LinearFunction.calculateY</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aac2fdcfc45f59a3329e42a7ee87771c6" compoundref="_linear_function_8java" startline="135" endline="138">game.module.geometry.shape.LinearFunction.calculateX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aafffb3aa92fa90b9ff8481525785c2bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.module.geometry.shape.LinearFunction.getRawIntercept</definition>
+        <argsstring>()</argsstring>
+        <name>getRawIntercept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the intercept of the line <simplesect kind="return"><para>returns the intercept as an integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="86" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="86" bodyend="91"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" compoundref="_linear_function_8java" startline="49" endline="66">game.module.geometry.shape.LinearFunction.getSlope</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" compoundref="_rational_8java" startline="58" endline="60">game.module.math.Rational.toDouble</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1add5344148f6356dbde7c6b968485b6a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.geometry.shape.LinearFunction.getInterceptByPointA</definition>
+        <argsstring>()</argsstring>
+        <name>getInterceptByPointA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This computes the intercept of the line. The result is the same as <computeroutput><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" kindref="member">getIntercept()</ref></computeroutput> Used for testing purposes <simplesect kind="return"><para>intercept of the linear function </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="98" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="98" bodyend="101"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" compoundref="_linear_function_8java" startline="49" endline="66">game.module.geometry.shape.LinearFunction.getSlope</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" compoundref="_rational_8java" startline="58" endline="60">game.module.math.Rational.toDouble</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a09636ae32007541e4ba48d430e2ad7ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.LinearFunction.getPointStart</definition>
+        <argsstring>()</argsstring>
+        <name>getPointStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns starting point of line as a <computeroutput><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></computeroutput> object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="108" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="108" bodyend="110"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_depth_1a4a3cf9654dffdec0e5ce76884d7bc98c" compoundref="_player_input_point_depth_8java" startline="14" endline="21">game.gui.component.PlayerInputPointDepth.submitFunction</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a5e628c7cc24b9f7d63358d909c3db58a" compoundref="_player_input_point_distance_8java" startline="62" endline="69">game.gui.component.PlayerInputPointDistance.submitFunction</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a2e3dd2bd315684d4cb163f3a4879363f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point game.module.geometry.shape.LinearFunction.getPointEnd</definition>
+        <argsstring>()</argsstring>
+        <name>getPointEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns ending point of line as a <computeroutput><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></computeroutput> object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="116" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="116" bodyend="118"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aeaf7750d65613b0014e86a34a7464a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.module.geometry.shape.LinearFunction.calculateY</definition>
+        <argsstring>(int x)</argsstring>
+        <name>calculateY</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calculates the y position by a give x <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="125" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="125" bodyend="128"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" compoundref="_linear_function_8java" startline="49" endline="66">game.module.geometry.shape.LinearFunction.getSlope</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a202c713c18d3865dbe3d3108ee68a87c" compoundref="_rational_8java" startline="76" endline="78">game.module.math.Rational.multiply</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" compoundref="_rational_8java" startline="58" endline="60">game.module.math.Rational.toDouble</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" compoundref="_linear_function_8java" startline="73" endline="78">game.module.geometry.shape.LinearFunction.getIntercept</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aac2fdcfc45f59a3329e42a7ee87771c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.module.geometry.shape.LinearFunction.calculateX</definition>
+        <argsstring>(int y)</argsstring>
+        <name>calculateX</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calculates the x position by a given y <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="135" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="135" bodyend="138"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" compoundref="_linear_function_8java" startline="49" endline="66">game.module.geometry.shape.LinearFunction.getSlope</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a7ed13a25dd21d08f0c419a33e39a7fbc" compoundref="_rational_8java" startline="80" endline="82">game.module.math.Rational.reciprocal</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" compoundref="_rational_8java" startline="58" endline="60">game.module.math.Rational.toDouble</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" compoundref="_linear_function_8java" startline="73" endline="78">game.module.geometry.shape.LinearFunction.getIntercept</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></computeroutput> class represents a linear function or just line</para><para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="167">
+        <label>Line</label>
+      </node>
+      <node id="166">
+        <label>game.module.geometry.shape.LinearFunction</label>
+        <link refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>Line</label>
+      </node>
+      <node id="168">
+        <label>game.module.geometry.shape.LinearFunction</label>
+        <link refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/geometry/shape/LinearFunction.java" bodystart="11" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aac2fdcfc45f59a3329e42a7ee87771c6" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>calculateX</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aeaf7750d65613b0014e86a34a7464a15" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>calculateY</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>getIntercept</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1add5344148f6356dbde7c6b968485b6a0" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>getInterceptByPointA</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a2e3dd2bd315684d4cb163f3a4879363f" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>getPointEnd</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a09636ae32007541e4ba48d430e2ad7ba" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>getPointStart</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aafffb3aa92fa90b9ff8481525785c2bf" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>getRawIntercept</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a943b68a3bf010968ed8bf020d0ab10b5" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>getSlope</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a2bcb9a2c8f3bebf4bb115a16d7476a75" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>LinearFunction</name></member>
+      <member refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1a0c7030be5da014ac6146510186cfc729" prot="public" virt="non-virtual"><scope>game::module::geometry::shape::LinearFunction</scope><name>LinearFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

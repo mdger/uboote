@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1debug_1_1_debug_group" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::debug::DebugGroup</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1debug_1_1_debug_group_1af1a69a7ee9b9ada5f52059df13f94aaf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.debug.DebugGroup.display</definition>
+        <argsstring>()</argsstring>
+        <name>display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentWindow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugGroup.java" line="33" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugGroup.java" bodystart="33" bodyend="91"/>
+        <references refid="classgame_1_1gui_1_1debug_1_1_debug_box_1a7119c7fcff1eae7c8bb8c97b7547ea2e" compoundref="_debug_box_8java" startline="28">game.gui.debug.DebugBox.DEBUG_CANVAS</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugGroup.java" line="25" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugGroup.java" bodystart="25" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1debug_1_1_debug_group_1af1a69a7ee9b9ada5f52059df13f94aaf" prot="public" virt="non-virtual"><scope>game::gui::debug::DebugGroup</scope><name>display</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

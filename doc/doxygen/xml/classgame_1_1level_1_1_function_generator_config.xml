@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1level_1_1_function_generator_config" kind="class" language="Java" prot="public">
+    <compoundname>game::level::FunctionGeneratorConfig</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1level_1_1_function_generator_config_1a2fb4520f083aee777d645cce2dacb72b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.maxValue</definition>
+        <argsstring></argsstring>
+        <name>maxValue</name>
+        <initializer>= <ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a94bfd5edca0e2f7ab77ff796a756c940" kindref="member">AbstractLevelRenderer.CELL_SIZE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="11" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1level_1_1_function_generator_config_1ac797476a8ba1e24c13213ee798e040d8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.maxIntercept</definition>
+        <argsstring></argsstring>
+        <name>maxIntercept</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="12" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1level_1_1_function_generator_config_1addd9221b7b785428c2e32641c87b699b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.ax</definition>
+        <argsstring></argsstring>
+        <name>ax</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="13" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1level_1_1_function_generator_config_1afde2c6ebba1cc9f544125698de613928" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.ay</definition>
+        <argsstring></argsstring>
+        <name>ay</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="14" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1level_1_1_function_generator_config_1a6fc9f085fe6cc477a46bed84f0c510a3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.bx</definition>
+        <argsstring></argsstring>
+        <name>bx</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="15" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1level_1_1_function_generator_config_1a1c215730391b3a7ec86341c1c4d371c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.by</definition>
+        <argsstring></argsstring>
+        <name>by</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="16" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a48e8cf5adbf8b49b19d282f921ce33ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.level.FunctionGeneratorConfig.FunctionGeneratorConfig</definition>
+        <argsstring>()</argsstring>
+        <name>FunctionGeneratorConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="18" bodyend="20"/>
+        <references refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a94bfd5edca0e2f7ab77ff796a756c940" compoundref="_abstract_level_renderer_8java" startline="24">game.gui.level.AbstractLevelRenderer.CELL_SIZE</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a05f9ce41b9575df15d1f4e8150e36cf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.getMaxValue</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="22" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1aeddcd526528c5d2209119e574e21edc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.FunctionGeneratorConfig.setMaxValue</definition>
+        <argsstring>(int max)</argsstring>
+        <name>setMaxValue</name>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="26" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="26" bodyend="28"/>
+        <referencedby refid="classgame_1_1level_1_1_level1_1ae36935c9c0ebda29aa07bd04289f9d7a" compoundref="_level1_8java" startline="24" endline="36">game.level.Level1.Level1</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" compoundref="_level2_8java" startline="18" endline="32">game.level.Level2.Level2</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level3_1ad945309a99fab57536e12aa16b34ac71" compoundref="_level3_8java" startline="19" endline="34">game.level.Level3.Level3</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level4_1a3a8bd3a4d5af4ce199ac909ae1418ce9" compoundref="_level4_8java" startline="19" endline="30">game.level.Level4.Level4</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a0f19d201ef56945ce5f7f54fb5b2c730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.FunctionGeneratorConfig.setAx</definition>
+        <argsstring>(int ax)</argsstring>
+        <name>setAx</name>
+        <param>
+          <type>int</type>
+          <declname>ax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="30" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a767a641af02ceed2c4f65020fef36600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.FunctionGeneratorConfig.setAy</definition>
+        <argsstring>(int ay)</argsstring>
+        <name>setAy</name>
+        <param>
+          <type>int</type>
+          <declname>ay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="34" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a5de1e1d9b4c377030d8034339078e18d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.FunctionGeneratorConfig.setBx</definition>
+        <argsstring>(int bx)</argsstring>
+        <name>setBx</name>
+        <param>
+          <type>int</type>
+          <declname>bx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="38" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1aa0701008c456db8640af29d8e1885de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.FunctionGeneratorConfig.setBy</definition>
+        <argsstring>(int by)</argsstring>
+        <name>setBy</name>
+        <param>
+          <type>int</type>
+          <declname>by</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="42" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="42" bodyend="44"/>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" compoundref="_level2_8java" startline="18" endline="32">game.level.Level2.Level2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a9914c859c8083ec0fd8a7184d72d3443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.getAx</definition>
+        <argsstring>()</argsstring>
+        <name>getAx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="46" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a0e8f9e22c24b3cbb486ac9125a36ade5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.getAy</definition>
+        <argsstring>()</argsstring>
+        <name>getAy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="50" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a50224ba48cbcf04516fa1678d23245e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.getBx</definition>
+        <argsstring>()</argsstring>
+        <name>getBx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="54" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1a78cb6abfe4e5749db7997bcbe4dbf024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.getBy</definition>
+        <argsstring>()</argsstring>
+        <name>getBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="58" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1aa1ada2f4d729c3ff5a2b4e02880a2b82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.level.FunctionGeneratorConfig.setMaxIntercept</definition>
+        <argsstring>(int maxIntercept)</argsstring>
+        <name>setMaxIntercept</name>
+        <param>
+          <type>int</type>
+          <declname>maxIntercept</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="62" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="62" bodyend="64"/>
+        <referencedby refid="classgame_1_1level_1_1_level1_1ae36935c9c0ebda29aa07bd04289f9d7a" compoundref="_level1_8java" startline="24" endline="36">game.level.Level1.Level1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_function_generator_config_1abdf37310c3be1f6e790fbdb1d935c701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.level.FunctionGeneratorConfig.getMaxIntercept</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxIntercept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="66" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="66" bodyend="68"/>
+        <referencedby refid="classgame_1_1level_1_1_linear_function_generator_1a35c118e05c7da8b7d65c9d59a219b09a" compoundref="_linear_function_generator_8java" startline="25" endline="35">game.level.LinearFunctionGenerator.generateLinearFunction</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/FunctionGeneratorConfig.java" bodystart="9" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1addd9221b7b785428c2e32641c87b699b" prot="private" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>ax</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1afde2c6ebba1cc9f544125698de613928" prot="private" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>ay</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a6fc9f085fe6cc477a46bed84f0c510a3" prot="private" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>bx</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a1c215730391b3a7ec86341c1c4d371c6" prot="private" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>by</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a48e8cf5adbf8b49b19d282f921ce33ec" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>FunctionGeneratorConfig</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a9914c859c8083ec0fd8a7184d72d3443" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>getAx</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a0e8f9e22c24b3cbb486ac9125a36ade5" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>getAy</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a50224ba48cbcf04516fa1678d23245e7" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>getBx</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a78cb6abfe4e5749db7997bcbe4dbf024" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>getBy</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1abdf37310c3be1f6e790fbdb1d935c701" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>getMaxIntercept</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a05f9ce41b9575df15d1f4e8150e36cf8" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>getMaxValue</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1ac797476a8ba1e24c13213ee798e040d8" prot="private" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>maxIntercept</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a2fb4520f083aee777d645cce2dacb72b" prot="private" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>maxValue</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a0f19d201ef56945ce5f7f54fb5b2c730" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>setAx</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a767a641af02ceed2c4f65020fef36600" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>setAy</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1a5de1e1d9b4c377030d8034339078e18d" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>setBx</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1aa0701008c456db8640af29d8e1885de2" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>setBy</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1aa1ada2f4d729c3ff5a2b4e02880a2b82" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>setMaxIntercept</name></member>
+      <member refid="classgame_1_1level_1_1_function_generator_config_1aeddcd526528c5d2209119e574e21edc8" prot="public" virt="non-virtual"><scope>game::level::FunctionGeneratorConfig</scope><name>setMaxValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,8 @@
+<map id="game.gui.Client.start" name="game.gui.Client.start">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_confirm_box.html#a185248ead8961af6eb87c904adbb659f" title="game.gui.component.Confirm\lBox.display" alt="" coords="214,5,405,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1controller_1_1_game_controller.html#a1d026c729475d7e47c2fd878cf8458b4" title="game.controller.GameController.get\lGameRenderer" alt="" coords="196,71,423,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1gui_1_1component_1_1_level_intro_box.html#a41285c34741543da3d1b3a8ad91d2fd0" title="game.gui.component.Level\lIntroBox.display" alt="" coords="221,136,397,177"/>
+<area shape="rect" id="node5" href="$classgame_1_1controller_1_1_game_controller.html#a4fcba1a04aca7457c3a4d1a788b66581" title="game.controller.GameController.get\lLevelController" alt="" coords="196,201,423,243"/>
+<area shape="rect" id="node6" href="$classgame_1_1controller_1_1_level_controller.html#a10936b040e05770bedee624c5722fcb2" title="game.controller.LevelController.get\lLevel" alt="" coords="199,267,420,308"/>
+<area shape="rect" id="node7" href="$interfacegame_1_1level_1_1_level.html#a2a36f773c3857327dc1760b8531cb8bb" title="game.level.Level.getDescription" alt="" coords="208,333,411,359"/>
+</map>

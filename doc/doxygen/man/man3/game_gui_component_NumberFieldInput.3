@@ -1,0 +1,149 @@
+.TH "game.gui.component.NumberFieldInput" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.gui.component.NumberFieldInput
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits TextField\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNumberFieldInput\fP ()"
+.br
+.ti -1c
+.RI "IntegerProperty \fBmaxLengthProperty\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetMaxLength\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMaxLength\fP (int maxLength)"
+.br
+.ti -1c
+.RI "StringProperty \fBrestrictProperty\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetRestrict\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetRestrict\fP (String restrict)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A text field, which restricts the user's input\&. 
+.PP
+The restriction can either be a maximal number of characters which the user is allowed to input or a regular expression class, which contains allowed characters\&. 
+.PP
+\fBSample, which restricts the input to maximal 10 numeric characters\fP: 
+.PP
+.nf
+
+.PP
+.nf
+RestrictiveTextField textField = new RestrictiveTextField();
+textField\&.setMaxLength(10);
+textField\&.setRestrict("[0-9]");
+.fi
+.PP
+ 
+.fi
+.PP
+.PP
+\fBAuthor:\fP
+.RS 4
+Christian Schudt 
+.RE
+.PP
+
+.PP
+Definition at line 29 of file NumberFieldInput\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.gui\&.component\&.NumberFieldInput\&.NumberFieldInput ()"
+
+.PP
+Definition at line 34 of file NumberFieldInput\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int game\&.gui\&.component\&.NumberFieldInput\&.getMaxLength ()"
+Gets the max length of the text field\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The max length\&. 
+.RE
+.PP
+
+.PP
+Definition at line 73 of file NumberFieldInput\&.java\&.
+.SS "String game\&.gui\&.component\&.NumberFieldInput\&.getRestrict ()"
+Gets a regular expression character class which restricts the user input\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The regular expression\&. 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBgetRestrict()\fP 
+.RE
+.PP
+
+.PP
+Definition at line 102 of file NumberFieldInput\&.java\&.
+.SS "IntegerProperty game\&.gui\&.component\&.NumberFieldInput\&.maxLengthProperty ()"
+The max length property\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The max length property\&. 
+.RE
+.PP
+
+.PP
+Definition at line 64 of file NumberFieldInput\&.java\&.
+.SS "StringProperty game\&.gui\&.component\&.NumberFieldInput\&.restrictProperty ()"
+The restrict property\&.
+.PP
+\fBReturns:\fP
+.RS 4
+The restrict property\&. 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file NumberFieldInput\&.java\&.
+.SS "void game\&.gui\&.component\&.NumberFieldInput\&.setMaxLength (int maxLength)"
+Sets the max length of the text field\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaxLength\fP The max length\&. 
+.RE
+.PP
+
+.PP
+Definition at line 82 of file NumberFieldInput\&.java\&.
+.SS "void game\&.gui\&.component\&.NumberFieldInput\&.setRestrict (String restrict)"
+Sets a regular expression character class which restricts the user input\&.
+.PP
+E\&.g\&. [0-9] only allows numeric values\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIrestrict\fP The regular expression\&. 
+.RE
+.PP
+
+.PP
+Definition at line 113 of file NumberFieldInput\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

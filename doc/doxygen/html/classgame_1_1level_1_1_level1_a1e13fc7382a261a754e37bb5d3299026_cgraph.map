@@ -1,0 +1,4 @@
+<map id="game.level.Level1.buildIO" name="game.level.Level1.buildIO">
+<area shape="rect" id="node2" href="$classgame_1_1module_1_1math_1_1_rational.html#a327972bb71d3a8d85f9287ab1ebba577" title="game.module.math.Rational.getNum" alt="" coords="220,5,453,32"/>
+<area shape="rect" id="node3" href="$classgame_1_1module_1_1math_1_1_rational.html#a2d12d18d1b3078659fcda69a89a37f8b" title="game.module.math.Rational.getDen" alt="" coords="222,56,451,83"/>
+</map>

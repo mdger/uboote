@@ -1,0 +1,4 @@
+<map id="game.level.Level2" name="game.level.Level2">
+<area shape="rect" id="node2" href="$classgame_1_1level_1_1_abstract_level.html" title="game.level.AbstractLevel" alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" href="$interfacegame_1_1level_1_1_level.html" title="game.level.Level" alt="" coords="30,5,146,32"/>
+</map>

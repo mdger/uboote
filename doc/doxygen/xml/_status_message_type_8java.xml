@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_status_message_type_8java" kind="file" language="Java">
+    <compoundname>StatusMessageType.java</compoundname>
+    <innerclass refid="enumgame_1_1gui_1_1component_1_1_status_message_type" prot="public">game::gui::component::StatusMessageType</innerclass>
+    <innernamespace refid="namespacegame_1_1gui_1_1component">game::gui::component</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.gui.component;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="enumgame_1_1gui_1_1component_1_1_status_message_type" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type" kindref="compound">StatusMessageType</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1a9787be8afbe6223224dd68f1b1905e13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1a9787be8afbe6223224dd68f1b1905e13" kindref="member">TYPE_CORRECT</ref>,</highlight></codeline>
+<codeline lineno="9" refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1ab441d3d506c1d80e9b5d240821fab1f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1ab441d3d506c1d80e9b5d240821fab1f9" kindref="member">TYPE_WRONG</ref>,</highlight></codeline>
+<codeline lineno="10" refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa3cd13fe1b92926028eefc905be50397" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa3cd13fe1b92926028eefc905be50397" kindref="member">TYPE_NEUTRAL</ref>,</highlight></codeline>
+<codeline lineno="11" refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa9efe4ef80941d9fd69f358e8f331fcb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumgame_1_1gui_1_1component_1_1_status_message_type_1aa9efe4ef80941d9fd69f358e8f331fcb" kindref="member">TYPE_PROCEED_ON_WAIT</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/StatusMessageType.java"/>
+  </compounddef>
+</doxygen>

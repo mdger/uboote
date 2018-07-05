@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_game_renderer_8java" kind="file" language="Java">
+    <compoundname>GameRenderer.java</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_game_renderer" prot="public">game::gui::component::GameRenderer</innerclass>
+    <innernamespace refid="namespacegame_1_1gui_1_1component">game::gui::component</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">game.gui.component;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.binding.NumberExpressionBase;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.property.DoubleProperty;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.property.IntegerProperty;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.property.SimpleDoubleProperty;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.property.SimpleIntegerProperty;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.value.ChangeListener;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.beans.value.ObservableValue;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.geometry.Insets;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.Node;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.control.Label;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.layout.BorderPane;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.layout.HBox;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classgame_1_1gui_1_1component_1_1_game_renderer" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer" kindref="compound">GameRenderer</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>BorderPane<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>DoubleProperty<sp/>scoreRenderer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleDoubleProperty(0.0);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>IntegerProperty<sp/>levelProgressRenderer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleIntegerProperty(0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>IntegerProperty<sp/>currentLevelRenderer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleIntegerProperty(1);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Node<sp/>levelDescription;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a8a233da2441717f0e0189954e4b6c320" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a8a233da2441717f0e0189954e4b6c320" kindref="member">GameRenderer</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a6102863ecdfcff54be1aba0e6eb66ac0" kindref="member">redraw</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a5e6eca65361bb09a1e3da45a5cee222d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a5e6eca65361bb09a1e3da45a5cee222d" kindref="member">setLevelProgressRenderer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.levelProgressRenderer.set(level);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1ab08f357a633c3fef7d23e06a620e5b9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1ab08f357a633c3fef7d23e06a620e5b9a" kindref="member">setCurrentLevelRenderer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentLevel)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.currentLevelRenderer.set(currentLevel);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a49144a95b8d5fda1ee35d9a85299187c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IntegerProperty<sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a49144a95b8d5fda1ee35d9a85299187c" kindref="member">getLevelProgressRenderer</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>levelProgressRenderer;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a9041ed15143912f9deac189880b4ebd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DoubleProperty<sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a9041ed15143912f9deac189880b4ebd1" kindref="member">getScoreRenderer</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>scoreRenderer;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a989a617f13bfd9f9b9f1aae1daea4ff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IntegerProperty<sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a989a617f13bfd9f9b9f1aae1daea4ff7" kindref="member">getCurrentLevelRenderer</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>currentLevelRenderer;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a6102863ecdfcff54be1aba0e6eb66ac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1a6102863ecdfcff54be1aba0e6eb66ac0" kindref="member">redraw</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BorderPane<sp/>statusBar<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>BorderPane();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Label<sp/>statusBarLeft<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Label(</highlight><highlight class="stringliteral">&quot;Nicht<sp/>eingeloggt<sp/>|<sp/>Level:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>currentLevelRenderer.get());</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Label<sp/>statusBarRightInfo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Label(</highlight><highlight class="stringliteral">&quot;Fortschritt:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>levelProgressRenderer.get()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>|<sp/>Punkte:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>scoreRenderer.get()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Label<sp/>statusBarRightTutorial<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Label(</highlight><highlight class="stringliteral">&quot;|<sp/>Tutorial<sp/>|<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Label<sp/>statusBarRightHelperLine<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Label(</highlight><highlight class="stringliteral">&quot;Hilfslinien<sp/>Modus<sp/>Button&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBarRightTutorial.setOnMouseClicked(evt<sp/>-&gt;<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1gui_1_1component_1_1_level_intro_box" kindref="compound">LevelIntroBox</ref>.<ref refid="classgame_1_1gui_1_1component_1_1_level_intro_box_1a41285c34741543da3d1b3a8ad91d2fd0" kindref="member">display</ref>(levelDescription);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HBox<sp/>statusBarRight<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>HBox();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBarRight.getChildren().add(statusBarRightInfo);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBarRight.getChildren().add(statusBarRightTutorial);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBarRight.getChildren().add(statusBarRightHelperLine);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBarRight.setPadding(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Insets(0,<sp/>5,<sp/>0,<sp/>5));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBar.setPadding(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Insets(0,<sp/>0,<sp/>0,<sp/>5));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBar.setLeft(statusBarLeft);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBar.setRight(statusBarRight);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.setTop(statusBar);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="classgame_1_1gui_1_1component_1_1_game_renderer_1afc4e4c1ade4f3818804a51ae1b142497" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1gui_1_1component_1_1_game_renderer_1afc4e4c1ade4f3818804a51ae1b142497" kindref="member">setLevelDescription</ref>(Node<sp/>levelDescription)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.levelDescription<sp/>=<sp/>levelDescription;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/GameRenderer.java"/>
+  </compounddef>
+</doxygen>

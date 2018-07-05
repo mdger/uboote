@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>game::gui::level::AbstractLevelRenderer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Canvas</basecompoundref>
+    <basecompoundref refid="interfacegame_1_1gui_1_1level_1_1_level_renderer" prot="public" virt="non-virtual">game.gui.level.LevelRenderer</basecompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_renderer1" prot="public" virt="non-virtual">game.gui.level.LevelRenderer1</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_renderer2" prot="public" virt="non-virtual">game.gui.level.LevelRenderer2</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_renderer3" prot="public" virt="non-virtual">game.gui.level.LevelRenderer3</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_level_renderer4" prot="public" virt="non-virtual">game.gui.level.LevelRenderer4</derivedcompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ab2707457c6e35fe5a2787b67bd1208f9" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean game.gui.level.AbstractLevelRenderer.showHelperLine</definition>
+        <argsstring></argsstring>
+        <name>showHelperLine</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="22" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a94bfd5edca0e2f7ab77ff796a756c940" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int game.gui.level.AbstractLevelRenderer.CELL_SIZE</definition>
+        <argsstring></argsstring>
+        <name>CELL_SIZE</name>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="24" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_function_generator_config_1a48e8cf5adbf8b49b19d282f921ce33ec" compoundref="_function_generator_config_8java" startline="18" endline="20">game.level.FunctionGeneratorConfig.FunctionGeneratorConfig</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level1_1ae36935c9c0ebda29aa07bd04289f9d7a" compoundref="_level1_8java" startline="24" endline="36">game.level.Level1.Level1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a4e073511bca1161b28bebc64f8c1a8c3" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean game.gui.level.AbstractLevelRenderer.canValidate</definition>
+        <argsstring></argsstring>
+        <name>canValidate</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="26" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1af51d2920fed61f8dfba0d5f289a70426" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1gui_1_1component_1_1_player_input_line" kindref="compound">PlayerInputLine</ref></type>
+        <definition>PlayerInputLine game.gui.level.AbstractLevelRenderer.lineHelper</definition>
+        <argsstring></argsstring>
+        <name>lineHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="28" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a304de68e77a7edae3a16b9f71c0262bf" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean game.gui.level.AbstractLevelRenderer.drawAfterInput</definition>
+        <argsstring></argsstring>
+        <name>drawAfterInput</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="30" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ad38b3df105303ff98602e694faede366" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>LinearFunction game.gui.level.AbstractLevelRenderer.currentFunction</definition>
+        <argsstring></argsstring>
+        <name>currentFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ac49c4439d3129ffd23d1ca2b1c76b7d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.gui.level.AbstractLevelRenderer.AbstractLevelRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>AbstractLevelRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor initializes the coordinate system </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="37" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="37" bodyend="60"/>
+        <references refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa346342b171eda8acdc946f672220e3a" compoundref="_abstract_level_renderer_8java" startline="62" endline="69">game.gui.level.AbstractLevelRenderer.redraw</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa346342b171eda8acdc946f672220e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.AbstractLevelRenderer.redraw</definition>
+        <argsstring>()</argsstring>
+        <name>redraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="62" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="62" bodyend="69"/>
+        <references refid="interfacegame_1_1gui_1_1level_1_1_level_renderer_1a5f2d98fc7dc473b848cf4cdd7d387307">game.gui.level.LevelRenderer.draw</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a8123979dc2b802be723958610a6a9df5" compoundref="_player_input_line_8java" startline="42" endline="75">game.gui.component.PlayerInputLine.draw</references>
+        <referencedby refid="classgame_1_1controller_1_1_level_controller_1abf48d23222d76f1dfccda8bb0b5cd96a" compoundref="_level_controller_8java" startline="260" endline="291">game.controller.LevelController.onInputSubmit</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ac49c4439d3129ffd23d1ca2b1c76b7d5" compoundref="_abstract_level_renderer_8java" startline="37" endline="60">game.gui.level.AbstractLevelRenderer.AbstractLevelRenderer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a7ac05cdbe90889b39cd8493361232f63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.AbstractLevelRenderer.setShowHelperLine</definition>
+        <argsstring>(boolean showHelperLine)</argsstring>
+        <name>setShowHelperLine</name>
+        <param>
+          <type>boolean</type>
+          <declname>showHelperLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="71" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="71" bodyend="84"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1a6bb95b675eb6943abd6d8fa0200298e9" compoundref="_level_renderer2_8java" startline="20" endline="24">game.gui.level.LevelRenderer2.LevelRenderer2</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a662d56587297e708683f2012d9c6f595" compoundref="_level_renderer3_8java" startline="22" endline="26">game.gui.level.LevelRenderer3.LevelRenderer3</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer4_1a189e273d9b83f4d52c1459ce7da9b0cb" compoundref="_level_renderer4_8java" startline="19" endline="23">game.gui.level.LevelRenderer4.LevelRenderer4</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a033e91a7410bb1a47a6e3c1f6e179cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.AbstractLevelRenderer.setCurrentFunction</definition>
+        <argsstring>(LinearFunction currentFunction)</argsstring>
+        <name>setCurrentFunction</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+          <declname>currentFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="86" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a4531d3bccc2cfaf00d171265585e7227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.gui.level.AbstractLevelRenderer.isResizable</definition>
+        <argsstring>()</argsstring>
+        <name>isResizable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="95" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a49c5f32d6c2f67d9d7f1cf198390293a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.gui.level.AbstractLevelRenderer.prefWidth</definition>
+        <argsstring>(double height)</argsstring>
+        <name>prefWidth</name>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="100" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a47cf9e56348b6de27f4f08a56a2355b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.gui.level.AbstractLevelRenderer.prefHeight</definition>
+        <argsstring>(double width)</argsstring>
+        <name>prefHeight</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="105" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="105" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa13138bf9acf8216968ea307c235b303" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>LinearFunction game.gui.level.AbstractLevelRenderer.getCurrentFunction</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="90" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kindref="compound">AbstractLevelRenderer</ref></computeroutput> is responsible for rendering the game canvas and the objects with it. One concrete class of the <computeroutput><ref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" kindref="compound">AbstractLevelRenderer</ref></computeroutput> is needed for each level. <linebreak/>
+ To extend the renderer, the subclass needs to call super(); in the constructor and implement <ref refid="interfacegame_1_1gui_1_1level_1_1_level_renderer_1a5f2d98fc7dc473b848cf4cdd7d387307" kindref="member">draw()</ref></para><para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>Canvas</label>
+      </node>
+      <node id="10">
+        <label>game.gui.level.LevelRenderer</label>
+        <link refid="interfacegame_1_1gui_1_1level_1_1_level_renderer"/>
+      </node>
+      <node id="8">
+        <label>game.gui.level.AbstractLevelRenderer</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>game.gui.level.LevelRenderer1</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer1"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>game.gui.level.LevelRenderer2</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer2"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>game.gui.level.LevelRenderer3</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer3"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>game.gui.level.LevelRenderer4</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer4"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>Canvas</label>
+      </node>
+      <node id="17">
+        <label>game.gui.level.LevelRenderer</label>
+        <link refid="interfacegame_1_1gui_1_1level_1_1_level_renderer"/>
+      </node>
+      <node id="15">
+        <label>game.gui.level.AbstractLevelRenderer</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" line="20" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/AbstractLevelRenderer.java" bodystart="20" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ac49c4439d3129ffd23d1ca2b1c76b7d5" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>AbstractLevelRenderer</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a4e073511bca1161b28bebc64f8c1a8c3" prot="private" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>canValidate</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a94bfd5edca0e2f7ab77ff796a756c940" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>CELL_SIZE</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ad38b3df105303ff98602e694faede366" prot="private" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>currentFunction</name></member>
+      <member refid="interfacegame_1_1gui_1_1level_1_1_level_renderer_1a5f2d98fc7dc473b848cf4cdd7d387307" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>draw</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a304de68e77a7edae3a16b9f71c0262bf" prot="private" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>drawAfterInput</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa13138bf9acf8216968ea307c235b303" prot="protected" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>getCurrentFunction</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a4531d3bccc2cfaf00d171265585e7227" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>isResizable</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1af51d2920fed61f8dfba0d5f289a70426" prot="private" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>lineHelper</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a47cf9e56348b6de27f4f08a56a2355b7" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>prefHeight</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a49c5f32d6c2f67d9d7f1cf198390293a" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>prefWidth</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa346342b171eda8acdc946f672220e3a" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>redraw</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a033e91a7410bb1a47a6e3c1f6e179cea" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>setCurrentFunction</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1a7ac05cdbe90889b39cd8493361232f63" prot="public" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>setShowHelperLine</name></member>
+      <member refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1ab2707457c6e35fe5a2787b67bd1208f9" prot="package" virt="non-virtual"><scope>game::gui::level::AbstractLevelRenderer</scope><name>showHelperLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

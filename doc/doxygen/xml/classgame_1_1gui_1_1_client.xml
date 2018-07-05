@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1_client" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::Client</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classgame_1_1gui_1_1_client_1a54fc3b7ede6e35d157e4b95a436c2866" prot="package" static="no" mutable="no">
+        <type>Stage</type>
+        <definition>Stage game.gui.Client.window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" line="29" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.Client.start</definition>
+        <argsstring>(Stage primaryStage)</argsstring>
+        <name>start</name>
+        <param>
+          <type>Stage</type>
+          <declname>primaryStage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" line="32" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" bodystart="32" bodyend="71"/>
+        <references refid="classgame_1_1gui_1_1component_1_1_confirm_box_1a185248ead8961af6eb87c904adbb659f" compoundref="_confirm_box_8java" startline="30" endline="73">game.gui.component.ConfirmBox.display</references>
+        <references refid="classgame_1_1controller_1_1_game_controller_1a1d026c729475d7e47c2fd878cf8458b4" compoundref="_game_controller_8java" startline="68" endline="70">game.controller.GameController.getGameRenderer</references>
+        <references refid="classgame_1_1gui_1_1component_1_1_level_intro_box_1a41285c34741543da3d1b3a8ad91d2fd0" compoundref="_level_intro_box_8java" startline="28" endline="55">game.gui.component.LevelIntroBox.display</references>
+        <references refid="classgame_1_1controller_1_1_game_controller_1a4fcba1a04aca7457c3a4d1a788b66581" compoundref="_game_controller_8java" startline="76" endline="78">game.controller.GameController.getLevelController</references>
+        <references refid="classgame_1_1controller_1_1_level_controller_1a10936b040e05770bedee624c5722fcb2" compoundref="_level_controller_8java" startline="252" endline="254">game.controller.LevelController.getLevel</references>
+        <references refid="interfacegame_1_1level_1_1_level_1a2a36f773c3857327dc1760b8531cb8bb">game.level.Level.getDescription</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1_client_1ac053377f38e4eb9d55ec56beb8d5485b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MenuBar</type>
+        <definition>MenuBar game.gui.Client.constructMenuBar</definition>
+        <argsstring>()</argsstring>
+        <name>constructMenuBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>assembles the menu bar of the client </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" line="78" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" bodystart="78" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1_client_1a90a88df4bba115e603c3c7678cb629e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.Client.launchClient</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>launchClient</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the command line arguments </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" line="114" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" bodystart="114" bodyend="116"/>
+        <referencedby refid="classgame_1_1_main_1a10401c9e4b09ea4a55e52def3ca8b3ef" compoundref="_main_8java" startline="14" endline="16">game.Main.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The client application which sets up the menu bar and the GameController. The game itself is completely encapsulated in the GameController. <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>Application</label>
+      </node>
+      <node id="37">
+        <label>game.gui.Client</label>
+        <link refid="classgame_1_1gui_1_1_client"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>Stage</label>
+      </node>
+      <node id="40">
+        <label>Application</label>
+      </node>
+      <node id="39">
+        <label>game.gui.Client</label>
+        <link refid="classgame_1_1gui_1_1_client"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+        <childnode refid="41" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" line="27" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/Client.java" bodystart="27" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1_client_1ac053377f38e4eb9d55ec56beb8d5485b" prot="private" virt="non-virtual"><scope>game::gui::Client</scope><name>constructMenuBar</name></member>
+      <member refid="classgame_1_1gui_1_1_client_1a90a88df4bba115e603c3c7678cb629e5" prot="public" virt="non-virtual"><scope>game::gui::Client</scope><name>launchClient</name></member>
+      <member refid="classgame_1_1gui_1_1_client_1a58eb1ec3f3a40b7806a27b14cde5f1a1" prot="public" virt="non-virtual"><scope>game::gui::Client</scope><name>start</name></member>
+      <member refid="classgame_1_1gui_1_1_client_1a54fc3b7ede6e35d157e4b95a436c2866" prot="package" virt="non-virtual"><scope>game::gui::Client</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

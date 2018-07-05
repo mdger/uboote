@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interfacegame_1_1gui_1_1level_1_1_level_renderer" kind="interface" language="Java" prot="public">
+    <compoundname>game::gui::level::LevelRenderer</compoundname>
+    <derivedcompoundref refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer" prot="public" virt="non-virtual">game.gui.level.AbstractLevelRenderer</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacegame_1_1gui_1_1level_1_1_level_renderer_1a5f2d98fc7dc473b848cf4cdd7d387307" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.gui.level.LevelRenderer.draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classgame_1_1gui_1_1level_1_1_level_renderer4_1a9e693c4638d772be5862fcdbe1f89caf">draw</reimplementedby>
+        <reimplementedby refid="classgame_1_1gui_1_1level_1_1_level_renderer1_1a2f845b01a24aa022a8d0c40c53c86b83">draw</reimplementedby>
+        <reimplementedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694">draw</reimplementedby>
+        <reimplementedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3">draw</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is always called </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelRenderer.java" line="14" column="1"/>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer_1aa346342b171eda8acdc946f672220e3a" compoundref="_abstract_level_renderer_8java" startline="62" endline="69">game.gui.level.AbstractLevelRenderer.redraw</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>interface for <ref refid="interfacegame_1_1gui_1_1level_1_1_level_renderer" kindref="compound">LevelRenderer</ref> objects <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="125">
+        <label>game.gui.level.LevelRenderer</label>
+        <link refid="interfacegame_1_1gui_1_1level_1_1_level_renderer"/>
+      </node>
+      <node id="126">
+        <label>game.gui.level.AbstractLevelRenderer</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_abstract_level_renderer"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>game.gui.level.LevelRenderer1</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer1"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>game.gui.level.LevelRenderer2</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer2"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>game.gui.level.LevelRenderer3</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer3"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>game.gui.level.LevelRenderer4</label>
+        <link refid="classgame_1_1gui_1_1level_1_1_level_renderer4"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelRenderer.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/level/LevelRenderer.java" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interfacegame_1_1gui_1_1level_1_1_level_renderer_1a5f2d98fc7dc473b848cf4cdd7d387307" prot="public" virt="non-virtual"><scope>game::gui::level::LevelRenderer</scope><name>draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

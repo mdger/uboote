@@ -1,0 +1,194 @@
+.TH "game.module.geometry.shape.LinearFunction" 3 "Sun Jun 24 2018" "LaserPirates" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+game.module.geometry.shape.LinearFunction
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Line\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLinearFunction\fP (int startX, int startY, int endX, int endY)"
+.br
+.ti -1c
+.RI "\fBLinearFunction\fP (\fBPoint\fP x, \fBPoint\fP y)"
+.br
+.ti -1c
+.RI "\fBRational\fP \fBgetSlope\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetIntercept\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetRawIntercept\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetInterceptByPointA\fP ()"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBgetPointStart\fP ()"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBgetPointEnd\fP ()"
+.br
+.ti -1c
+.RI "double \fBcalculateY\fP (int x)"
+.br
+.ti -1c
+.RI "double \fBcalculateX\fP (int y)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBLinearFunction\fP\fP class represents a linear function or just line
+.PP
+\fBAuthor:\fP
+.RS 4
+Marco 
+.RE
+.PP
+
+.PP
+Definition at line 11 of file LinearFunction\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "game\&.module\&.geometry\&.shape\&.LinearFunction\&.LinearFunction (int startX, int startY, int endX, int endY)"
+Creates a new instance of Line\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstartX\fP the horizontal coordinate of the start point of the line segment 
+.br
+\fIstartY\fP the vertical coordinate of the start point of the line segment 
+.br
+\fIendX\fP the horizontal coordinate of the end point of the line segment 
+.br
+\fIendY\fP the vertical coordinate of the end point of the line segment 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file LinearFunction\&.java\&.
+.SS "game\&.module\&.geometry\&.shape\&.LinearFunction\&.LinearFunction (\fBPoint\fP x, \fBPoint\fP y)"
+Creates a new instance of Line\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstartX\fP the horizontal coordinate of the start point of the line segment 
+.br
+\fIstartY\fP the vertical coordinate of the start point of the line segment 
+.br
+\fIendX\fP the horizontal coordinate of the end point of the line segment 
+.br
+\fIendY\fP the vertical coordinate of the end point of the line segment 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file LinearFunction\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "double game\&.module\&.geometry\&.shape\&.LinearFunction\&.calculateX (int y)"
+calculates the x position by a given y 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIy\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 135 of file LinearFunction\&.java\&.
+.SS "double game\&.module\&.geometry\&.shape\&.LinearFunction\&.calculateY (int x)"
+calculates the y position by a give x 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 125 of file LinearFunction\&.java\&.
+.SS "int game\&.module\&.geometry\&.shape\&.LinearFunction\&.getIntercept ()"
+Calculates the intercept of the line 
+.PP
+\fBReturns:\fP
+.RS 4
+returns the intercept as an integer 
+.RE
+.PP
+
+.PP
+Definition at line 73 of file LinearFunction\&.java\&.
+.SS "int game\&.module\&.geometry\&.shape\&.LinearFunction\&.getInterceptByPointA ()"
+This computes the intercept of the line\&. The result is the same as \fC\fBgetIntercept()\fP\fP Used for testing purposes 
+.PP
+\fBReturns:\fP
+.RS 4
+intercept of the linear function 
+.RE
+.PP
+
+.PP
+Definition at line 98 of file LinearFunction\&.java\&.
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.LinearFunction\&.getPointEnd ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+returns ending point of line as a \fC\fBPoint\fP\fP object 
+.RE
+.PP
+
+.PP
+Definition at line 116 of file LinearFunction\&.java\&.
+.SS "\fBPoint\fP game\&.module\&.geometry\&.shape\&.LinearFunction\&.getPointStart ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+returns starting point of line as a \fC\fBPoint\fP\fP object 
+.RE
+.PP
+
+.PP
+Definition at line 108 of file LinearFunction\&.java\&.
+.SS "double game\&.module\&.geometry\&.shape\&.LinearFunction\&.getRawIntercept ()"
+Calculates the intercept of the line 
+.PP
+\fBReturns:\fP
+.RS 4
+returns the intercept as an integer 
+.RE
+.PP
+
+.PP
+Definition at line 86 of file LinearFunction\&.java\&.
+.SS "\fBRational\fP game\&.module\&.geometry\&.shape\&.LinearFunction\&.getSlope ()"
+Calculates the slope of the two given points 
+.PP
+\fBReturns:\fP
+.RS 4
+returns the slope as a \fCRational\fP 
+.RE
+.PP
+
+.PP
+Definition at line 49 of file LinearFunction\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LaserPirates from the source code\&.

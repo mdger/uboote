@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1gui_1_1component" kind="namespace" language="Java">
+    <compoundname>game::gui::component</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_abstract_player_input" prot="public">game::gui::component::AbstractPlayerInput</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_alert_box" prot="public">game::gui::component::AlertBox</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_confirm_box" prot="public">game::gui::component::ConfirmBox</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_game_renderer" prot="public">game::gui::component::GameRenderer</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_level_intro_box" prot="public">game::gui::component::LevelIntroBox</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_number_field_input" prot="public">game::gui::component::NumberFieldInput</innerclass>
+    <innerclass refid="interfacegame_1_1gui_1_1component_1_1_player_input" prot="public">game::gui::component::PlayerInput</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_player_input_line" prot="public">game::gui::component::PlayerInputLine</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function" prot="public">game::gui::component::PlayerInputLinearFunction</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_player_input_point" prot="public">game::gui::component::PlayerInputPoint</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_player_input_point_depth" prot="public">game::gui::component::PlayerInputPointDepth</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance" prot="public">game::gui::component::PlayerInputPointDistance</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1component_1_1_status_message" prot="public">game::gui::component::StatusMessage</innerclass>
+    <innerclass refid="enumgame_1_1gui_1_1component_1_1_status_message_type" prot="public">game::gui::component::StatusMessageType</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/component/AbstractPlayerInput.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

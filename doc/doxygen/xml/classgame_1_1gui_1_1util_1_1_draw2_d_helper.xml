@@ -1,0 +1,684 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1gui_1_1util_1_1_draw2_d_helper" kind="class" language="Java" prot="public">
+    <compoundname>game::gui::util::Draw2DHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a48d195c17caccec1922b68facb679648" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.util.Draw2DHelper.drawCoordinateSpace</definition>
+        <argsstring>(GraphicsContext gc, double tick)</argsstring>
+        <name>drawCoordinateSpace</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws a coordinate space <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tick</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="27" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="27" bodyend="96"/>
+        <references refid="classgame_1_1module_1_1sprite_1_1_asset_1a5436979ce703e4aa2f7ed163660135a1" compoundref="_asset_8java" startline="9">game.module.sprite.Asset.SKY</references>
+        <references refid="classgame_1_1module_1_1sprite_1_1_asset_1ae33684916217f03429353515c0e92fb2" compoundref="_asset_8java" startline="10">game.module.sprite.Asset.CLOUDS</references>
+        <references refid="classgame_1_1module_1_1sprite_1_1_asset_1a66d1916b4fe191bfe27fd75365546575" compoundref="_asset_8java" startline="8">game.module.sprite.Asset.SEA</references>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_background_renderer_1a7e96b55bf4c29ce1f599faaad3ec317a" compoundref="_background_renderer_8java" startline="24" endline="40">game.gui.level.BackgroundRenderer.initializeBackground</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a56d3f15443fc96122571c151db3624ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.util.Draw2DHelper.drawCross</definition>
+        <argsstring>(GraphicsContext gc, Point p, Color color)</argsstring>
+        <name>drawCross</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws a cross on point. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>location of the point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color of the cross </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="105" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="105" bodyend="116"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a8123979dc2b802be723958610a6a9df5" compoundref="_player_input_line_8java" startline="42" endline="75">game.gui.component.PlayerInputLine.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1e889476dab091f8884bd3f38ef171ab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>static Point game.gui.util.Draw2DHelper.convertPointToCanvas</definition>
+        <argsstring>(double width, double height, Point p)</argsstring>
+        <name>convertPointToCanvas</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws a cross on point. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>location of the point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color of the cross </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="126" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="126" bodyend="131"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a0311a8c0e33b0c35ca755266bae26946" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>static Point game.gui.util.Draw2DHelper.pointToCoordinate</definition>
+        <argsstring>(double width, double height, Point p)</argsstring>
+        <name>pointToCoordinate</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates a coordinate on the coordinate space by the cell size, width and height of the parent element <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the parent element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the parent element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="142" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="142" bodyend="147"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a7255acd310bd650570a1caf0886ab06b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.util.Draw2DHelper.drawLine</definition>
+        <argsstring>(GraphicsContext gc, Point from, Point to, Color color)</argsstring>
+        <name>drawLine</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws a line <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="157" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="157" bodyend="173"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a98cb16ade5d49ee1bf70a4fd0cea1c34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.util.Draw2DHelper.drawImage</definition>
+        <argsstring>(GraphicsContext gc, Point p, Image image)</argsstring>
+        <name>drawImage</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Image</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws an image <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position of the image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the image </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="183" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="183" bodyend="193"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a829cf251b314432779c78234979986f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void game.gui.util.Draw2DHelper.drawImage</definition>
+        <argsstring>(GraphicsContext gc, Point p, Image image, double imageSize)</argsstring>
+        <name>drawImage</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>imageSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws an image <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position of the image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imageSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of the image </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="204" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="204" bodyend="214"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3cb2350fe3478247e4f1d51eee2cbca6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>static Point game.gui.util.Draw2DHelper.pointToCoordinate</definition>
+        <argsstring>(GraphicsContext gc, double x, double y)</argsstring>
+        <name>pointToCoordinate</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>method to get a <computeroutput>Point</computeroutput> by two doubles to help rendering a single location on a coordinate space <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="225" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="225" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a341bdc39aab5fbd15b9269b7e44b2b5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>static Point game.gui.util.Draw2DHelper.pointToCoordinate</definition>
+        <argsstring>(GraphicsContext gc, Point p)</argsstring>
+        <name>pointToCoordinate</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>method to get a <computeroutput>Point</computeroutput> by two doubles to help rendering a single location on a coordinate space <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="241" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="241" bodyend="246"/>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3e55e4e4753215666573a73e0a503bee" compoundref="_draw2_d_helper_8java" startline="269" endline="274">game.gui.util.Draw2DHelper.intToX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a61f666de93f050e6e10125e7934d087c" compoundref="_draw2_d_helper_8java" startline="255" endline="260">game.gui.util.Draw2DHelper.intToY</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a61f666de93f050e6e10125e7934d087c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.gui.util.Draw2DHelper.intToY</definition>
+        <argsstring>(GraphicsContext gc, int y)</argsstring>
+        <name>intToY</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>method to get a <computeroutput>Point</computeroutput> by two doubles to help rendering a single location on a coordinate space <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="255" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="255" bodyend="260"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a341bdc39aab5fbd15b9269b7e44b2b5e" compoundref="_draw2_d_helper_8java" startline="241" endline="246">game.gui.util.Draw2DHelper.pointToCoordinate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3e55e4e4753215666573a73e0a503bee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.gui.util.Draw2DHelper.intToX</definition>
+        <argsstring>(GraphicsContext gc, int x)</argsstring>
+        <name>intToX</name>
+        <param>
+          <type>GraphicsContext</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>method to get a <computeroutput>Point</computeroutput> by two doubles to help rendering a single location on a coordinate space <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="269" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="269" bodyend="274"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a341bdc39aab5fbd15b9269b7e44b2b5e" compoundref="_draw2_d_helper_8java" startline="241" endline="246">game.gui.util.Draw2DHelper.pointToCoordinate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1a671809d06501e931c3a8eef482f5d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.gui.util.Draw2DHelper.normalizeX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>normalizeX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="276" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="276" bodyend="278"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" compoundref="_draw2_d_helper_8java" startline="292" endline="294">game.gui.util.Draw2DHelper.normalizePoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1ab8f4a68515c3eb4a97bb975d3e945002" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.gui.util.Draw2DHelper.normalizeY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>normalizeY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="284" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="284" bodyend="286"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" compoundref="_draw2_d_helper_8java" startline="292" endline="294">game.gui.util.Draw2DHelper.normalizePoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1ae852c04e522415cf2bbf0074bbe516fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.gui.util.Draw2DHelper.denormalizeY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>denormalizeY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="288" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="288" bodyend="290"/>
+        <referencedby refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3753333bf3b1affa1a3e931af4a18498" compoundref="_draw2_d_helper_8java" startline="296" endline="298">game.gui.util.Draw2DHelper.denormalizePoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>static Point game.gui.util.Draw2DHelper.normalizePoint</definition>
+        <argsstring>(Point p)</argsstring>
+        <name>normalizePoint</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="292" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="292" bodyend="294"/>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1a671809d06501e931c3a8eef482f5d2" compoundref="_draw2_d_helper_8java" startline="276" endline="278">game.gui.util.Draw2DHelper.normalizeX</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1ab8f4a68515c3eb4a97bb975d3e945002" compoundref="_draw2_d_helper_8java" startline="284" endline="286">game.gui.util.Draw2DHelper.normalizeY</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a9f0052b3190a1fbcd6e44ac26106d1f2" compoundref="_player_input_line_8java" startline="83" endline="86">game.gui.component.PlayerInputLine.getNormalizedStartPoint</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a60feb57622daed66c94a63b427ed5f17" compoundref="_player_input_line_8java" startline="88" endline="90">game.gui.component.PlayerInputLine.getNormalizedEndPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3753333bf3b1affa1a3e931af4a18498" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+        <definition>static Point game.gui.util.Draw2DHelper.denormalizePoint</definition>
+        <argsstring>(Point p)</argsstring>
+        <name>denormalizePoint</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="296" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="296" bodyend="298"/>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1ae9c4f84c3b2dc3d5a8a71963db1c013c" compoundref="_point_8java" startline="91" endline="93">game.module.geometry.shape.Point.getX</references>
+        <references refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1ae852c04e522415cf2bbf0074bbe516fc" compoundref="_draw2_d_helper_8java" startline="288" endline="290">game.gui.util.Draw2DHelper.denormalizeY</references>
+        <references refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a8b609080989f8beebee41c2c8662ffbc" compoundref="_point_8java" startline="99" endline="101">game.module.geometry.shape.Point.getY</references>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer1_1aaf8a81414c9390d20c15f0bb456fa10c" compoundref="_level_animation_renderer1_8java" startline="34" endline="73">game.gui.level.LevelAnimationRenderer1.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer2_1a789047fcc1300ce065dd9859cdb31fab" compoundref="_level_animation_renderer2_8java" startline="34" endline="121">game.gui.level.LevelAnimationRenderer2.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer3_1ae2efc6c3934ba9944b5ecb78d251e204" compoundref="_level_animation_renderer3_8java" startline="33" endline="147">game.gui.level.LevelAnimationRenderer3.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_animation_renderer4_1a63149b5967b2b43f7c073236b34499cd" compoundref="_level_animation_renderer4_8java" startline="34" endline="123">game.gui.level.LevelAnimationRenderer4.startAnimation</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer2_1ab4affe48c3de8fbe70f5fde2f3528694" compoundref="_level_renderer2_8java" startline="27" endline="37">game.gui.level.LevelRenderer2.draw</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1level_1_1_level_renderer3_1a4f29063eb41aad805493f319b12ad5a3" compoundref="_level_renderer3_8java" startline="29" endline="42">game.gui.level.LevelRenderer3.draw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a757191f1502620276330fbd877bd50c4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.gui.util.Draw2DHelper.denormalizeX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>denormalizeX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="280" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="280" bodyend="282"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" line="19" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/util/Draw2DHelper.java" bodystart="19" bodyend="299"/>
+    <listofallmembers>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1e889476dab091f8884bd3f38ef171ab" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>convertPointToCanvas</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3753333bf3b1affa1a3e931af4a18498" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>denormalizePoint</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a757191f1502620276330fbd877bd50c4" prot="private" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>denormalizeX</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1ae852c04e522415cf2bbf0074bbe516fc" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>denormalizeY</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a48d195c17caccec1922b68facb679648" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>drawCoordinateSpace</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a56d3f15443fc96122571c151db3624ac" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>drawCross</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a98cb16ade5d49ee1bf70a4fd0cea1c34" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>drawImage</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a829cf251b314432779c78234979986f3" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>drawImage</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a7255acd310bd650570a1caf0886ab06b" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>drawLine</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3e55e4e4753215666573a73e0a503bee" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>intToX</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a61f666de93f050e6e10125e7934d087c" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>intToY</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3ed05d2712dd119b254c75436bb11e39" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>normalizePoint</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a1a671809d06501e931c3a8eef482f5d2" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>normalizeX</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1ab8f4a68515c3eb4a97bb975d3e945002" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>normalizeY</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a0311a8c0e33b0c35ca755266bae26946" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>pointToCoordinate</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a3cb2350fe3478247e4f1d51eee2cbca6" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>pointToCoordinate</name></member>
+      <member refid="classgame_1_1gui_1_1util_1_1_draw2_d_helper_1a341bdc39aab5fbd15b9269b7e44b2b5e" prot="public" virt="non-virtual"><scope>game::gui::util::Draw2DHelper</scope><name>pointToCoordinate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

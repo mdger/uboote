@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1level_1_1_linear_function_generator" kind="class" language="Java" prot="public">
+    <compoundname>game::level::LinearFunctionGenerator</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_linear_function_generator_1a35c118e05c7da8b7d65c9d59a219b09a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>static LinearFunction game.level.LinearFunctionGenerator.generateLinearFunction</definition>
+        <argsstring>(FunctionGeneratorConfig config)</argsstring>
+        <name>generateLinearFunction</name>
+        <param>
+          <type><ref refid="classgame_1_1level_1_1_function_generator_config" kindref="compound">FunctionGeneratorConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>generateLinearFunction</computeroutput> generates linear functions randomly. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Configurator for the function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" line="25" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" bodystart="25" bodyend="35"/>
+        <references refid="classgame_1_1level_1_1_function_generator_config_1abdf37310c3be1f6e790fbdb1d935c701" compoundref="_function_generator_config_8java" startline="66" endline="68">game.level.FunctionGeneratorConfig.getMaxIntercept</references>
+        <referencedby refid="classgame_1_1level_1_1_level1_1ae36935c9c0ebda29aa07bd04289f9d7a" compoundref="_level1_8java" startline="24" endline="36">game.level.Level1.Level1</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level2_1a86c61c389aec03ac7c6efc6756d906d6" compoundref="_level2_8java" startline="18" endline="32">game.level.Level2.Level2</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level3_1ad945309a99fab57536e12aa16b34ac71" compoundref="_level3_8java" startline="19" endline="34">game.level.Level3.Level3</referencedby>
+        <referencedby refid="classgame_1_1level_1_1_level4_1a3a8bd3a4d5af4ce199ac909ae1418ce9" compoundref="_level4_8java" startline="19" endline="30">game.level.Level4.Level4</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgame_1_1level_1_1_linear_function_generator_1a0bfc84d50228bfaca1b5dc514866be05" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean game.level.LinearFunctionGenerator.isValidSlope</definition>
+        <argsstring>(LinearFunction linearFunction, int settingMaxIntercept)</argsstring>
+        <name>isValidSlope</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+          <declname>linearFunction</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>settingMaxIntercept</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether the given two points have a valid slope. If not, return false <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>linearFunction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settingMaxIntercept</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" line="45" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" bodystart="45" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_linear_function_generator_1a566f3dc06b08258e832e194b0f97c89c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean game.level.LinearFunctionGenerator.isValidIntercept</definition>
+        <argsstring>(int currentIntercept, int configMaxIntercept)</argsstring>
+        <name>isValidIntercept</name>
+        <param>
+          <type>int</type>
+          <declname>currentIntercept</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>configMaxIntercept</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether the linear function´s intercept is absolutely lower than the max intercept setting provided by the config <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentIntercept</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>configMaxIntercept</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" line="74" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_linear_function_generator_1aa7904cde9a70b2090f3b8fffa8b3e9f5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.level.LinearFunctionGenerator.getRandomNumber</definition>
+        <argsstring>(int min, int max)</argsstring>
+        <name>getRandomNumber</name>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>random number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" line="89" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1level_1_1_linear_function_generator_1afa4b56dcf1447b7cf378a43972267b16" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function" kindref="compound">LinearFunction</ref></type>
+        <definition>static LinearFunction game.level.LinearFunctionGenerator.generate</definition>
+        <argsstring>(FunctionGeneratorConfig config)</argsstring>
+        <name>generate</name>
+        <param>
+          <type><ref refid="classgame_1_1level_1_1_function_generator_config" kindref="compound">FunctionGeneratorConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>point a is always below the x axis and point b alway above the x axis <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" line="100" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" bodystart="100" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper Class for generating linear functions randomly. For example:<linebreak/>
+ <computeroutput>LinearFunction linearFunction = LinearFunctionGenerator.generateLinearFunction(40);</computeroutput><linebreak/>
+ generates a valid linear function ranging from -20 to 20 in the x and y axis.<linebreak/>
+ The method call <linebreak/>
+ <computeroutput>LinearFunction linearFunction = LinearFunctionGenerator.generateLinearFunction(20);</computeroutput><linebreak/>
+ generates a valid linear function ranging from -10 to 10 in the x and y axis. <simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" line="18" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/level/LinearFunctionGenerator.java" bodystart="18" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classgame_1_1level_1_1_linear_function_generator_1afa4b56dcf1447b7cf378a43972267b16" prot="private" virt="non-virtual"><scope>game::level::LinearFunctionGenerator</scope><name>generate</name></member>
+      <member refid="classgame_1_1level_1_1_linear_function_generator_1a35c118e05c7da8b7d65c9d59a219b09a" prot="public" virt="non-virtual"><scope>game::level::LinearFunctionGenerator</scope><name>generateLinearFunction</name></member>
+      <member refid="classgame_1_1level_1_1_linear_function_generator_1aa7904cde9a70b2090f3b8fffa8b3e9f5" prot="private" virt="non-virtual"><scope>game::level::LinearFunctionGenerator</scope><name>getRandomNumber</name></member>
+      <member refid="classgame_1_1level_1_1_linear_function_generator_1a566f3dc06b08258e832e194b0f97c89c" prot="private" virt="non-virtual"><scope>game::level::LinearFunctionGenerator</scope><name>isValidIntercept</name></member>
+      <member refid="classgame_1_1level_1_1_linear_function_generator_1a0bfc84d50228bfaca1b5dc514866be05" prot="private" virt="non-virtual"><scope>game::level::LinearFunctionGenerator</scope><name>isValidSlope</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

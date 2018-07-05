@@ -1,0 +1,4 @@
+<map id="game.module.geometry.shape.Point.setX" name="game.module.geometry.shape.Point.setX">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a5e628c7cc24b9f7d63358d909c3db58a" title="game.gui.component.Player\lInputPointDistance.submitFunction" alt="" coords="255,5,479,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_point_distance.html#a7cc758b80cc5978609f94ecb989b3729" title="game.gui.component.Player\lInputPointDistance.getSubmitInput" alt="" coords="527,5,749,47"/>
+</map>

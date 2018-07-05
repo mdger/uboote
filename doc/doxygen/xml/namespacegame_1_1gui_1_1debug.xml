@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacegame_1_1gui_1_1debug" kind="namespace" language="Java">
+    <compoundname>game::gui::debug</compoundname>
+    <innerclass refid="classgame_1_1gui_1_1debug_1_1_debug_animation" prot="public">game::gui::debug::DebugAnimation</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1debug_1_1_debug_box" prot="public">game::gui::debug::DebugBox</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1debug_1_1_debug_canvas" prot="public">game::gui::debug::DebugCanvas</innerclass>
+    <innerclass refid="classgame_1_1gui_1_1debug_1_1_debug_group" prot="public">game::gui::debug::DebugGroup</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/gui/debug/DebugAnimation.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

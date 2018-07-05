@@ -1,0 +1,4 @@
+<map id="game.controller.LevelController.onInputSubmit" name="game.controller.LevelController.onInputSubmit">
+<area shape="rect" id="node2" href="$classgame_1_1gui_1_1component_1_1_player_input_line.html#a27c8f0738add1ac269a54ec98d1ba39f" title="game.gui.component.Player\lInputLine.getSubmitInput" alt="" coords="271,5,455,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1gui_1_1component_1_1_player_input_point.html#a0c71e24d57eea41f3ba2546953e8e18d" title="game.gui.component.Player\lInputPoint.getSubmitInput" alt="" coords="271,71,455,112"/>
+</map>

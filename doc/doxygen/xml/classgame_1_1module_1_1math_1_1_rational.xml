@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classgame_1_1module_1_1math_1_1_rational" kind="class" language="Java" prot="public">
+    <compoundname>game::module::math::Rational</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; Rational &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1module_1_1math_1_1_rational_1a37ffbb44dba8cc6e6b5af0563ce1dc0e" prot="private" static="yes" mutable="no">
+        <type><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></type>
+        <definition>Rational game.module.math.Rational.zero</definition>
+        <argsstring></argsstring>
+        <name>zero</name>
+        <initializer>= new <ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref>(0, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="10" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1module_1_1math_1_1_rational_1af319d78a2f69e43d69257cf0178f2b3c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.module.math.Rational.num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="13" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1module_1_1math_1_1_rational_1a460111299793c99558c90041d0eb7d6a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.module.math.Rational.den</definition>
+        <argsstring></argsstring>
+        <name>den</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="15" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1aed54c528d3bcf5248ae5ddbbe651ab41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.module.math.Rational.Rational</definition>
+        <argsstring>(int num, int den)</argsstring>
+        <name>Rational</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>den</declname>
+        </param>
+        <exceptions> throws ArithmeticException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>den</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="22" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="22" bodyend="31"/>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a54d0aa1151e18c1a336b32c9203db908" compoundref="_rational_8java" startline="39" endline="51">game.module.math.Rational.calculateGreatestCommonDivisor</references>
+        <referencedby refid="classgame_1_1module_1_1math_1_1_rational_1a202c713c18d3865dbe3d3108ee68a87c" compoundref="_rational_8java" startline="76" endline="78">game.module.math.Rational.multiply</referencedby>
+        <referencedby refid="classgame_1_1module_1_1math_1_1_rational_1a7ed13a25dd21d08f0c419a33e39a7fbc" compoundref="_rational_8java" startline="80" endline="82">game.module.math.Rational.reciprocal</referencedby>
+        <referencedby refid="classgame_1_1module_1_1math_1_1_rational_1ac406b12a59ea58703740843176a1efcd" compoundref="_rational_8java" startline="91" endline="99">game.module.math.Rational.equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double game.module.math.Rational.toDouble</definition>
+        <argsstring>()</argsstring>
+        <name>toDouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>return double precision representation of the rational number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="58" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="58" bodyend="60"/>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1ac17fbf793a95f949359eb2ed98a981e1" compoundref="_linear_function_8java" startline="73" endline="78">game.module.geometry.shape.LinearFunction.getIntercept</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aafffb3aa92fa90b9ff8481525785c2bf" compoundref="_linear_function_8java" startline="86" endline="91">game.module.geometry.shape.LinearFunction.getRawIntercept</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1add5344148f6356dbde7c6b968485b6a0" compoundref="_linear_function_8java" startline="98" endline="101">game.module.geometry.shape.LinearFunction.getInterceptByPointA</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aeaf7750d65613b0014e86a34a7464a15" compoundref="_linear_function_8java" startline="125" endline="128">game.module.geometry.shape.LinearFunction.calculateY</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aac2fdcfc45f59a3329e42a7ee87771c6" compoundref="_linear_function_8java" startline="135" endline="138">game.module.geometry.shape.LinearFunction.calculateX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a82e9a93e822028be4ed25d90652bbfc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.math.Rational.compareTo</definition>
+        <argsstring>(Rational b)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="63" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="63" bodyend="74"/>
+        <referencedby refid="classgame_1_1module_1_1math_1_1_rational_1ac406b12a59ea58703740843176a1efcd" compoundref="_rational_8java" startline="91" endline="99">game.module.math.Rational.equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a202c713c18d3865dbe3d3108ee68a87c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></type>
+        <definition>Rational game.module.math.Rational.multiply</definition>
+        <argsstring>(int factor)</argsstring>
+        <name>multiply</name>
+        <param>
+          <type>int</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="76" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="76" bodyend="78"/>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1aed54c528d3bcf5248ae5ddbbe651ab41" compoundref="_rational_8java" startline="22" endline="31">game.module.math.Rational.Rational</references>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aeaf7750d65613b0014e86a34a7464a15" compoundref="_linear_function_8java" startline="125" endline="128">game.module.geometry.shape.LinearFunction.calculateY</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a7ed13a25dd21d08f0c419a33e39a7fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></type>
+        <definition>Rational game.module.math.Rational.reciprocal</definition>
+        <argsstring>()</argsstring>
+        <name>reciprocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="80" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="80" bodyend="82"/>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1aed54c528d3bcf5248ae5ddbbe651ab41" compoundref="_rational_8java" startline="22" endline="31">game.module.math.Rational.Rational</references>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_linear_function_1aac2fdcfc45f59a3329e42a7ee87771c6" compoundref="_linear_function_8java" startline="135" endline="138">game.module.geometry.shape.LinearFunction.calculateX</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1ac406b12a59ea58703740843176a1efcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean game.module.math.Rational.equals</definition>
+        <argsstring>(Object b)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>Object</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if RationalA equals RationalB</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref> object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="91" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="91" bodyend="99"/>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1aed54c528d3bcf5248ae5ddbbe651ab41" compoundref="_rational_8java" startline="22" endline="31">game.module.math.Rational.Rational</references>
+        <references refid="classgame_1_1module_1_1math_1_1_rational_1a82e9a93e822028be4ed25d90652bbfc2" compoundref="_rational_8java" startline="63" endline="74">game.module.math.Rational.compareTo</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a327972bb71d3a8d85f9287ab1ebba577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.math.Rational.getNum</definition>
+        <argsstring>()</argsstring>
+        <name>getNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>getter of num </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="104" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="104" bodyend="106"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3901016cae265e23330e2e5a09d16c3e" compoundref="_point_8java" startline="115" endline="117">game.module.geometry.shape.Point.factor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a2d12d18d1b3078659fcda69a89a37f8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int game.module.math.Rational.getDen</definition>
+        <argsstring>()</argsstring>
+        <name>getDen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>getter of den </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="111" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="111" bodyend="113"/>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_line_1a27c8f0738add1ac269a54ec98d1ba39f" compoundref="_player_input_line_8java" startline="141" endline="168">game.gui.component.PlayerInputLine.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_linear_function_1a2cd0c0f0ffa35532c8458767191c90f0" compoundref="_player_input_linear_function_8java" startline="35" endline="91">game.gui.component.PlayerInputLinearFunction.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_1a0c71e24d57eea41f3ba2546953e8e18d" compoundref="_player_input_point_8java" startline="32" endline="67">game.gui.component.PlayerInputPoint.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1gui_1_1component_1_1_player_input_point_distance_1a7cc758b80cc5978609f94ecb989b3729" compoundref="_player_input_point_distance_8java" startline="25" endline="59">game.gui.component.PlayerInputPointDistance.getSubmitInput</referencedby>
+        <referencedby refid="classgame_1_1module_1_1geometry_1_1shape_1_1_point_1a3901016cae265e23330e2e5a09d16c3e" compoundref="_point_8java" startline="115" endline="117">game.module.geometry.shape.Point.factor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a64422fc3bd04c003945bd97eecd5ff5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String game.module.math.Rational.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="115" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgame_1_1module_1_1math_1_1_rational_1a54d0aa1151e18c1a336b32c9203db908" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int game.module.math.Rational.calculateGreatestCommonDivisor</definition>
+        <argsstring>(int m, int n)</argsstring>
+        <name>calculateGreatestCommonDivisor</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the greatest common divisor between two integers <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="39" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="39" bodyend="51"/>
+        <referencedby refid="classgame_1_1module_1_1math_1_1_rational_1aed54c528d3bcf5248ae5ddbbe651ab41" compoundref="_rational_8java" startline="22" endline="31">game.module.math.Rational.Rational</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <computeroutput><ref refid="classgame_1_1module_1_1math_1_1_rational" kindref="compound">Rational</ref></computeroutput> class is a helper class to represent rational numbers. It also provides mathematical utility</para><para><simplesect kind="author"><para>Marco </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>Comparable&lt; Rational &gt;</label>
+      </node>
+      <node id="237">
+        <label>game.module.math.Rational</label>
+        <link refid="classgame_1_1module_1_1math_1_1_rational"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="240">
+        <label>Comparable&lt; Rational &gt;</label>
+      </node>
+      <node id="239">
+        <label>game.module.math.Rational</label>
+        <link refid="classgame_1_1module_1_1math_1_1_rational"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" line="9" column="1" bodyfile="C:/Bitbucket/uboote/uboote/client/LaserPiratesClient/src/game/module/math/Rational.java" bodystart="9" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a54d0aa1151e18c1a336b32c9203db908" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>calculateGreatestCommonDivisor</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a82e9a93e822028be4ed25d90652bbfc2" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>compareTo</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a460111299793c99558c90041d0eb7d6a" prot="private" virt="non-virtual"><scope>game::module::math::Rational</scope><name>den</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1ac406b12a59ea58703740843176a1efcd" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>equals</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a2d12d18d1b3078659fcda69a89a37f8b" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>getDen</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a327972bb71d3a8d85f9287ab1ebba577" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>getNum</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a202c713c18d3865dbe3d3108ee68a87c" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>multiply</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1af319d78a2f69e43d69257cf0178f2b3c" prot="private" virt="non-virtual"><scope>game::module::math::Rational</scope><name>num</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1aed54c528d3bcf5248ae5ddbbe651ab41" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>Rational</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a7ed13a25dd21d08f0c419a33e39a7fbc" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>reciprocal</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a1114762b59b07fab38f6d30dbb82c10c" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>toDouble</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a64422fc3bd04c003945bd97eecd5ff5d" prot="public" virt="non-virtual"><scope>game::module::math::Rational</scope><name>toString</name></member>
+      <member refid="classgame_1_1module_1_1math_1_1_rational_1a37ffbb44dba8cc6e6b5af0563ce1dc0e" prot="private" virt="non-virtual"><scope>game::module::math::Rational</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
