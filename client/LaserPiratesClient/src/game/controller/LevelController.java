@@ -51,7 +51,7 @@ public class LevelController extends Observable {
         backgroundRenderer = new BackgroundRenderer();
         backgroundRenderer.initializeBackground();
 
-        buildLevel(LevelState.LEVEL_3);
+        buildLevel(LevelState.LEVEL_1);
         
         successCounter = new SuccessCounter(this.getLevel().getWinCondition(), 1);
         successCounter.progress().addListener(this.gameController);

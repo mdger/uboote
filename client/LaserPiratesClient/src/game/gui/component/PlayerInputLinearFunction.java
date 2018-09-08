@@ -17,6 +17,8 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 
 /**
  *
@@ -49,21 +51,27 @@ public class PlayerInputLinearFunction extends AbstractPlayerInput {
         ));
 
         fieldInputNumerator = new NumberFieldInput();
-        fieldInputNumerator.setMaxWidth(50.0);
         fieldInputNumerator.setRestrict("-?[0-9]*");
+        fieldInputNumerator.setPromptText("Zähler");
+        fieldInputNumerator.setMinWidth(50);
         
         Label labelSlash = new Label("/");
+        labelSlash.setFont(Font.font(null, FontWeight.BOLD, 15));
+        labelSlash.setTextFill(Color.web("#40ff00"));
         
         fieldInputDenumerator = new NumberFieldInput();
-        fieldInputDenumerator.setMaxWidth(50.0);
-        // FIXME regex not working
-        fieldInputNumerator.setRestrict("-?[0-9]*");
+        fieldInputDenumerator.setRestrict("-?[0-9]*");
+        fieldInputDenumerator.setPromptText("Nenner");
+        fieldInputDenumerator.setMinWidth(50);
         
         Label labelPlus = new Label("+");
+        labelPlus.setFont(Font.font(null, FontWeight.BOLD, 15));
+        labelPlus.setTextFill(Color.web("#40ff00"));
         
         fieldInputIntercept = new NumberFieldInput();
-        fieldInputIntercept.setMaxWidth(50.0);
-        fieldInputNumerator.setRestrict("-?[0-9]*");
+        fieldInputIntercept.setPromptText("Konstante");
+        fieldInputIntercept.setRestrict("-?[0-9]*");
+        fieldInputIntercept.setMinWidth(50);
         
         submit = new Button("Bestätigen");
         submit.setOnAction(evt -> {

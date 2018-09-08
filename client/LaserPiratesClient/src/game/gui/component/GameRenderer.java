@@ -86,7 +86,7 @@ public class GameRenderer extends BorderPane {
      */
     public void redraw() {
         BorderPane statusBar = new BorderPane();
-        Label statusBarLeft = new Label("Level: " + currentLevelRenderer.get());
+        Label statusBarLeft = new Label("Aktuelles Level: " + currentLevelRenderer.get());
         statusBarLeft.setPadding(new Insets(0, 5, 0, 5));
         statusBarLeft.setFont(Font.font(null, FontWeight.BOLD, 15));
         statusBarLeft.setTextFill(Color.web("#40ff00"));

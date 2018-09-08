@@ -9,6 +9,7 @@ import game.module.geometry.shape.Point;
 import game.module.math.Rational;
 import javafx.event.EventType;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;

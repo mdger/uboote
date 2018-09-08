@@ -4,6 +4,7 @@ import game.controller.LevelController;
 import game.module.geometry.shape.LinearFunction;
 import game.module.math.Rational;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -53,6 +54,8 @@ public abstract class PlayerInputPoint extends AbstractPlayerInput {
         fieldInput = new NumberFieldInput();
         fieldInput.setRestrict("-?[0-9]*");
         fieldInput.requestFocus();
+        fieldInput.setPromptText("Tiefe Eingeben");
+        fieldInput.setMinWidth(50);
         
         fieldInput.setOnKeyPressed(evt -> {
             if (evt.getCode() == KeyCode.ENTER) {

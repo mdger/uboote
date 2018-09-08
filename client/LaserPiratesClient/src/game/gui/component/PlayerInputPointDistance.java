@@ -6,6 +6,7 @@ import game.module.geometry.shape.LinearFunction;
 import game.module.geometry.shape.Point;
 import game.module.math.Rational;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -43,6 +44,8 @@ public class PlayerInputPointDistance extends PlayerInputPoint {
 
         fieldInput = new NumberFieldInput();
         fieldInput.setRestrict("-?[0-9]*");
+        fieldInput.setPromptText("X Eingeben");
+        fieldInput.setMinWidth(50);
         
         Button submit = new Button("Bestätigen");
         submit.setOnAction(evt -> {
