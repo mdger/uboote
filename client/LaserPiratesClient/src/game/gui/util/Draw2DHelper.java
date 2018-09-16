@@ -1,13 +1,17 @@
 package game.gui.util;
 
+import com.sun.javafx.css.converters.FontConverter;
 import com.sun.javafx.geom.Line2D;
 import static game.gui.level.AbstractLevelRenderer.CELL_SIZE;
+import game.module.geometry.shape.LinearFunction;
 import game.module.geometry.shape.Point;
+import game.module.math.Rational;
 import game.module.sprite.Asset;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.transform.Affine;
@@ -82,12 +86,18 @@ public class Draw2DHelper {
         gc.setFill(Color.web("#444"));
         gc.setStroke(Color.web("#444"));
         for (int i = 0; i <= CELL_SIZE; i++) {
-            
-            if (i == CELL_SIZE / 2) {
+            if (i == CELL_SIZE / 2) 
+            {
                 // thicker lines for the center
                 gc.setLineWidth(1.5);
-            } else {
-                gc.setLineWidth(.5);
+            } 
+            else if (i % 5 == 0) 
+            {
+                gc.setLineWidth(.75);
+            }
+            else 
+            {
+                gc.setLineWidth(.3);
             }
             
             // vertical
@@ -98,8 +108,21 @@ public class Draw2DHelper {
             gc.strokeLine(0, y, width, y);
             
             // draw labels
-            if (i % 5 == 0) {
+            if (i % 5 == 0 && i <= CELL_SIZE / 2) 
+            {
                 gc.fillText(String.valueOf(i - CELL_SIZE / 2), x, height / 2);
+            }
+            else if (i % 5 == 0 )
+            {
+                gc.fillText(String.valueOf(i - CELL_SIZE / 2), x - 15, height / 2);
+            }
+            
+            if (i % 5 == 0 && i < CELL_SIZE / 2) 
+            {
+                gc.fillText(String.valueOf(-i + CELL_SIZE / 2), width / 2, y + 12);
+            }
+            else if (i % 5 == 0)
+            {
                 gc.fillText(String.valueOf(-i + CELL_SIZE / 2), width / 2, y);
             }
         }
@@ -123,6 +146,32 @@ public class Draw2DHelper {
         gc.setLineWidth(2);
         gc.strokeLine(sx - 5, sy - 5, sx + 5, sy + 5);
         gc.strokeLine(sx - 5, sy + 5, sx + 5, sy - 5);        
+    }
+    
+    
+    /**
+     * Gets a canvas object of the equation
+     * @param function
+     * 
+     * return Canvas
+     */
+    
+    public static Canvas getLinearFunctionCanvas(LinearFunction function) {
+        Canvas canvas = new Canvas(400, 60);
+        GraphicsContext gc = canvas.getGraphicsContext2D();
+        
+        gc.setStroke(Color.web("#40ff00"));
+        gc.setLineWidth(1);
+        gc.setFont(new Font(20));
+        Rational fraction = function.getSlope();
+        gc.strokeText("f(x) =", 0, 30);
+        gc.strokeLine(60, 24, 85, 24);
+        gc.strokeText(Integer.toString(fraction.getNum()), 60, 20);
+        gc.strokeText(Integer.toString(fraction.getDen()), 60, 42);
+        gc.strokeText("x + ", 98, 30);
+        gc.strokeText(Integer.toString(function.getIntercept()), 129, 30);
+        
+        return canvas;
     }
     
     
@@ -242,6 +291,27 @@ public class Draw2DHelper {
         gc.setLineWidth(.8);
         gc.fillRect(x, y, 38, 12);
         gc.strokeText(normalizePoint(p).toString(), x + 3, y + 11);
+    }    
+    
+    
+    /**
+     * Draws a label
+     * @param gc
+     * @param p position of the label
+     * @param colorWeb color of the background in web format e.g. #333
+     */
+    
+    public static void drawLabelWithText(GraphicsContext gc, Point p, String colorWeb, String text) {
+        double width = gc.getCanvas().getWidth();
+        double height = gc.getCanvas().getHeight();
+        double x = (p.getX() - .5) * width / CELL_SIZE;
+        double y = (p.getY() + .5) * height / CELL_SIZE;
+        
+        gc.setStroke(Color.web("#111"));
+        gc.setFill(Color.web(colorWeb));
+        gc.setLineWidth(.8);
+        gc.fillRect(x, y, 19, 12);
+        gc.strokeText(text, x + 3, y + 11);
     }    
     
     /**

@@ -1,11 +1,13 @@
 package game.gui.component;
 
 import game.controller.LevelController;
+import game.gui.util.Draw2DHelper;
 import game.module.geometry.shape.LinearFunction;
 import game.module.math.Rational;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.KeyCode;
@@ -43,12 +45,13 @@ public abstract class PlayerInputPoint extends AbstractPlayerInput {
         Rational slope = currentFunction.getSlope();
         int intercept = currentFunction.getIntercept();
         
-        Label equation = new Label(String.format("Zielgleichung: f(x) = %d/%d x + %d",
-            slope.getNum(), slope.getDen(), intercept
-        ));
-        equation.setFont(Font.font(null, FontWeight.BOLD, 15));
-        equation.setTextFill(Color.web("#40ff00"));
-        equation.setPadding(new Insets(0, 0, 5, 0));
+//        Label equation = new Label(String.format("Zielgleichung: f(x) = %d/%d x + %d",
+//            slope.getNum(), slope.getDen(), intercept
+//        ));
+//        equation.setFont(Font.font(null, FontWeight.BOLD, 15));
+//        equation.setTextFill(Color.web("#40ff00"));
+//        equation.setPadding(new Insets(0, 0, 5, 0));
+        Canvas equation = Draw2DHelper.getLinearFunctionCanvas(currentFunction);
 //        LateXMathControl equation = getLinearyFunctionEquation(slope.getNum(), slope.getDen(), intercept);
 
         fieldInput = new NumberFieldInput();

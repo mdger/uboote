@@ -1,15 +1,18 @@
 package game.gui;
 
 import game.controller.GameController;
+import game.controller.LevelState;
 import game.gui.component.ConfirmBox;
-import game.gui.component.GameRenderer;
 import game.gui.component.LevelIntroBox;
 import game.gui.debug.DebugBox;
+import game.gui.level.LevelAnimationRenderer1;
+import game.gui.level.LevelAnimationRenderer2;
+import game.gui.level.LevelAnimationRenderer3;
+import game.gui.level.LevelAnimationRenderer4;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
@@ -25,6 +28,8 @@ import javafx.stage.Stage;
  */
 
 public class Client extends Application {
+    
+    public static LevelState levelCheatCode = LevelState.LEVEL_1;
     
     Stage window;
 
@@ -58,6 +63,7 @@ public class Client extends Application {
         btn.setText("Spiel starten");
         btn.setOnAction((e) -> {
             primaryStage.setScene(gameScene);
+            primaryStage.setMaximized(true);
             LevelIntroBox.display(gameController.getLevelController().getLevel().getDescription());
         });
         
@@ -116,6 +122,32 @@ public class Client extends Application {
      */
     
     public static void launchClient(String[] args) {
+        for (String it : args) 
+        {
+            if (it.startsWith("level")) {
+                setLevel(it);
+            }
+        }
+        
         launch(args);
+    }
+    
+    private static void setLevel(String level) {
+        switch (level) {
+            case "level1":
+                levelCheatCode = LevelState.LEVEL_1;
+                break;
+            case "level2":
+                levelCheatCode = LevelState.LEVEL_2;
+                break;
+            case "level3":
+                levelCheatCode = LevelState.LEVEL_3;
+                break;
+            case "level4":
+                levelCheatCode = LevelState.LEVEL_4;
+                break;
+            default:
+                break;
+        }
     }
 }

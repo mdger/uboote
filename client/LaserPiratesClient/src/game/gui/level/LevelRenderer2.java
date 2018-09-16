@@ -35,6 +35,6 @@ public class LevelRenderer2 extends AbstractLevelRenderer {
         Draw2DHelper.drawImage(gc, satelliteLocation, new Image(Asset.SATELLITE), 40);
         Draw2DHelper.drawImage(gc, shipLocation, new Image(Asset.CRUISER), 40);
         Draw2DHelper.drawLabel(gc, satelliteLocation, Draw2DHelper.COLOR_SKY);
-        Draw2DHelper.drawLabel(gc, shipLocation, Draw2DHelper.COLOR_WATER);
+        Draw2DHelper.drawLabelWithText(gc, shipLocation, Draw2DHelper.COLOR_WATER, Integer.toString(shipLocation.getX()));
     }   
 }

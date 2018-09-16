@@ -52,7 +52,7 @@ public class Level1 extends AbstractLevel {
 + "uns bei der Bekämpfung der bösen π-raten zu unterstützen.\n"
 + "Mir wurde zugebracht, dass du als Waffenspezialist, dich bestens mit unserem Arsenal auskennst\n"
 + "und mit einem blitzschnellen Verstand gesegnet bist. Die Zeit wird zeigen, ob du der Seeflotte würdig bist. \n\n"
-+ "Du befindest dich aktuell in Sektor 1 in eines unserer Aufkärungs-U-Boote\n"
++ "Du befindest dich aktuell in Sektor 1 in einem unserer Aufkärungs-U-Boote\n"
 + "Deine erste Aufgabe ist das Dokumentieren von Schusslinien.\n"
 + "Dir wird eine lineare Funktion übergeben, die du einzeichnen sollst.\n"
 + "Mir ist zu Ohren gekommen, dass sich aktuell 5 Flugzeuge in diesem Sektor befinden.\n\n"

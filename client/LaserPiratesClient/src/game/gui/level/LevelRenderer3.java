@@ -28,10 +28,7 @@ public class LevelRenderer3 extends AbstractLevelRenderer {
     @Override
     public void draw() {
         GraphicsContext gc = this.getGraphicsContext2D();
-        int submarineLocationX = currentLevelFunction.getPointStart().getX();
-        
         Point satelliteLocation = Draw2DHelper.denormalizePoint(currentLevelFunction.getPointEnd());
-        
         Draw2DHelper.drawImage(gc, satelliteLocation, new Image(Asset.SATELLITE), 40);
         
         Point submarineLocation = currentLevelFunction.getPointStart();
@@ -42,6 +39,6 @@ public class LevelRenderer3 extends AbstractLevelRenderer {
         
         Draw2DHelper.drawLabel(gc, satelliteLocation, Draw2DHelper.COLOR_SKY);
         Point labelPosition = Draw2DHelper.denormalizePoint(new Point(0, submarineLocation.getY()));
-        Draw2DHelper.drawLabel(gc, labelPosition, Draw2DHelper.COLOR_WATER);
+        Draw2DHelper.drawLabelWithText(gc, labelPosition, Draw2DHelper.COLOR_WATER, Integer.toString(submarineLocation.getY()));
     }   
 }

@@ -1,5 +1,6 @@
 package game.controller;
 
+import game.gui.Client;
 import game.gui.component.AbstractPlayerInput;
 import game.gui.level.AbstractLevelRenderer;
 import game.gui.level.LevelRenderer1;
@@ -51,7 +52,14 @@ public class LevelController extends Observable {
         backgroundRenderer = new BackgroundRenderer();
         backgroundRenderer.initializeBackground();
 
-        buildLevel(LevelState.LEVEL_1);
+        LevelState startLevel = LevelState.LEVEL_1;
+        
+        if (Client.levelCheatCode != LevelState.LEVEL_1) 
+        {
+            startLevel = Client.levelCheatCode;
+        }
+            
+        buildLevel(startLevel);
         
         successCounter = new SuccessCounter(this.getLevel().getWinCondition(), 1);
         successCounter.progress().addListener(this.gameController);

@@ -65,9 +65,6 @@ public class DebugCanvas {
                     fadeAnim.play();
                     System.out.println("fadeAnimeplay");
                 }
-                
-                
-                
             });
         });
         

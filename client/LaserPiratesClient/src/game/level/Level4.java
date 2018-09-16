@@ -31,7 +31,7 @@ public class Level4 extends AbstractLevel{
 
     @Override
     public int getWinCondition() {
-        return 10;
+        return 5;
     }
 
     @Override
