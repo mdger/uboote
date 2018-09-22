@@ -51,6 +51,10 @@ public class BackgroundRenderer extends Canvas {
     public void stopAnimation() {
         animation.stopAnimation();
     }
+
+    public LevelAnimationRenderer getAnimation() {
+        return animation;
+    }
     
     @Override
     public boolean isResizable() {

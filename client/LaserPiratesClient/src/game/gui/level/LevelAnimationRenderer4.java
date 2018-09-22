@@ -102,6 +102,9 @@ public class LevelAnimationRenderer4 extends LevelAnimationRenderer{
             projectile.setOpacity(0.0);
             explosionSprite.setOpacity(1.0);
             explosion.play();
+            explosion.setOnFinished((event) -> {
+                setAnimationFinished(canvas, true);
+            });
         });
         
         FadeTransition fadeIn = new FadeTransition(Duration.seconds(1), animationGroup);

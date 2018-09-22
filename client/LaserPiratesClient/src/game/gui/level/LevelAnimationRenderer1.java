@@ -1,5 +1,7 @@
 package game.gui.level;
 
+import game.gui.component.StatusMessage;
+import game.gui.component.StatusMessageType;
 import game.gui.util.Draw2DHelper;
 import game.module.geometry.shape.LinearFunction;
 import game.module.geometry.shape.Point;
@@ -63,6 +65,9 @@ public class LevelAnimationRenderer1 extends LevelAnimationRenderer {
         fadeIn.setFromValue(0.0);
         fadeIn.setToValue(1.0);
         fadeIn.play();
+        fadeIn.setOnFinished((event) -> {
+            setAnimationFinished(canvas, true);
+        });
     }
 
     @Override

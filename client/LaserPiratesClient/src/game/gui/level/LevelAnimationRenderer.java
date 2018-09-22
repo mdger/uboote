@@ -1,6 +1,8 @@
 package game.gui.level;
 
 import game.controller.LevelState;
+import game.gui.component.StatusMessage;
+import game.gui.component.StatusMessageType;
 import game.module.geometry.shape.LinearFunction;
 import javafx.scene.Group;
 import javafx.scene.Parent;
@@ -14,6 +16,8 @@ import javafx.scene.layout.Pane;
 public abstract class LevelAnimationRenderer {
 
     private Canvas canvas;
+    
+    private boolean animationFinished;
     
     public LevelAnimationRenderer(Canvas canvas) {
         this.canvas = canvas;
@@ -42,5 +46,14 @@ public abstract class LevelAnimationRenderer {
         Pane pane = (Pane) p;
         
         return pane;
+    }
+
+    public void setAnimationFinished(Canvas canvas, boolean animationFinished) {
+        StatusMessage.display(canvas, StatusMessageType.TYPE_CORRECT);
+        this.animationFinished = animationFinished;
+    }
+
+    public boolean isAnimationFinished() {
+        return animationFinished;
     }
 }

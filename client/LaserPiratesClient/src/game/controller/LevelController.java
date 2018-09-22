@@ -292,7 +292,6 @@ public class LevelController extends Observable {
         if(isSuccessfulHit) {
             successCounter.onGame(true);     
             
-            StatusMessage.display(playerInputRenderer, StatusMessageType.TYPE_CORRECT);
             backgroundRenderer.startAnimation();
             
             if (level.getCurrentState() == LevelState.LEVEL_4)
@@ -308,24 +307,26 @@ public class LevelController extends Observable {
         
         Scene gameScene = playerInputRenderer.getScene();
         gameScene.setOnKeyPressed(e -> {
-            if(successCounter.passLevel()) {
-                gameScene.setOnKeyPressed(null);
-                if (level.getNextLevelState() == LevelState.LEVEL_END) {
-                    gameController.onGameCompleted();
+            if (backgroundRenderer.getAnimation().isAnimationFinished()) {
+                if(successCounter.passLevel()) {
+                    gameScene.setOnKeyPressed(null);
+                    if (level.getNextLevelState() == LevelState.LEVEL_END) {
+                        gameController.onGameCompleted();
+                    } else {
+                        buildLevel(level.getNextLevelState());
+                        // reset counter
+                        successCounter.reset(level.getWinCondition(), 1);
+                        // start animation
+                        gameController.onLevelCompleted();
+                    }
                 } else {
-                    buildLevel(level.getNextLevelState());
-                    // reset counter
-                    successCounter.reset(level.getWinCondition(), 1);
-                    // start animation
-                    gameController.onLevelCompleted();
+                    gameScene.setOnKeyPressed(null);
+                    buildLevel(level.getCurrentState());
                 }
-            } else {
-                gameScene.setOnKeyPressed(null);
-                buildLevel(level.getCurrentState());
+
+                // also stop the animation when generating a new level
+                backgroundRenderer.stopAnimation();
             }
-            
-            // also stop the animation when generating a new level
-            backgroundRenderer.stopAnimation();
         });
     } 
 
