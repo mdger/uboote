@@ -1,5 +1,6 @@
 package game.controller;
 
+import game.gui.Client;
 import game.gui.component.GameRenderer;
 import game.gui.component.LevelIntroBox;
 import game.level.AbstractLevel;
@@ -13,7 +14,9 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -30,10 +33,14 @@ public class GameController implements ChangeListener<Object> {
     
     private IntegerProperty level;
     private DoubleProperty score;
-    private final GameRenderer gameRenderer;
-    private final LevelController levelController;
+    private GameRenderer gameRenderer;
+    private LevelController levelController;
     
     public GameController() {
+        initialize();
+    }
+    
+    private void initialize() {
         gameRenderer = new GameRenderer(this);
         levelController = new LevelController(this);
         gameRenderer.setCenter(levelController.getWrapper());
@@ -81,7 +88,23 @@ public class GameController implements ChangeListener<Object> {
         Stage stage = (Stage) levelController.getLevelRenderer().getScene().getWindow();
 
         VBox box = new VBox(new Label("Sie haben das Spiel beendet.\n Vielen Dank fürs Spielen!"));
+        
+        Button restartButton = new Button("Nochmal spielen");
+        restartButton.setOnAction((event) -> {
+            SaveFile.writeToFile("");
+            
+            BorderPane root = new BorderPane();
+            GameController gameController = new GameController();
+            root.setCenter(gameController.getGameRenderer());
+            
+            Scene gameScene = new Scene(root, 800, 600);
+            gameScene.getStylesheets().add("/style/style.css");
+            stage.setMaximized(true);
+            stage.setScene(gameScene);
+        });
+        
         box.getChildren().add(new Label("Ihre Gesamtpunktzahl ist: " + score.getValue()));
+        box.getChildren().add(restartButton);
         box.setAlignment(Pos.CENTER);
 
         stage.setScene(new Scene(box));

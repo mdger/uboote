@@ -77,7 +77,7 @@ public class LevelController extends Observable {
             startLevel = Client.levelCheatCode;
         }
 
-        buildLevel(startLevel);
+        buildLevel(LevelState.LEVEL_4);
         
         if (successCounter == null) {
             successCounter = new SuccessCounter(this.getLevel().getWinCondition(), 1);
@@ -307,7 +307,7 @@ public class LevelController extends Observable {
         
         Scene gameScene = playerInputRenderer.getScene();
         gameScene.setOnKeyPressed(e -> {
-            if (backgroundRenderer.getAnimation().isAnimationFinished()) {
+            if (backgroundRenderer.getAnimation().isAnimationFinished() || !isSuccessfulHit) {
                 if(successCounter.passLevel()) {
                     gameScene.setOnKeyPressed(null);
                     if (level.getNextLevelState() == LevelState.LEVEL_END) {
