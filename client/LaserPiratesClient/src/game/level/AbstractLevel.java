@@ -19,25 +19,40 @@ import javafx.scene.layout.VBox;
  */
 public abstract class AbstractLevel implements Level {
     private LinearFunction function;
-    
+
+    /**
+     * 
+     */    
     public LinearFunction getFunction() {
         return function;
     }
 
+    /**
+     * @param function 
+     */
     public void setFunction(LinearFunction function) {
         this.function = function;
     }
 
+    /**
+     * @param submit
+     * @return 
+     */
+    
     @Override
     public boolean validate(SubmitObject submit) {
         boolean result = false;
         Object submitObject = submit.getSubmit();
         
-        if (submitObject instanceof LinearFunction) {
+        if (submitObject instanceof LinearFunction) 
+        {
             result = validateLine((LinearFunction) submitObject);
-        } else if (submit.getSubmit() instanceof Point) {
+        } 
+        else if (submit.getSubmit() instanceof Point) 
+        {
             result = validatePoint((Point) submitObject);
-        } else {
+        } else 
+        {
             throw new IllegalArgumentException("Unsupported submit value type");
         }
         

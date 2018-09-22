@@ -162,21 +162,8 @@ public class PlayerInputLine extends AbstractPlayerInput {
     @Override
     public Node getSubmitInput(LevelController levelController) {
         LinearFunction currentFunction = levelController.getLevel().getFunction();
-        Rational slope = currentFunction.getSlope();
-        int intercept = currentFunction.getIntercept();
-        
-//        Label equation = new Label(String.format("Zielgleichung: f(x) = %d/%d x + %d",
-//            slope.getNum(), slope.getDen(), intercept
-//        ));
-//
-//        equation.setFont(Font.font(null, FontWeight.BOLD, 15));
-//        equation.setTextFill(Color.web("#40ff00"));
-//        equation.setPadding(new Insets(0, 0, 5, 0));
-        
         Canvas equation = Draw2DHelper.getLinearFunctionCanvas(currentFunction);
         
-//        LateXMathControl equation = getLinearyFunctionEquation(slope.getNum(), slope.getDen(), intercept);
-
         submit = new Button("Bestätigen");
         submit.setOnAction(evt -> {
             if (this.canValidate()) {
@@ -221,4 +208,7 @@ public class PlayerInputLine extends AbstractPlayerInput {
         Point pointEnd = getNormalizedEndPoint();
         return new SubmitObject<>(new LinearFunction(pointStart, pointEnd));
     }
+
+    @Override
+    public void setFalseInput(SubmitObject submit) { }
 }

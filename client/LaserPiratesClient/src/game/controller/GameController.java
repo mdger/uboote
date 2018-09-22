@@ -3,6 +3,8 @@ package game.controller;
 import game.gui.component.GameRenderer;
 import game.gui.component.LevelIntroBox;
 import game.level.AbstractLevel;
+import game.module.save.SaveFile;
+import game.module.save.SaveFileLaserPiratesUser;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleDoubleProperty;
@@ -32,13 +34,27 @@ public class GameController implements ChangeListener<Object> {
     private final LevelController levelController;
     
     public GameController() {
-        gameRenderer = new GameRenderer();
+        gameRenderer = new GameRenderer(this);
         levelController = new LevelController(this);
         gameRenderer.setCenter(levelController.getWrapper());
         gameRenderer.setLevelDescription(levelController.getLevel().getDescription());
         gameRenderer.setId("Wrapper");
+        // retrieve save data
+        SaveFileLaserPiratesUser userData = null;
+        
+        try {
+            userData = SaveFile.readFromFile();
+        } catch(NullPointerException e) {
+            
+        }
         
         score = new SimpleDoubleProperty(0.0);
+        if (userData != null) {
+            score.set(userData.getCurrentScore());
+            gameRenderer.setScoreRenderer(userData.getCurrentScore());
+            gameRenderer.setLevelProgressRenderer(userData.getProgress());
+        }
+            
         score.bindBidirectional(gameRenderer.getScoreRenderer());
         
         level = new SimpleIntegerProperty(1);
@@ -129,5 +145,9 @@ public class GameController implements ChangeListener<Object> {
     
     private void addToScore(double score) {
         this.score.set(this.score.get() + score);
+    }
+
+    public double getScore() {
+        return score.getValue();
     }
 }

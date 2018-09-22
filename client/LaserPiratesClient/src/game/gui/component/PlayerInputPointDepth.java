@@ -10,6 +10,10 @@ import game.module.geometry.shape.Point;
  */
 public class PlayerInputPointDepth extends PlayerInputPoint {
 
+    /**
+     * @param levelController
+     * @return 
+     */
     @Override
     public SubmitObject<Point> submitFunction(LevelController levelController) {   
         NumberFieldInput fieldInput = getFieldInput();

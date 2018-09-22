@@ -24,6 +24,8 @@ import game.level.Level4;
 import game.level.SubmitObject;
 import java.util.Observable;
 import game.module.game.SuccessCounter;
+import game.module.save.SaveFile;
+import game.module.save.SaveFileLaserPiratesUser;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
@@ -54,14 +56,33 @@ public class LevelController extends Observable {
 
         LevelState startLevel = LevelState.LEVEL_1;
         
+        SaveFileLaserPiratesUser userData = null;
+        LevelState saveFileLevel = null;
+        
+        try {
+            userData = SaveFile.readFromFile();
+        } catch(NullPointerException e) {
+            System.err.println(e.getMessage());
+        }
+
+        if (userData != null) {
+            successCounter = new SuccessCounter(userData.getLastGames(), userData.getSuccessesNeeded(),
+                userData.getFailuresTolerated(), userData.getPointer(), userData.getProgress());
+            saveFileLevel = userData.getCurrentLevel();
+            startLevel = saveFileLevel;
+        }
+        
         if (Client.levelCheatCode != LevelState.LEVEL_1) 
         {
             startLevel = Client.levelCheatCode;
         }
-            
+
         buildLevel(startLevel);
         
-        successCounter = new SuccessCounter(this.getLevel().getWinCondition(), 1);
+        if (successCounter == null) {
+            successCounter = new SuccessCounter(this.getLevel().getWinCondition(), 1);
+        }
+        
         successCounter.progress().addListener(this.gameController);
     }
     
@@ -280,6 +301,8 @@ public class LevelController extends Observable {
             playerInputRenderer.redraw();
         } else {
             successCounter.onGame(false);
+            playerInput.setFalseInput(new SubmitObject(level.getFunction()));
+            
             StatusMessage.display(playerInputRenderer, StatusMessageType.TYPE_WRONG);
         }
         
@@ -313,5 +336,9 @@ public class LevelController extends Observable {
     
     public BackgroundRenderer getBackgroundLayer() {
         return backgroundRenderer;
+    }
+
+    public SuccessCounter getSuccessCounter() {
+        return successCounter;
     }
 }

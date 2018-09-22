@@ -1,5 +1,11 @@
 package game.gui.component;
 
+import game.controller.GameController;
+import game.controller.LevelState;
+import game.module.game.SuccessCounter;
+import static game.module.save.SaveFile.readFromFile;
+import static game.module.save.SaveFile.writeToFile;
+import game.module.save.SaveFileLaserPiratesUser;
 import game.module.sprite.Asset;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
@@ -7,6 +13,7 @@ import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.geometry.Insets;
 import javafx.scene.Node;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -34,10 +41,13 @@ public class GameRenderer extends BorderPane {
     
     private Node levelDescription;
     
+    private GameController gameController;
+    
     /**
      * 
      */
-    public GameRenderer() {
+    public GameRenderer(GameController gameController) {
+        this.gameController = gameController;
         redraw();
     }
 
@@ -87,7 +97,7 @@ public class GameRenderer extends BorderPane {
     public void redraw() {
         BorderPane statusBar = new BorderPane();
         Label statusBarLeft = new Label("Aktuelles Level: " + currentLevelRenderer.get());
-        statusBarLeft.setPadding(new Insets(0, 5, 0, 5));
+        statusBarLeft.setPadding(new Insets(7, 5, 0, 5));
         statusBarLeft.setFont(Font.font(null, FontWeight.BOLD, 15));
         statusBarLeft.setTextFill(Color.web("#40ff00"));
         
@@ -103,15 +113,43 @@ public class GameRenderer extends BorderPane {
         statusBarRightTutorial.setFitWidth(16);
         statusBarRightTutorial.setSmooth(true);
         
-        HBox statusBarRight = new HBox();
-        statusBarRight.getChildren().add(statusBarRightInfo);
-        statusBarRight.getChildren().add(statusBarRightTutorial);
+       HBox statusBarRight = new HBox();
         
-        statusBarRight.setOnMouseClicked(evt -> {
+        HBox statusBarRightGetDescription = new HBox();
+        statusBarRightGetDescription.getChildren().add(statusBarRightInfo);
+        statusBarRightGetDescription.getChildren().add(statusBarRightTutorial);
+        statusBarRightGetDescription.setPadding(new Insets(7, 5, 0, 5));
+        statusBarRightGetDescription.setOnMouseClicked(evt -> {
             LevelIntroBox.display(levelDescription);
         });
         
-        statusBarRight.setPadding(new Insets(0, 5, 0, 5));
+        // Save Button
+        Button saveButton = new Button("Speichern");
+        saveButton.setMinWidth(120);
+        saveButton.setOnAction((evt) -> {
+            SaveFileLaserPiratesUser userData = new SaveFileLaserPiratesUser();
+            
+            LevelState currentLevel = gameController.getLevelController().getLevel().getCurrentState();
+            double currentScore = gameController.getScore();
+            SuccessCounter currentSuccess = gameController.getLevelController().getSuccessCounter();
+            
+            userData.setCurrentLevel(currentLevel);
+            userData.setCurrentScore(currentScore);
+            
+            userData.setSuccessesNeeded(currentSuccess.getSuccessesNeeded());
+            userData.setFailuresTolerated(currentSuccess.getFailuresTolerated());
+            userData.setLastGames(currentSuccess.getLastGames());
+            userData.setPointer(currentSuccess.getPointer());
+            userData.setProgress(currentSuccess.getProgressValue());
+
+            // Save data to file
+            writeToFile(userData.toJson());
+        });
+        
+        statusBarRight.getChildren().add(statusBarRightGetDescription);
+        statusBarRight.getChildren().add(saveButton);
+        statusBarRight.setSpacing(5);
+        
         statusBar.setPadding(new Insets(0, 0, 0, 5));
         statusBar.setLeft(statusBarLeft);
         statusBar.setRight(statusBarRight);
@@ -126,5 +164,9 @@ public class GameRenderer extends BorderPane {
      */
     public void setLevelDescription(Node levelDescription) {
         this.levelDescription = levelDescription;
+    }
+
+    public void setScoreRenderer(double scoreRenderer) {
+        this.scoreRenderer.setValue(scoreRenderer);
     }
 }

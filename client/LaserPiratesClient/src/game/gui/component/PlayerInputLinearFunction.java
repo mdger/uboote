@@ -6,6 +6,7 @@ import game.module.geometry.shape.LinearFunction;
 import game.module.geometry.shape.Point;
 import game.module.math.Rational;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -13,6 +14,10 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
+import javafx.scene.layout.Border;
+import javafx.scene.layout.BorderStroke;
+import javafx.scene.layout.BorderStrokeStyle;
+import javafx.scene.layout.BorderWidths;
 import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -53,7 +58,8 @@ public class PlayerInputLinearFunction extends AbstractPlayerInput {
         fieldInputNumerator = new NumberFieldInput();
         fieldInputNumerator.setRestrict("-?[0-9]*");
         fieldInputNumerator.setPromptText("Zähler");
-        fieldInputNumerator.setMinWidth(50);
+        fieldInputNumerator.setMinWidth(20);
+        fieldInputNumerator.setMaxHeight(25);
         
         Label labelSlash = new Label("/");
         labelSlash.setFont(Font.font(null, FontWeight.BOLD, 15));
@@ -62,16 +68,18 @@ public class PlayerInputLinearFunction extends AbstractPlayerInput {
         fieldInputDenumerator = new NumberFieldInput();
         fieldInputDenumerator.setRestrict("-?[0-9]*");
         fieldInputDenumerator.setPromptText("Nenner");
-        fieldInputDenumerator.setMinWidth(50);
+        fieldInputDenumerator.setMinWidth(20);
+        fieldInputDenumerator.setMaxHeight(25);
         
-        Label labelPlus = new Label("+");
+        Label labelPlus = new Label("+ x ");
         labelPlus.setFont(Font.font(null, FontWeight.BOLD, 15));
         labelPlus.setTextFill(Color.web("#40ff00"));
         
         fieldInputIntercept = new NumberFieldInput();
         fieldInputIntercept.setPromptText("Konstante");
         fieldInputIntercept.setRestrict("-?[0-9]*");
-        fieldInputIntercept.setMinWidth(50);
+        fieldInputIntercept.setMinWidth(20);
+        fieldInputIntercept.setMaxHeight(25);
         
         submit = new Button("Bestätigen");
         submit.setOnAction(evt -> {
@@ -160,10 +168,25 @@ public class PlayerInputLinearFunction extends AbstractPlayerInput {
         bottomBar.setBackground(new Background(new BackgroundFill(Color.web("#1a1a1a"), CornerRadii.EMPTY, Insets.EMPTY)));
         HBox inputRow = new HBox();
         inputRow.setSpacing(10.0);
-        inputRow.getChildren().addAll(fieldInputNumerator, labelSlash, fieldInputDenumerator, labelPlus, fieldInputIntercept, submit);
+
+        HBox fractionLine = new HBox();
+        fractionLine.setMinWidth(fieldInputNumerator.widthProperty().get());
+        fractionLine.setStyle("-fx-border-color: #40ff00");
+        
+        VBox fractionBox = new VBox();
+        fractionBox.setSpacing(5);
+        fractionBox.getChildren().add(fieldInputNumerator);
+        fractionBox.getChildren().add(fractionLine);
+        fractionBox.getChildren().add(fieldInputDenumerator);
+        
+        HBox interceptBox = new HBox();
+        interceptBox.getChildren().add(labelPlus);
+        interceptBox.getChildren().add(fieldInputIntercept);
+        interceptBox.setPadding(new Insets(16, 0, 0, 0));
+        
+        inputRow.getChildren().addAll(fractionBox, interceptBox, submit);
         // FIXME remove debug output
         System.out.println(equation.getText());
-//        bottomBar.getChildren().add(equation);
         bottomBar.getChildren().add(inputRow);
 
         return bottomBar;
@@ -186,4 +209,32 @@ public class PlayerInputLinearFunction extends AbstractPlayerInput {
         Point pointEnd = new Point(xOfPointEnd, yOfPointEnd + intercept);
         return new SubmitObject<>(new LinearFunction(pointStart, pointEnd));
     }
+
+    /**
+     * @param submit 
+     */
+    @Override
+    public void setFalseInput(SubmitObject submit) {
+        LinearFunction currentFunction = (LinearFunction) submit.getSubmit();
+        
+        Rational currentFraction = currentFunction.getSlope();
+        int inputNum = Integer.parseInt(fieldInputNumerator.getText());
+        int inputDen = Integer.parseInt(fieldInputDenumerator.getText());
+        int inputIntercept = Integer.parseInt(fieldInputIntercept.getText());
+        
+        
+        if (currentFraction.getNum() != inputNum) {
+            fieldInputNumerator.setBackground(new Background(new BackgroundFill(Color.RED, CornerRadii.EMPTY, Insets.EMPTY)));
+        }
+        
+        if (currentFraction.getDen() != inputDen) {
+            fieldInputDenumerator.setBackground(new Background(new BackgroundFill(Color.RED, CornerRadii.EMPTY, Insets.EMPTY)));
+        }
+        
+        if (currentFunction.getIntercept() != inputIntercept) {
+            fieldInputIntercept.setBackground(new Background(new BackgroundFill(Color.RED, CornerRadii.EMPTY, Insets.EMPTY)));
+        }
+        
+    }
+
 }

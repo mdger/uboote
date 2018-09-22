@@ -2,6 +2,7 @@ package game.gui.component;
 
 import game.controller.LevelController;
 import game.gui.util.Draw2DHelper;
+import game.level.SubmitObject;
 import game.module.geometry.shape.LinearFunction;
 import game.module.math.Rational;
 import javafx.geometry.Insets;
@@ -43,16 +44,7 @@ public abstract class PlayerInputPoint extends AbstractPlayerInput {
     public Node getSubmitInput(LevelController levelController) {
         LinearFunction currentFunction = levelController.getLevel().getFunction();
         Rational slope = currentFunction.getSlope();
-        int intercept = currentFunction.getIntercept();
-        
-//        Label equation = new Label(String.format("Zielgleichung: f(x) = %d/%d x + %d",
-//            slope.getNum(), slope.getDen(), intercept
-//        ));
-//        equation.setFont(Font.font(null, FontWeight.BOLD, 15));
-//        equation.setTextFill(Color.web("#40ff00"));
-//        equation.setPadding(new Insets(0, 0, 5, 0));
         Canvas equation = Draw2DHelper.getLinearFunctionCanvas(currentFunction);
-//        LateXMathControl equation = getLinearyFunctionEquation(slope.getNum(), slope.getDen(), intercept);
 
         fieldInput = new NumberFieldInput();
         fieldInput.setRestrict("-?[0-9]*");
@@ -104,7 +96,25 @@ public abstract class PlayerInputPoint extends AbstractPlayerInput {
         return bottomBar;
     }
 
+    /**
+     * @return 
+     */
     protected NumberFieldInput getFieldInput() {
+        if (fieldInput == null) {
+            fieldInput = new NumberFieldInput();
+        }
+        
         return fieldInput;
     }
+    
+    /**
+     * @param submit 
+     */
+    
+    @Override
+    public void setFalseInput(SubmitObject submit) {
+        NumberFieldInput numberFieldInput = getFieldInput();
+        numberFieldInput.setBackground(new Background(new BackgroundFill(Color.RED, CornerRadii.EMPTY, Insets.EMPTY)));
+    }
+    
 }

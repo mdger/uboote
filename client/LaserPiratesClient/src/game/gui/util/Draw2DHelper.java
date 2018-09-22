@@ -168,8 +168,22 @@ public class Draw2DHelper {
         gc.strokeLine(60, 24, 85, 24);
         gc.strokeText(Integer.toString(fraction.getNum()), 60, 20);
         gc.strokeText(Integer.toString(fraction.getDen()), 60, 42);
-        gc.strokeText("x + ", 98, 30);
-        gc.strokeText(Integer.toString(function.getIntercept()), 129, 30);
+        
+        int intercept = function.getIntercept();
+        String sign = "+";
+        
+        if (intercept < 0) {
+            sign = "-";
+        } 
+        
+        gc.strokeText("x ", 90, 30);
+        
+        if (intercept != 0) {
+            gc.strokeText(sign, 103, 30);
+            String unsignedIntercept = Integer.toString(Math.abs(intercept));
+            gc.strokeText(unsignedIntercept, 116, 30);
+        }
+        
         
         return canvas;
     }
