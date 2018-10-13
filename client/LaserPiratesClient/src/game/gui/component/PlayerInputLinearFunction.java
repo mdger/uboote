@@ -71,7 +71,7 @@ public class PlayerInputLinearFunction extends AbstractPlayerInput {
         fieldInputDenumerator.setMinWidth(20);
         fieldInputDenumerator.setMaxHeight(25);
         
-        Label labelPlus = new Label("+ x ");
+        Label labelPlus = new Label("x + ");
         labelPlus.setFont(Font.font(null, FontWeight.BOLD, 15));
         labelPlus.setTextFill(Color.web("#40ff00"));
         

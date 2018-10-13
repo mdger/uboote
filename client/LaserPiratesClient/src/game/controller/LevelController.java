@@ -77,7 +77,7 @@ public class LevelController extends Observable {
             startLevel = Client.levelCheatCode;
         }
 
-        buildLevel(LevelState.LEVEL_4);
+        buildLevel(LevelState.LEVEL_1);
         
         if (successCounter == null) {
             successCounter = new SuccessCounter(this.getLevel().getWinCondition(), 1);
