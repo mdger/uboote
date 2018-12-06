@@ -47,7 +47,7 @@ public class Level4 extends AbstractLevel{
 + "Wir werden sie in unserem Anti-Luft-U-Boot überraschen und sie dann mit Raketen in\n"
 + "tausende Teile dividieren! Ha, sie werden uns erst bemerken, wenn es zu spät ist.\n"
 + "Die Flugzeuge sind klar sichtbar. Du musst den genauen Schusswinkel als lineare Funktion\n"
-+ "ermitteln. Aktuell haben wir insgesamt 10 Kampfflugzeuge vom Typ 'Schwach-Gegen-Geraden' gesichtet.\n"
++ "ermitteln. Aktuell haben wir insgesamt "+this.getWinCondition()+" Kampfflugzeuge vom Typ 'Schwach-Gegen-Geraden' gesichtet.\n"
 + "Wenn das alles vorbei ist, trinken wir gemeinsam auf die Linearen Funktionen.\n"
 + "Ein Hoch auf die Geraden und die Mathematik!\n"
 + "Viel Erfolg Vollmatrose!\n"

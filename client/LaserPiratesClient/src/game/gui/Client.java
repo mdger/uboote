@@ -133,6 +133,8 @@ public class Client extends Application {
     }
     
     private static void setLevel(String level) {
+        System.out.println("LevelCheatCode detected: " + level);
+        
         switch (level) {
             case "level1":
                 levelCheatCode = LevelState.LEVEL_1;

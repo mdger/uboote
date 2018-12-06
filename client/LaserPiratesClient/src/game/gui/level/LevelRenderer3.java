@@ -37,7 +37,7 @@ public class LevelRenderer3 extends AbstractLevelRenderer {
         Point pointTo = Draw2DHelper.denormalizePoint(new Point(maxSize, submarineLocation.getY()));
         Draw2DHelper.drawLine(gc, pointFrom, pointTo, Color.CORAL);
         
-        Draw2DHelper.drawLabel(gc, satelliteLocation, Draw2DHelper.COLOR_SKY);
+//        Draw2DHelper.drawLabel(gc, satelliteLocation, Draw2DHelper.COLOR_SKY);
         Point labelPosition = Draw2DHelper.denormalizePoint(new Point(0, submarineLocation.getY()));
         Draw2DHelper.drawLabelWithText(gc, labelPosition, Draw2DHelper.COLOR_WATER, Integer.toString(submarineLocation.getY()));
     }   
