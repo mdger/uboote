@@ -1,6 +1,7 @@
 package game.gui.level;
 
 import game.gui.component.PlayerInputLine;
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 
 /**
@@ -19,6 +20,8 @@ public class LevelRenderer1 extends AbstractLevelRenderer {
     public void draw() {
         if (lineInput != null)
             lineInput.draw();
+        
+        GraphicsContext gc = this.getGraphicsContext2D();
     }
     
     public void setPlayerInputLine(PlayerInputLine lineInput) {
